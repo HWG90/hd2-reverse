@@ -40,3 +40,17 @@ python3 compare_incremental.py PREVIOUS_SERIES CURRENT_SERIES current.coverage.j
 ```
 
 The script verifies both cumulative images against their coverage hashes. It compares only pages added since the baseline and does not modify or merge either series.
+
+## Follow-up: 795 additional pages
+
+The restarted series increased from 9,661 to 10,456 readable pages. All 795 added pages match the previous cumulative series byte-for-byte. Of these, 759 also match the older research dump; 36 differ from that older dump but were already captured in the previous series. No previously unseen code was exposed.
+
+These are exact page-byte matches against the previous series, despite its different module base. No relocation adjustment was required for the matching pages. The results do not imply that all data or pointers in the two images match.
+
+`batch-10456.comparison.json` records the three source hashes, page RVAs, page hashes, capture sources and exact-match results. `batch-10456.coverage.json` preserves the current snapshot. The baseline is `incremental.coverage.json` at 9,661 pages.
+
+```sh
+python3 compare_incremental.py PREVIOUS_SERIES CURRENT_SERIES incremental.coverage.json OLDER_RESEARCH_IMAGE batch-10456.comparison.json
+```
+
+Current series coverage: 10,456 / 13,186 pages. Remaining unreadable: 2,730. Different bases remain separate.
