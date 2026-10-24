@@ -1,30 +1,24 @@
-# game.dll research
+# game.dll and engine research
 
-Build timestamp `0x6AD7C05D`; mapped image size 54,009,856 bytes; capture base `0x6ffff0870000`.
+Evidence-driven Helldivers 2 reverse engineering with REA and Ghidra.
 
-## Current snapshot
+| Directory | Contents |
+|---|---|
+| [artifacts](artifacts/) | Merged capture, page coverage, provenance and bounded derived inputs |
+| [triage](triage/) | Historical comparisons, field maps and readback observations |
+| [analysis](analysis/) | Focused investigations, disassembly and scripts |
+| [tools/capture](tools/capture/) | Original LLtM capture/merge source |
+| [reports](reports/) | Workflow, hypotheses, environment and migration receipts |
 
-Recovered **10,942 / 13,186** pages; **2,244 pages remain unknown**. The compressed merged image and per-page provenance are in [recovery/6ad7c05d-6ffff0870000](recovery/6ad7c05d-6ffff0870000/). Decompress with `gzip -dk game-merged.bin.gz`.
+## Cases
 
-This combines first-readable pages from different capture times. It is not a coherent process snapshot or a reconstructed on-disk DLL. Unknown pages are zero-filled; readable does not establish decrypted. Captured pointers are not current live pointers.
+- [REA decompiler validation](analysis/rea-material-setter/README.md)
 
-## Findings
+- [Weapons](analysis/weapons/README.md)
+- [Materials and wind](analysis/materials/README.md)
+- [Resolved engine callbacks](analysis/engine-callbacks/README.md)
+- [Capture comparisons](analysis/capture-comparison/report.md)
+- [Historical disassembly](analysis/disassembly/README.md)
+- [Workflow and unresolved questions](reports/workflow.md)
 
-- [Engine callback resolution](engine-callback-trace/README.md): live EXE callback targets and material command setters; GPU binding remains unresolved.
-
-- [Material and shader trace](material-shader-trace/README.md): wind parameter submission, material-value dispatch, replacement candidates and shader type registration.
-
-- [Weapon firing, reload and ammunition trace](weapon-trace/README.md): connected static candidates, exact stores and caller evidence.
-
-- [Initial capture comparison](dump-analysis/report.md): mission/extraction-location generation and UI references. These do not identify an extraction countdown.
-- [Earlier cumulative analysis](dump-analysis/merged/report.md): Eagle component management and diagnostics, ragdoll publication, horizontal acceleration. The report describes an earlier snapshot; the adjacent JSON/listing was refreshed later.
-- [Latest analysis details](dump-analysis/merged/new-code-details.json): page differences, entropy and instruction-to-string references.
-- Weapon-related anchors now include component diagnostics for reload, rounds, linked ammo, heat, charge and weapon data around RVAs `0x574767–0x578075`; `WeaponScreenComponent` at `0x79821E`; customization references at `0x132B527` and `0x1880CD5`. These are leads, not validated firing/reload/recoil implementations or callable APIs.
-- [Historical readable-code disassembly](disassembly/README.md): based on the earlier 21:42 capture, not the latest merged image.
-- Gameplay maps are research candidates with validation flags; they are not blanket confirmation of working gameplay behavior.
-
-## Reproducibility and scope
-
-Analysis and capture source scripts are included. They currently reference the original Linux workspace, Python dependency directory and LLtM installation; adapt those paths before running elsewhere. Capture uses read operations and does not change memory protections.
-
-Original gaining capture archives remain in the local workspace; this repository contains the cumulative image, coverage metadata, selected disassembly and reports rather than duplicate full captures. Local chat state, preferences, unrelated mod sources and runtime chat logs are excluded. No upstream game source or original symbols are claimed. No project license is assigned to third-party game-derived material.
+The merged image is a time-composite, not an original on-disk DLL. Unknown pages are zero-filled and tracked; captured pointers are not current live pointers. Reports retain their original snapshot scope. No upstream source, original symbols or complete GPU binding implementation is claimed.

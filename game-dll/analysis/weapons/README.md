@@ -67,7 +67,7 @@ All 12 extracted ranges match the older research image byte-for-byte. New recove
 `evidence/*.asm` contains the exact ranges; `evidence/evidence.json` records their hashes, page provenance, direct edges and RIP-relative references. `component-string-references.json` records string anchors. `trace.py` requires Python and Capstone 5.x:
 
 ```sh
-python3 trace.py ../recovery/6ad7c05d-6ffff0870000/game-merged.bin.gz ../recovery/6ad7c05d-6ffff0870000/coverage.json --output evidence
+python3 trace.py ../../artifacts/recovery/6ad7c05d-6ffff0870000/game-merged.bin.gz ../../artifacts/recovery/6ad7c05d-6ffff0870000/coverage.json --output evidence
 ```
 
 The E8 caller scan is a byte-pattern candidate scan, not a complete call graph. The three consumption callers shown above were inspected in local instruction context; indirect callers and tail edges require separate handling. Linear listing boundaries may include embedded data; function entries are inferred from prologues/returns and direct-call targets because usable unwind metadata remains absent. No complete decompilation, original symbols, universal ammo routine, or live behavior validation is claimed.

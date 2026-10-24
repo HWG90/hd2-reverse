@@ -1,0 +1,16 @@
+{
+  "rea": {
+    "version": "6.7.0",
+    "package": "rea-agents",
+    "upstream": "https://github.com/morluto/rea",
+    "install": "/home/goose/.local/share/rea-cli",
+    "skill": "/home/goose/.agents/skills/reverse-engineer-anything",
+    "bundled_skill_version": "42"
+  },
+  "provider": {
+    "ghidra": "12.1.2",
+    "path": "/opt/ghidra",
+    "java": "27"
+  },
+  "scope": "Static native CLI verified. MCP registered for next connection; current-session tool visibility not asserted. Optional Frida install script was blocked by npm; runtime instrumentation not validated."
+}

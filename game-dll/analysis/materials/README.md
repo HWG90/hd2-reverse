@@ -75,7 +75,7 @@ No shader loader/compiler, bytecode parser, D3D pipeline-state creation or GPU r
 Run with Python and Capstone 5.x:
 
 ```sh
-python3 trace.py ../recovery/6ad7c05d-6ffff0870000/game-merged.bin.gz ../recovery/6ad7c05d-6ffff0870000/coverage.json --output evidence
+python3 trace.py ../../artifacts/recovery/6ad7c05d-6ffff0870000/game-merged.bin.gz ../../artifacts/recovery/6ad7c05d-6ffff0870000/coverage.json --output evidence
 ```
 
 Use optional `--prior /path/to/older-mapped-image` to reproduce the prior-image comparison fields. Function boundaries are inferred from prologues, returns and call targets because usable unwind information is missing. E8 byte scans are caller candidates, not a complete call graph; indirect edges remain unresolved. Field offsets are relative to the specific observed object, not absolute addresses or safe live-write instructions.
