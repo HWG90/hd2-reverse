@@ -1,0 +1,3191 @@
+{
+  "new_since_last_analysis_pages": 446,
+  "same_as_prior_research_pages": 267,
+  "pages": 179,
+  "bytes": 733184,
+  "old_mean_entropy": 7.954759776536313,
+  "new_mean_entropy": 6.1864692737430165,
+  "undecodable_bytes_old_new": [
+    39759,
+    287
+  ],
+  "page_stats": [
+    {
+      "rva": "0x1ee000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.138
+    },
+    {
+      "rva": "0x208000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.177
+    },
+    {
+      "rva": "0x209000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.089
+    },
+    {
+      "rva": "0x20b000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.328
+    },
+    {
+      "rva": "0x218000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.061
+    },
+    {
+      "rva": "0x231000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.452
+    },
+    {
+      "rva": "0x232000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.07
+    },
+    {
+      "rva": "0x233000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.076
+    },
+    {
+      "rva": "0x235000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.242
+    },
+    {
+      "rva": "0x251000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.26
+    },
+    {
+      "rva": "0x259000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.289
+    },
+    {
+      "rva": "0x339000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.412
+    },
+    {
+      "rva": "0x4a8000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.074
+    },
+    {
+      "rva": "0x4eb000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.343
+    },
+    {
+      "rva": "0x4ec000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.446
+    },
+    {
+      "rva": "0x574000",
+      "old_entropy": 7.949,
+      "new_entropy": 5.519
+    },
+    {
+      "rva": "0x575000",
+      "old_entropy": 7.954,
+      "new_entropy": 5.513
+    },
+    {
+      "rva": "0x576000",
+      "old_entropy": 7.955,
+      "new_entropy": 5.508
+    },
+    {
+      "rva": "0x577000",
+      "old_entropy": 7.955,
+      "new_entropy": 5.504
+    },
+    {
+      "rva": "0x578000",
+      "old_entropy": 7.953,
+      "new_entropy": 5.59
+    },
+    {
+      "rva": "0x5af000",
+      "old_entropy": 7.946,
+      "new_entropy": 6.062
+    },
+    {
+      "rva": "0x5ce000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.245
+    },
+    {
+      "rva": "0x5d0000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.504
+    },
+    {
+      "rva": "0x6ec000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.35
+    },
+    {
+      "rva": "0x70f000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.434
+    },
+    {
+      "rva": "0x766000",
+      "old_entropy": 7.959,
+      "new_entropy": 5.622
+    },
+    {
+      "rva": "0x798000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.51
+    },
+    {
+      "rva": "0x89e000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.363
+    },
+    {
+      "rva": "0x8ad000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.053
+    },
+    {
+      "rva": "0x8ae000",
+      "old_entropy": 7.964,
+      "new_entropy": 6.242
+    },
+    {
+      "rva": "0x8af000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.397
+    },
+    {
+      "rva": "0x8b0000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.51
+    },
+    {
+      "rva": "0x8b2000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.165
+    },
+    {
+      "rva": "0x8b3000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.086
+    },
+    {
+      "rva": "0x8b4000",
+      "old_entropy": 7.964,
+      "new_entropy": 5.97
+    },
+    {
+      "rva": "0x8b6000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.675
+    },
+    {
+      "rva": "0x8b9000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.354
+    },
+    {
+      "rva": "0x99c000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.429
+    },
+    {
+      "rva": "0x9c5000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.534
+    },
+    {
+      "rva": "0x9c6000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.367
+    },
+    {
+      "rva": "0x9c7000",
+      "old_entropy": 7.948,
+      "new_entropy": 6.178
+    },
+    {
+      "rva": "0x9c8000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.25
+    },
+    {
+      "rva": "0x9ca000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.35
+    },
+    {
+      "rva": "0xa92000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.49
+    },
+    {
+      "rva": "0xb35000",
+      "old_entropy": 7.957,
+      "new_entropy": 5.778
+    },
+    {
+      "rva": "0xb36000",
+      "old_entropy": 7.957,
+      "new_entropy": 5.967
+    },
+    {
+      "rva": "0xb37000",
+      "old_entropy": 7.948,
+      "new_entropy": 5.694
+    },
+    {
+      "rva": "0xb38000",
+      "old_entropy": 7.949,
+      "new_entropy": 5.814
+    },
+    {
+      "rva": "0xb57000",
+      "old_entropy": 7.957,
+      "new_entropy": 5.63
+    },
+    {
+      "rva": "0xb5f000",
+      "old_entropy": 7.952,
+      "new_entropy": 5.574
+    },
+    {
+      "rva": "0xb8c000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.366
+    },
+    {
+      "rva": "0xb8e000",
+      "old_entropy": 7.945,
+      "new_entropy": 6.345
+    },
+    {
+      "rva": "0xb95000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.32
+    },
+    {
+      "rva": "0xba0000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.403
+    },
+    {
+      "rva": "0xba3000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.389
+    },
+    {
+      "rva": "0xba9000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.387
+    },
+    {
+      "rva": "0xbd7000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.288
+    },
+    {
+      "rva": "0xd97000",
+      "old_entropy": 7.963,
+      "new_entropy": 5.623
+    },
+    {
+      "rva": "0xd98000",
+      "old_entropy": 7.951,
+      "new_entropy": 5.462
+    },
+    {
+      "rva": "0xd99000",
+      "old_entropy": 7.961,
+      "new_entropy": 5.673
+    },
+    {
+      "rva": "0xd9a000",
+      "old_entropy": 7.958,
+      "new_entropy": 5.464
+    },
+    {
+      "rva": "0xda1000",
+      "old_entropy": 7.962,
+      "new_entropy": 4.772
+    },
+    {
+      "rva": "0xdba000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.07
+    },
+    {
+      "rva": "0xefa000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.184
+    },
+    {
+      "rva": "0xf31000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.187
+    },
+    {
+      "rva": "0xf36000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.251
+    },
+    {
+      "rva": "0xf3f000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.43
+    },
+    {
+      "rva": "0xf40000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.083
+    },
+    {
+      "rva": "0xf49000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.311
+    },
+    {
+      "rva": "0xf76000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.511
+    },
+    {
+      "rva": "0xfb9000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.463
+    },
+    {
+      "rva": "0xfc3000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.928
+    },
+    {
+      "rva": "0xfca000",
+      "old_entropy": 7.953,
+      "new_entropy": 5.951
+    },
+    {
+      "rva": "0xfd3000",
+      "old_entropy": 7.953,
+      "new_entropy": 5.913
+    },
+    {
+      "rva": "0xfd8000",
+      "old_entropy": 7.961,
+      "new_entropy": 5.968
+    },
+    {
+      "rva": "0xfd9000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.174
+    },
+    {
+      "rva": "0xfda000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.198
+    },
+    {
+      "rva": "0x1004000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.263
+    },
+    {
+      "rva": "0x105d000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.267
+    },
+    {
+      "rva": "0x1064000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.171
+    },
+    {
+      "rva": "0x1199000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.182
+    },
+    {
+      "rva": "0x11dc000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.147
+    },
+    {
+      "rva": "0x120b000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.298
+    },
+    {
+      "rva": "0x1274000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.094
+    },
+    {
+      "rva": "0x12f1000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.299
+    },
+    {
+      "rva": "0x12f6000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.323
+    },
+    {
+      "rva": "0x12f8000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.181
+    },
+    {
+      "rva": "0x12f9000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.475
+    },
+    {
+      "rva": "0x12fc000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.267
+    },
+    {
+      "rva": "0x1326000",
+      "old_entropy": 7.953,
+      "new_entropy": 5.858
+    },
+    {
+      "rva": "0x132b000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.408
+    },
+    {
+      "rva": "0x132c000",
+      "old_entropy": 7.948,
+      "new_entropy": 6.501
+    },
+    {
+      "rva": "0x1340000",
+      "old_entropy": 7.951,
+      "new_entropy": 5.749
+    },
+    {
+      "rva": "0x139d000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.43
+    },
+    {
+      "rva": "0x139f000",
+      "old_entropy": 7.964,
+      "new_entropy": 6.136
+    },
+    {
+      "rva": "0x1471000",
+      "old_entropy": 7.958,
+      "new_entropy": 5.775
+    },
+    {
+      "rva": "0x16d3000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.412
+    },
+    {
+      "rva": "0x16d4000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.391
+    },
+    {
+      "rva": "0x1743000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.456
+    },
+    {
+      "rva": "0x1744000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.996
+    },
+    {
+      "rva": "0x1745000",
+      "old_entropy": 7.953,
+      "new_entropy": 5.998
+    },
+    {
+      "rva": "0x1746000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.429
+    },
+    {
+      "rva": "0x175a000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.28
+    },
+    {
+      "rva": "0x175b000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.972
+    },
+    {
+      "rva": "0x175c000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.13
+    },
+    {
+      "rva": "0x17aa000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.133
+    },
+    {
+      "rva": "0x17ab000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.279
+    },
+    {
+      "rva": "0x17b0000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.285
+    },
+    {
+      "rva": "0x17b3000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.083
+    },
+    {
+      "rva": "0x17b4000",
+      "old_entropy": 7.95,
+      "new_entropy": 5.802
+    },
+    {
+      "rva": "0x17b6000",
+      "old_entropy": 7.962,
+      "new_entropy": 6.258
+    },
+    {
+      "rva": "0x17b7000",
+      "old_entropy": 7.948,
+      "new_entropy": 6.294
+    },
+    {
+      "rva": "0x17b8000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.156
+    },
+    {
+      "rva": "0x17b9000",
+      "old_entropy": 7.954,
+      "new_entropy": 5.857
+    },
+    {
+      "rva": "0x17ba000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.281
+    },
+    {
+      "rva": "0x17bf000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.058
+    },
+    {
+      "rva": "0x17c1000",
+      "old_entropy": 7.948,
+      "new_entropy": 6.367
+    },
+    {
+      "rva": "0x17c2000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.068
+    },
+    {
+      "rva": "0x17c6000",
+      "old_entropy": 7.963,
+      "new_entropy": 6.367
+    },
+    {
+      "rva": "0x17c7000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.267
+    },
+    {
+      "rva": "0x17c8000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.09
+    },
+    {
+      "rva": "0x17ca000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.198
+    },
+    {
+      "rva": "0x17cb000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.263
+    },
+    {
+      "rva": "0x17cc000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.328
+    },
+    {
+      "rva": "0x17e1000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.309
+    },
+    {
+      "rva": "0x17e2000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.274
+    },
+    {
+      "rva": "0x17e3000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.335
+    },
+    {
+      "rva": "0x17e4000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.4
+    },
+    {
+      "rva": "0x17e5000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.194
+    },
+    {
+      "rva": "0x17e8000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.249
+    },
+    {
+      "rva": "0x17e9000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.252
+    },
+    {
+      "rva": "0x17ea000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.244
+    },
+    {
+      "rva": "0x17eb000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.117
+    },
+    {
+      "rva": "0x17ed000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.346
+    },
+    {
+      "rva": "0x17ee000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.364
+    },
+    {
+      "rva": "0x17f0000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.391
+    },
+    {
+      "rva": "0x17f1000",
+      "old_entropy": 7.947,
+      "new_entropy": 6.418
+    },
+    {
+      "rva": "0x17f3000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.303
+    },
+    {
+      "rva": "0x17f4000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.331
+    },
+    {
+      "rva": "0x17f5000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.384
+    },
+    {
+      "rva": "0x17f6000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.367
+    },
+    {
+      "rva": "0x17f7000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.31
+    },
+    {
+      "rva": "0x17f8000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.277
+    },
+    {
+      "rva": "0x17f9000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.439
+    },
+    {
+      "rva": "0x17fb000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.184
+    },
+    {
+      "rva": "0x17fd000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.401
+    },
+    {
+      "rva": "0x1800000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.321
+    },
+    {
+      "rva": "0x1801000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.277
+    },
+    {
+      "rva": "0x1802000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.235
+    },
+    {
+      "rva": "0x1803000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.368
+    },
+    {
+      "rva": "0x1804000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.166
+    },
+    {
+      "rva": "0x180e000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.143
+    },
+    {
+      "rva": "0x180f000",
+      "old_entropy": 7.947,
+      "new_entropy": 6.188
+    },
+    {
+      "rva": "0x1810000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.209
+    },
+    {
+      "rva": "0x1812000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.134
+    },
+    {
+      "rva": "0x1813000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.243
+    },
+    {
+      "rva": "0x183e000",
+      "old_entropy": 7.949,
+      "new_entropy": 5.984
+    },
+    {
+      "rva": "0x183f000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.282
+    },
+    {
+      "rva": "0x1840000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.333
+    },
+    {
+      "rva": "0x1843000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.205
+    },
+    {
+      "rva": "0x1844000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.213
+    },
+    {
+      "rva": "0x1845000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.246
+    },
+    {
+      "rva": "0x1847000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.484
+    },
+    {
+      "rva": "0x1848000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.22
+    },
+    {
+      "rva": "0x187d000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.395
+    },
+    {
+      "rva": "0x187f000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.483
+    },
+    {
+      "rva": "0x1880000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.404
+    },
+    {
+      "rva": "0x1881000",
+      "old_entropy": 7.952,
+      "new_entropy": 6.255
+    },
+    {
+      "rva": "0x1882000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.127
+    },
+    {
+      "rva": "0x1883000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.426
+    },
+    {
+      "rva": "0x1884000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.323
+    },
+    {
+      "rva": "0x1885000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.173
+    },
+    {
+      "rva": "0x1886000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.317
+    },
+    {
+      "rva": "0x1887000",
+      "old_entropy": 7.958,
+      "new_entropy": 6.359
+    },
+    {
+      "rva": "0x1888000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.433
+    },
+    {
+      "rva": "0x1889000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.281
+    },
+    {
+      "rva": "0x188d000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.457
+    },
+    {
+      "rva": "0x188e000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.34
+    },
+    {
+      "rva": "0x188f000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.341
+    }
+  ],
+  "string_references": [
+    {
+      "instruction_rva": "0x4eb05e",
+      "target_rva": "0x20d0448",
+      "text": "avatar_perspective"
+    },
+    {
+      "instruction_rva": "0x4eb471",
+      "target_rva": "0x20d0448",
+      "text": "avatar_perspective"
+    },
+    {
+      "instruction_rva": "0x574040",
+      "target_rva": "0x20d25c8",
+      "text": "\"ship_elevator\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574085",
+      "target_rva": "0x20d84b0",
+      "text": "\"levitation_area\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5740ca",
+      "target_rva": "0x20d88e8",
+      "text": "\"prespawn_location\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x574116",
+      "target_rva": "0x20d73c8",
+      "text": "\"injury_effect\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x574154",
+      "target_rva": "0x20d0d30",
+      "text": "\"network_override\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x5741c7",
+      "target_rva": "0x20d1130",
+      "text": "\"objective_deliverable_vehicle\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x574213",
+      "target_rva": "0x20d4af8",
+      "text": "\"ship_modules_sync\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x574264",
+      "target_rva": "0x20d7fe8",
+      "text": "\"ship_master\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x57429d",
+      "target_rva": "0x20d7708",
+      "text": "\"kill_streak\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5742e2",
+      "target_rva": "0x20d7738",
+      "text": "\"keypad_code_reveal\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x574327",
+      "target_rva": "0x20d10c0",
+      "text": "\"objective_convoy\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x57436c",
+      "target_rva": "0x20d6620",
+      "text": "\"fast_motion\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5743b1",
+      "target_rva": "0x20d3be0",
+      "text": "\"war_operation_item\" : { \"max\" : %u, \"capacity\" : 110 }"
+    },
+    {
+      "instruction_rva": "0x5743f6",
+      "target_rva": "0x20d5090",
+      "text": "\"ai_job\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x57443b",
+      "target_rva": "0x20d32e0",
+      "text": "\"tutorial\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574480",
+      "target_rva": "0x20d7eb0",
+      "text": "\"damage_owner\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5744c5",
+      "target_rva": "0x20d6158",
+      "text": "\"emote\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x57450a",
+      "target_rva": "0x20d3c38",
+      "text": "\"war_mission_item\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x57454f",
+      "target_rva": "0x20d5cb0",
+      "text": "\"cutscene_unit\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x574594",
+      "target_rva": "0x20d6108",
+      "text": "\"effect_switcher\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5745d9",
+      "target_rva": "0x20d51c0",
+      "text": "\"ai_squad_member\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57461e",
+      "target_rva": "0x20d3ba0",
+      "text": "\"war_planet_region_item\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x574663",
+      "target_rva": "0x20d8050",
+      "text": "\"war_planet\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5746d6",
+      "target_rva": "0x20d82d0",
+      "text": "\"dormancy\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x574722",
+      "target_rva": "0x20d5480",
+      "text": "\"backblast\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574767",
+      "target_rva": "0x20d3c88",
+      "text": "\"weapon_assisted_reload\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5747ac",
+      "target_rva": "0x20d3948",
+      "text": "\"vehicle_storage\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5747f1",
+      "target_rva": "0x20d4880",
+      "text": "\"weather\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574836",
+      "target_rva": "0x20d0a28",
+      "text": "\"exploration_reward\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x57487b",
+      "target_rva": "0x20d56d8",
+      "text": "\"buoyancy\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5748cc",
+      "target_rva": "0x20d8098",
+      "text": "\"war_global_resource\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x574905",
+      "target_rva": "0x20d8190",
+      "text": "\"war_assignment_item\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x57494a",
+      "target_rva": "0x20d4a60",
+      "text": "\"vo_intensity\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x57498f",
+      "target_rva": "0x20d8730",
+      "text": "\"vista_ship_position\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x5749d4",
+      "target_rva": "0x20d7d20",
+      "text": "\"weather_control\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574a22",
+      "target_rva": "0x20d4210",
+      "text": "\"weapon_wind_up\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574a5e",
+      "target_rva": "0x20d8118",
+      "text": "\"encounter_ramp_up\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574ad1",
+      "target_rva": "0x20d5a98",
+      "text": "\"corpse_decayer\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574b1d",
+      "target_rva": "0x20d5a00",
+      "text": "\"convoy\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x574b6b",
+      "target_rva": "0x20d6268",
+      "text": "\"environmental_hazard\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x574ba7",
+      "target_rva": "0x20d7dc8",
+      "text": "\"vista_effect\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x574bec",
+      "target_rva": "0x20d0e90",
+      "text": "\"entity_bind\" : { \"max\" : %u, \"capacity\" : 150 }"
+    },
+    {
+      "instruction_rva": "0x574c31",
+      "target_rva": "0x20d7d70",
+      "text": "\"environmental_effect_tag\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x574c76",
+      "target_rva": "0x20d4968",
+      "text": "\"world_loot_manager\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x574cc4",
+      "target_rva": "0x20d2a50",
+      "text": "\"static_position\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x574d00",
+      "target_rva": "0x20d33d0",
+      "text": "\"unit\" : { \"max\" : %u, \"capacity\" : 2048 }"
+    },
+    {
+      "instruction_rva": "0x574d45",
+      "target_rva": "0x20d7ad8",
+      "text": "\"material_swap\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x574d8a",
+      "target_rva": "0x20d6530",
+      "text": "\"faction\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x574dcf",
+      "target_rva": "0x20d36e0",
+      "text": "\"vehicle\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x574e14",
+      "target_rva": "0x20d1068",
+      "text": "\"objective\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x574e59",
+      "target_rva": "0x20d7bc0",
+      "text": "\"minefield\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574e9e",
+      "target_rva": "0x20d20f8",
+      "text": "\"shield\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x574ee3",
+      "target_rva": "0x20d8400",
+      "text": "\"orbital_ship\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x574f28",
+      "target_rva": "0x20d0dc0",
+      "text": "\"noise\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574f6d",
+      "target_rva": "0x20d2968",
+      "text": "\"squad_transport\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x574fb2",
+      "target_rva": "0x20d8ef8",
+      "text": "\"guided_weapon\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x574ff7",
+      "target_rva": "0x20d7e60",
+      "text": "\"recharge\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x57506a",
+      "target_rva": "0x20d72f8",
+      "text": "\"influencer\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x5750b6",
+      "target_rva": "0x20d74b0",
+      "text": "\"interactable_minigame\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5750fb",
+      "target_rva": "0x20d0ee0",
+      "text": "\"objective_carry_delivery\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x575140",
+      "target_rva": "0x20d5e50",
+      "text": "\"destructible\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x575185",
+      "target_rva": "0x20d60b0",
+      "text": "\"effect_reference\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x5751ca",
+      "target_rva": "0x20d5910",
+      "text": "\"collision_event\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x57520f",
+      "target_rva": "0x20d14e0",
+      "text": "\"physics_impact_effect\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x575254",
+      "target_rva": "0x20d8f78",
+      "text": "\"pathing_waypoints\" : { \"max\" : %u, \"capacity\" : 10 }"
+    },
+    {
+      "instruction_rva": "0x575299",
+      "target_rva": "0x20d17e8",
+      "text": "\"powered_death_sequence\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5752de",
+      "target_rva": "0x20d4258",
+      "text": "\"weapon_screen\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x57532f",
+      "target_rva": "0x20d17a0",
+      "text": "\"power_switch\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x575368",
+      "target_rva": "0x20d49b0",
+      "text": "\"woundable\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x5753ad",
+      "target_rva": "0x20d4908",
+      "text": "\"wieldable\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x5753f2",
+      "target_rva": "0x20d7c60",
+      "text": "\"remote_trigger\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x575437",
+      "target_rva": "0x20d4118",
+      "text": "\"weapon_reload\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x57547c",
+      "target_rva": "0x20d4aa8",
+      "text": "\"ragdoll_sync\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5754c1",
+      "target_rva": "0x20d4020",
+      "text": "\"weapon_linker\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x575506",
+      "target_rva": "0x20d86a0",
+      "text": "\"rain_sound\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x57554b",
+      "target_rva": "0x20d3b00",
+      "text": "\"war_hologram\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x575590",
+      "target_rva": "0x20d4170",
+      "text": "\"weapon_rounds\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575603",
+      "target_rva": "0x20d1928",
+      "text": "\"projectile_cluster\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x57564f",
+      "target_rva": "0x20d4b60",
+      "text": "\"public_announcement_speaker\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x575694",
+      "target_rva": "0x20d8940",
+      "text": "\"projectile_motion\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5756d9",
+      "target_rva": "0x20d2a08",
+      "text": "\"stance\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57571e",
+      "target_rva": "0x20d29b0",
+      "text": "\"squad_transport_formation\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x575763",
+      "target_rva": "0x20d2d58",
+      "text": "\"status_effect_volume\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5757a8",
+      "target_rva": "0x20d83b8",
+      "text": "\"spawn_link\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5757ed",
+      "target_rva": "0x20d28c0",
+      "text": "\"spottable\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x575832",
+      "target_rva": "0x20d8650",
+      "text": "\"sphere_overlap\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575877",
+      "target_rva": "0x20d2fc8",
+      "text": "\"targetable_fleet_ship\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5758bc",
+      "target_rva": "0x20d3720",
+      "text": "\"tank\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x575901",
+      "target_rva": "0x20d31d8",
+      "text": "\"trample\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x575946",
+      "target_rva": "0x20d7f08",
+      "text": "\"trigger_area_logic\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x575997",
+      "target_rva": "0x20d2ea8",
+      "text": "\"stratagem_firesupport\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5759d0",
+      "target_rva": "0x20d3228",
+      "text": "\"transport\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x575a15",
+      "target_rva": "0x20d38f8",
+      "text": "\"vehicle_shuttle\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575a5a",
+      "target_rva": "0x20d2610",
+      "text": "\"ship_external\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x575a9f",
+      "target_rva": "0x20d2548",
+      "text": "\"ship_customization_target\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575aed",
+      "target_rva": "0x20d21a0",
+      "text": "\"shield_controller\" : { \"max\" : %u, \"capacity\" : 10 }"
+    },
+    {
+      "instruction_rva": "0x575b29",
+      "target_rva": "0x20d1ec8",
+      "text": "\"sensor_danger\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x575b9c",
+      "target_rva": "0x20d2820",
+      "text": "\"show_on_map\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x575be8",
+      "target_rva": "0x20d3350",
+      "text": "\"tutorial_target_range\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x575c36",
+      "target_rva": "0x20d2788",
+      "text": "\"ship_prop_visibility\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575c72",
+      "target_rva": "0x20d27c8",
+      "text": "\"ship_video\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x575cb7",
+      "target_rva": "0x20d2750",
+      "text": "\"ship_teleporter\" : { \"max\" : %u, \"capacity\" : 3 }"
+    },
+    {
+      "instruction_rva": "0x575cfc",
+      "target_rva": "0x20d6670",
+      "text": "\"fire_source\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x575d41",
+      "target_rva": "0x20d8de8",
+      "text": "\"filmable\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x575d8f",
+      "target_rva": "0x20d6580",
+      "text": "\"fake_gravity_motion\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x575dcb",
+      "target_rva": "0x20d7a80",
+      "text": "\"material_variables\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x575e10",
+      "target_rva": "0x20d6970",
+      "text": "\"game_event_ship\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x575e55",
+      "target_rva": "0x20d66b8",
+      "text": "\"fog_machine\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x575e9a",
+      "target_rva": "0x20d64d8",
+      "text": "\"extraction_zone\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x575edf",
+      "target_rva": "0x20d0ab8",
+      "text": "\"minigame_stratagem_arcade\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x575f24",
+      "target_rva": "0x20d0b18",
+      "text": "\"minigame_wait\" : { \"max\" : %u, \"capacity\" : 24 }"
+    },
+    {
+      "instruction_rva": "0x575f69",
+      "target_rva": "0x20d0a60",
+      "text": "\"minigame_external_switches\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x575fae",
+      "target_rva": "0x20d8318",
+      "text": "\"dynamic_light\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x575ff3",
+      "target_rva": "0x20d6d60",
+      "text": "\"hellpod_rack\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576038",
+      "target_rva": "0x20d7510",
+      "text": "\"interactable_objective_terminal\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x57607d",
+      "target_rva": "0x20d7580",
+      "text": "\"interactable_state_switch\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x5760f0",
+      "target_rva": "0x20d5210",
+      "text": "\"animation\" : { \"max\" : %u, \"capacity\" : 768 }"
+    },
+    {
+      "instruction_rva": "0x57613c",
+      "target_rva": "0x20d6e78",
+      "text": "\"hit_react\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x576181",
+      "target_rva": "0x20d6db0",
+      "text": "\"hint_trigger\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x5761c6",
+      "target_rva": "0x20d6d10",
+      "text": "\"hellpod_payload\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x57620b",
+      "target_rva": "0x20d52a0",
+      "text": "\"attack_pattern\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576250",
+      "target_rva": "0x20d7a30",
+      "text": "\"loot_container\" : { \"max\" : %u, \"capacity\" : 84 }"
+    },
+    {
+      "instruction_rva": "0x576295",
+      "target_rva": "0x20d6a40",
+      "text": "\"gib_entity\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5762da",
+      "target_rva": "0x20d6700",
+      "text": "\"glow_up_light\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x57631f",
+      "target_rva": "0x20d7808",
+      "text": "\"laser_designator\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576364",
+      "target_rva": "0x20d7860",
+      "text": "\"linked_units\" : { \"max\" : %u, \"capacity\" : 2048 }"
+    },
+    {
+      "instruction_rva": "0x5763a9",
+      "target_rva": "0x20d0f40",
+      "text": "\"objective_rescue_point\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x5763fa",
+      "target_rva": "0x20d1230",
+      "text": "\"objective_secure_area\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x576433",
+      "target_rva": "0x20d5710",
+      "text": "\"carry_effect\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x576478",
+      "target_rva": "0x20d8868",
+      "text": "\"objective_oil_rig\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x5764bd",
+      "target_rva": "0x20d87d8",
+      "text": "\"objective_prevent_invasion\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x576502",
+      "target_rva": "0x20d8790",
+      "text": "\"objective_prevent_invasion_site\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576547",
+      "target_rva": "0x20d8018",
+      "text": "\"objective_shell\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x57658c",
+      "target_rva": "0x20d1360",
+      "text": "\"obstacle\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x5765d1",
+      "target_rva": "0x20d7cb0",
+      "text": "\"danger_warning\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576616",
+      "target_rva": "0x20d5d48",
+      "text": "\"deposit\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x576690",
+      "target_rva": "0x20d7fb0",
+      "text": "\"objective_shell_rack\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x5766d5",
+      "target_rva": "0x20d1290",
+      "text": "\"objective_shuttle_controller\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x57671a",
+      "target_rva": "0x20d8c38",
+      "text": "\"ai_enemy_budget\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57675f",
+      "target_rva": "0x20d0d78",
+      "text": "\"network_physics\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x5767a4",
+      "target_rva": "0x20d8e30",
+      "text": "\"mount_firing\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5767e9",
+      "target_rva": "0x20d50e0",
+      "text": "\"ai_spawner\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x57682e",
+      "target_rva": "0x20d4eb8",
+      "text": "\"ai_alert\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x576873",
+      "target_rva": "0x20d88a0",
+      "text": "\"burrower\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5768b8",
+      "target_rva": "0x20d11f0",
+      "text": "\"objective_encounter_trigger\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x5768fd",
+      "target_rva": "0x20d8eb8",
+      "text": "\"objective_kill_enemies\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576942",
+      "target_rva": "0x20d1178",
+      "text": "\"objective_dynamic_link\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x576987",
+      "target_rva": "0x20d0e40",
+      "text": "\"objective_carry\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x5769cc",
+      "target_rva": "0x20d89a0",
+      "text": "\"objective_collect_resources\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576a11",
+      "target_rva": "0x20d8f38",
+      "text": "\"objective_destruction\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x576a62",
+      "target_rva": "0x20d1f60",
+      "text": "\"sensor_eye\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x576a9b",
+      "target_rva": "0x20d1f18",
+      "text": "\"sensor_ear\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576ae0",
+      "target_rva": "0x20d5628",
+      "text": "\"bombardment\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576b25",
+      "target_rva": "0x20d2148",
+      "text": "\"shield_hit_filter\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x576b6a",
+      "target_rva": "0x20d1fa8",
+      "text": "\"sensor_proximity\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576bb8",
+      "target_rva": "0x20d1e78",
+      "text": "\"seeking_missile\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576c22",
+      "target_rva": "0x20d58c0",
+      "text": "\"character_template\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576c6e",
+      "target_rva": "0x20d39d8",
+      "text": "\"visibility_mask\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x576cb3",
+      "target_rva": "0x20d7b28",
+      "text": "\"mine_spawner\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576d01",
+      "target_rva": "0x20d2f98",
+      "text": "\"power_node\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x576d3d",
+      "target_rva": "0x20d5d00",
+      "text": "\"decoration\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x576d82",
+      "target_rva": "0x20d77b0",
+      "text": "\"landing_zone_beacon\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576dc7",
+      "target_rva": "0x20d3ec0",
+      "text": "\"weapon_flashlight\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x576e0c",
+      "target_rva": "0x20d3cc8",
+      "text": "\"weapon_charge\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576e5a",
+      "target_rva": "0x20d6cc8",
+      "text": "\"hellpod\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x576e96",
+      "target_rva": "0x20d3490",
+      "text": "\"unit_customization\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576edb",
+      "target_rva": "0x20d0ce8",
+      "text": "\"navigation\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x576f20",
+      "target_rva": "0x20d8d98",
+      "text": "\"raycast_scheduler\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x576f65",
+      "target_rva": "0x20d7250",
+      "text": "\"huge_explosion\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x576faa",
+      "target_rva": "0x20d6b18",
+      "text": "\"guard_force\" : { \"max\" : %u, \"capacity\" : 96 }"
+    },
+    {
+      "instruction_rva": "0x576fef",
+      "target_rva": "0x20d69a8",
+      "text": "\"game_mode_mission\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x577034",
+      "target_rva": "0x20d71c0",
+      "text": "\"hive_mind\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x577079",
+      "target_rva": "0x20d3258",
+      "text": "\"truth_transmitter_faction\" : { \"max\" : %u, \"capacity\" : 5 }"
+    },
+    {
+      "instruction_rva": "0x5770be",
+      "target_rva": "0x20d5f18",
+      "text": "\"distant_war\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x577103",
+      "target_rva": "0x20d61d8",
+      "text": "\"encounter\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x577148",
+      "target_rva": "0x20d5690",
+      "text": "\"bughole\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5771bb",
+      "target_rva": "0x20d8150",
+      "text": "\"wave_encounter_trigger\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x577207",
+      "target_rva": "0x20d6ac8",
+      "text": "\"ground_check\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x57724c",
+      "target_rva": "0x20d6c08",
+      "text": "\"guidance_target\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577291",
+      "target_rva": "0x20d4e20",
+      "text": "\"ability_damage_zone\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5772d6",
+      "target_rva": "0x20d7e10",
+      "text": "\"moving_hazard\" : { \"max\" : %u, \"capacity\" : 24 }"
+    },
+    {
+      "instruction_rva": "0x57731b",
+      "target_rva": "0x20d85f8",
+      "text": "\"searchlight_enemy\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x577360",
+      "target_rva": "0x20d1448",
+      "text": "\"overlap_damage\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5773a5",
+      "target_rva": "0x20d6c80",
+      "text": "\"health\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x5773ea",
+      "target_rva": "0x20d38a8",
+      "text": "\"vehicle_motion\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x57742f",
+      "target_rva": "0x20d1a08",
+      "text": "\"score\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x577474",
+      "target_rva": "0x20d2ef8",
+      "text": "\"synced_health\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5774c5",
+      "target_rva": "0x20d21e8",
+      "text": "\"damage_zone_shield\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5774fe",
+      "target_rva": "0x20d6a88",
+      "text": "\"gore\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577543",
+      "target_rva": "0x20d37e8",
+      "text": "\"vehicle_electrics\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577588",
+      "target_rva": "0x20d5448",
+      "text": "\"avatar\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x5775cd",
+      "target_rva": "0x20d62e0",
+      "text": "\"equipment\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x577612",
+      "target_rva": "0x20d3048",
+      "text": "\"targeting\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577657",
+      "target_rva": "0x20d41c0",
+      "text": "\"weapon_wielder\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x57769c",
+      "target_rva": "0x20d3e70",
+      "text": "\"weapon_data\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x57770f",
+      "target_rva": "0x20d3d98",
+      "text": "\"weapon\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577762",
+      "target_rva": "0x20d5c20",
+      "text": "\"customization\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5777a0",
+      "target_rva": "0x20d1750",
+      "text": "\"player\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5777e5",
+      "target_rva": "0x20d8368",
+      "text": "\"stat_modifier\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57782a",
+      "target_rva": "0x20d7668",
+      "text": "\"inventory\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57786f",
+      "target_rva": "0x20d0c90",
+      "text": "\"multi_target\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5778b4",
+      "target_rva": "0x20d75e8",
+      "text": "\"interactor\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x5778f9",
+      "target_rva": "0x20d7400",
+      "text": "\"interactable\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x57793e",
+      "target_rva": "0x20d49e0",
+      "text": "\"rotation_sound_player\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x577983",
+      "target_rva": "0x20d40c8",
+      "text": "\"weapon_linked_ammo\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x5779c8",
+      "target_rva": "0x20d5330",
+      "text": "\"sticky\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x577a0d",
+      "target_rva": "0x20d3310",
+      "text": "\"turret\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x577a52",
+      "target_rva": "0x20d2db8",
+      "text": "\"stratagem_ball\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577a97",
+      "target_rva": "0x20d2718",
+      "text": "\"ship_inventory\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x577adc",
+      "target_rva": "0x20d6380",
+      "text": "\"two_point_chain_attach_target\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577b2d",
+      "target_rva": "0x20d6328",
+      "text": "\"two_point_chain\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577b66",
+      "target_rva": "0x20d3540",
+      "text": "\"upload_discovery\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x577bab",
+      "target_rva": "0x20d6448",
+      "text": "\"explosive\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x577bf0",
+      "target_rva": "0x20d55f8",
+      "text": "\"booster\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x577c35",
+      "target_rva": "0x20d5870",
+      "text": "\"character_name\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577ca8",
+      "target_rva": "0x20d13b8",
+      "text": "\"occupied_interactable\" : { \"max\" : %u, \"capacity\" : 18 }"
+    },
+    {
+      "instruction_rva": "0x577cf4",
+      "target_rva": "0x20d3140",
+      "text": "\"thrower\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x577d39",
+      "target_rva": "0x20d3090",
+      "text": "\"throwable\" : { \"max\" : %u, \"capacity\" : 228 }"
+    },
+    {
+      "instruction_rva": "0x577d7e",
+      "target_rva": "0x20d48c0",
+      "text": "\"weathering\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577dcc",
+      "target_rva": "0x20d7450",
+      "text": "\"interactable_menu_screen\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x577e08",
+      "target_rva": "0x20d52e8",
+      "text": "\"attachable\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x577e4d",
+      "target_rva": "0x20d4c20",
+      "text": "\"friendly_npc\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x577e92",
+      "target_rva": "0x20d76d8",
+      "text": "\"jumppack\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577ed7",
+      "target_rva": "0x20d5258",
+      "text": "\"arc_weapon\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x577f25",
+      "target_rva": "0x20d3f38",
+      "text": "\"weapon_heat\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x577f61",
+      "target_rva": "0x20d4e68",
+      "text": "\"ability_weapon\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x577fa6",
+      "target_rva": "0x20d1580",
+      "text": "\"melee_weapon\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x577feb",
+      "target_rva": "0x20d1538",
+      "text": "\"physics_weapon\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x578030",
+      "target_rva": "0x20d54c8",
+      "text": "\"beam_weapon\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x578075",
+      "target_rva": "0x20d3dd8",
+      "text": "\"weapon_customization\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x5780ba",
+      "target_rva": "0x20d8500",
+      "text": "\"eagle_spawner\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x5780ff",
+      "target_rva": "0x20d6798",
+      "text": "\"foley_sound\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x578144",
+      "target_rva": "0x20d5ec8",
+      "text": "\"displacement\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x578189",
+      "target_rva": "0x20d4fa0",
+      "text": "\"ai_cover\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x5781ce",
+      "target_rva": "0x20d68a8",
+      "text": "\"curve_navigation\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x578241",
+      "target_rva": "0x20d67e8",
+      "text": "\"curve_follow\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x57828d",
+      "target_rva": "0x20d59a0",
+      "text": "\"commend\" : { \"max\" : %u, \"capacity\" : 8 }"
+    },
+    {
+      "instruction_rva": "0x5782d2",
+      "target_rva": "0x20d35a8",
+      "text": "\"vehicle_collision_damage\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x578317",
+      "target_rva": "0x20d68f8",
+      "text": "\"footstep_event\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57835c",
+      "target_rva": "0x20d63f0",
+      "text": "\"expandable_cover\" : { \"max\" : %u, \"capacity\" : 24 }"
+    },
+    {
+      "instruction_rva": "0x5783a1",
+      "target_rva": "0x20d5e20",
+      "text": "\"detector\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x5783e6",
+      "target_rva": "0x20d0c48",
+      "text": "\"mount\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57842b",
+      "target_rva": "0x20d5518",
+      "text": "\"behavior\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x578470",
+      "target_rva": "0x20d1a38",
+      "text": "\"route_navigation\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5784b5",
+      "target_rva": "0x20d1ae0",
+      "text": "\"seat_collection\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5784fa",
+      "target_rva": "0x20d1e00",
+      "text": "\"seater\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57853f",
+      "target_rva": "0x20d72a0",
+      "text": "\"idle_ability\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x578590",
+      "target_rva": "0x20d7990",
+      "text": "\"looping_surface_effects\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x5785c9",
+      "target_rva": "0x20d4da0",
+      "text": "\"ability\" : { \"max\" : %u, \"capacity\" : 1024 }"
+    },
+    {
+      "instruction_rva": "0x57860e",
+      "target_rva": "0x20d5960",
+      "text": "\"commander\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x578653",
+      "target_rva": "0x20d8218",
+      "text": "\"power_generated\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x578698",
+      "target_rva": "0x20d2668",
+      "text": "\"ship_hellpod\" : { \"max\" : %u, \"capacity\" : 4 }"
+    },
+    {
+      "instruction_rva": "0x5786dd",
+      "target_rva": "0x20d6ee8",
+      "text": "\"hive_lord\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x578722",
+      "target_rva": "0x20d2520",
+      "text": "\"ship\" : { \"max\" : %u, \"capacity\" : 1 }"
+    },
+    {
+      "instruction_rva": "0x578767",
+      "target_rva": "0x20d4bc8",
+      "text": "\"story_interactable\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5787da",
+      "target_rva": "0x20d79f0",
+      "text": "\"loot\" : { \"max\" : %u, \"capacity\" : 512 }"
+    },
+    {
+      "instruction_rva": "0x57882d",
+      "target_rva": "0x20d5560",
+      "text": "\"boids\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57886b",
+      "target_rva": "0x20d3188",
+      "text": "\"thruster_group\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5788b0",
+      "target_rva": "0x20d3790",
+      "text": "\"vehicle_crash\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x5788f5",
+      "target_rva": "0x20d7208",
+      "text": "\"hover\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57893a",
+      "target_rva": "0x20d5048",
+      "text": "\"ai_enemy\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x57897f",
+      "target_rva": "0x20d4f00",
+      "text": "\"ai_character\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x5789c4",
+      "target_rva": "0x20d5178",
+      "text": "\"ai_squad\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x578a09",
+      "target_rva": "0x20d5128",
+      "text": "\"ai_squad_behavior\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x578a4e",
+      "target_rva": "0x20d5f58",
+      "text": "\"airborne_navigation\" : { \"max\" : %u, \"capacity\" : 10 }"
+    },
+    {
+      "instruction_rva": "0x578a93",
+      "target_rva": "0x20d2d00",
+      "text": "\"status_effect_receiver\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x578ad8",
+      "target_rva": "0x20d13f8",
+      "text": "\"orbital_ability\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x578b1d",
+      "target_rva": "0x20d5fb0",
+      "text": "\"drownable\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x578b62",
+      "target_rva": "0x20d19d8",
+      "text": "\"rotation\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x578ba7",
+      "target_rva": "0x20d7948",
+      "text": "\"locomotion\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x578bf8",
+      "target_rva": "0x20d8d50",
+      "text": "\"siege_engine\" : { \"max\" : %u, \"capacity\" : 2 }"
+    },
+    {
+      "instruction_rva": "0x578c31",
+      "target_rva": "0x20d65d0",
+      "text": "\"fake_tank_vehicle\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x578c76",
+      "target_rva": "0x20d3830",
+      "text": "\"vehicle_locomotion\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x578cbb",
+      "target_rva": "0x20d2908",
+      "text": "\"spray_weapon\" : { \"max\" : %u, \"capacity\" : 128 }"
+    },
+    {
+      "instruction_rva": "0x578d00",
+      "target_rva": "0x20d7328",
+      "text": "\"illuminate_attack_ship\" : { \"max\" : %u, \"capacity\" : 16 }"
+    },
+    {
+      "instruction_rva": "0x5af1c8",
+      "target_rva": "0x20d0bd0",
+      "text": "MotionComponent"
+    },
+    {
+      "instruction_rva": "0x5af960",
+      "target_rva": "0x20d0c00",
+      "text": "\"motion\" : { \"max\" : %u, \"capacity\" : 384 }"
+    },
+    {
+      "instruction_rva": "0x6ec11d",
+      "target_rva": "0x20d3310",
+      "text": "\"turret\" : { \"max\" : %u, \"capacity\" : 256 }"
+    },
+    {
+      "instruction_rva": "0x70f3bd",
+      "target_rva": "0x20d36e0",
+      "text": "\"vehicle\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x79821e",
+      "target_rva": "0x20d41f8",
+      "text": "WeaponScreenComponent"
+    },
+    {
+      "instruction_rva": "0x7986ad",
+      "target_rva": "0x20d4258",
+      "text": "\"weapon_screen\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0x8b008f",
+      "target_rva": "0x20d5ff4",
+      "text": "eagle"
+    },
+    {
+      "instruction_rva": "0x8b92f5",
+      "target_rva": "0x20d6080",
+      "text": "EagleComponent"
+    },
+    {
+      "instruction_rva": "0x8b98bd",
+      "target_rva": "0x20d6050",
+      "text": "\"eagle\" : { \"max\" : %u, \"capacity\" : 32 }"
+    },
+    {
+      "instruction_rva": "0x9c8fef",
+      "target_rva": "0x20d7650",
+      "text": "horizontal_acceleration"
+    },
+    {
+      "instruction_rva": "0x9ca044",
+      "target_rva": "0x20d7698",
+      "text": "JumppackComponent"
+    },
+    {
+      "instruction_rva": "0x9ca62d",
+      "target_rva": "0x20d76d8",
+      "text": "\"jumppack\" : { \"max\" : %u, \"capacity\" : 64 }"
+    },
+    {
+      "instruction_rva": "0xa92e24",
+      "target_rva": "0x20d95c8",
+      "text": "ragdoll collision"
+    },
+    {
+      "instruction_rva": "0xa92e7e",
+      "target_rva": "0x20d95b0",
+      "text": "avatar_ragdoll_active"
+    },
+    {
+      "instruction_rva": "0xa92e99",
+      "target_rva": "0x20d95f0",
+      "text": "physics_impact_force"
+    },
+    {
+      "instruction_rva": "0xa92ec8",
+      "target_rva": "0x20d95e0",
+      "text": "avatar_stance"
+    },
+    {
+      "instruction_rva": "0xa92f4c",
+      "target_rva": "0x20d53b8",
+      "text": "avatar_airtime"
+    },
+    {
+      "instruction_rva": "0xefa006",
+      "target_rva": "0x20ec350",
+      "text": "isRepeatable"
+    },
+    {
+      "instruction_rva": "0xefa141",
+      "target_rva": "0x20ec320",
+      "text": "SeasonPass"
+    },
+    {
+      "instruction_rva": "0xefa19d",
+      "target_rva": "0x20ec320",
+      "text": "SeasonPass"
+    },
+    {
+      "instruction_rva": "0xefa1e2",
+      "target_rva": "0x20ec330",
+      "text": "idString"
+    },
+    {
+      "instruction_rva": "0xefa34f",
+      "target_rva": "0x20ec388",
+      "text": "SeasonPassContent"
+    },
+    {
+      "instruction_rva": "0xefa3a9",
+      "target_rva": "0x20ec388",
+      "text": "SeasonPassContent"
+    },
+    {
+      "instruction_rva": "0xefa3ef",
+      "target_rva": "0x20ec330",
+      "text": "idString"
+    },
+    {
+      "instruction_rva": "0xefa4cf",
+      "target_rva": "0x20ec3a0",
+      "text": "seasonPassPagesDebug"
+    },
+    {
+      "instruction_rva": "0xefa69f",
+      "target_rva": "0x20ec360",
+      "text": "SeasonPassPage"
+    },
+    {
+      "instruction_rva": "0xefa6fc",
+      "target_rva": "0x20ec360",
+      "text": "SeasonPassPage"
+    },
+    {
+      "instruction_rva": "0xefa74c",
+      "target_rva": "0x20ec370",
+      "text": "seasonPassItemsDebug"
+    },
+    {
+      "instruction_rva": "0xefa921",
+      "target_rva": "0x20ec3e0",
+      "text": "SeasonPassItem"
+    },
+    {
+      "instruction_rva": "0xefa97d",
+      "target_rva": "0x20ec3e0",
+      "text": "SeasonPassItem"
+    },
+    {
+      "instruction_rva": "0xefa9c2",
+      "target_rva": "0x20ec330",
+      "text": "idString"
+    },
+    {
+      "instruction_rva": "0xefabb0",
+      "target_rva": "0x20ea890",
+      "text": "planetIndex"
+    },
+    {
+      "instruction_rva": "0xefac56",
+      "target_rva": "0x20ec3f0",
+      "text": "lastElectionId"
+    },
+    {
+      "instruction_rva": "0xeface3",
+      "target_rva": "0x20ec3b8",
+      "text": "currentElectionId"
+    },
+    {
+      "instruction_rva": "0xefad63",
+      "target_rva": "0x20ec3d0",
+      "text": "nextElectionId"
+    },
+    {
+      "instruction_rva": "0xefade3",
+      "target_rva": "0x20ec428",
+      "text": "currentElectionEndWarTime"
+    },
+    {
+      "instruction_rva": "0xefae55",
+      "target_rva": "0x20ea704",
+      "text": "flags"
+    },
+    {
+      "instruction_rva": "0xefaea7",
+      "target_rva": "0x20ec448",
+      "text": "tacticalActions"
+    },
+    {
+      "instruction_rva": "0x1004edc",
+      "target_rva": "0x214ae68",
+      "text": "queue_next_scene %s"
+    },
+    {
+      "instruction_rva": "0x1004eea",
+      "target_rva": "0x214ad70",
+      "text": "Cutscene"
+    },
+    {
+      "instruction_rva": "0x1004efa",
+      "target_rva": "0x20ef040",
+      "text": "ship_clan_station_reveal"
+    },
+    {
+      "instruction_rva": "0x1004f0d",
+      "target_rva": "0x20ef258",
+      "text": "tutorial_outro_to_ship"
+    },
+    {
+      "instruction_rva": "0x11dc415",
+      "target_rva": "0x20e2aa8",
+      "text": ",\"operation_id\":"
+    },
+    {
+      "instruction_rva": "0x11dc430",
+      "target_rva": "0x20e2ac0",
+      "text": ",\"operation_settings_id\":"
+    },
+    {
+      "instruction_rva": "0x11dc451",
+      "target_rva": "0x20e2b28",
+      "text": ",\"result\":"
+    },
+    {
+      "instruction_rva": "0x11dc470",
+      "target_rva": "0x20e2530",
+      "text": ",\"planet_hash\":"
+    },
+    {
+      "instruction_rva": "0x11dc491",
+      "target_rva": "0x20e2598",
+      "text": ",\"enemy_faction\":"
+    },
+    {
+      "instruction_rva": "0x11dc4ac",
+      "target_rva": "0x20e2790",
+      "text": ",\"mission_tags\":["
+    },
+    {
+      "instruction_rva": "0x11dc4be",
+      "target_rva": "0x20e2b38",
+      "text": "],\"missions_completed\":"
+    },
+    {
+      "instruction_rva": "0x11dc4d2",
+      "target_rva": "0x20e2af8",
+      "text": ",\"total_missions\":"
+    },
+    {
+      "instruction_rva": "0x11dc4ed",
+      "target_rva": "0x20e2b10",
+      "text": ",\"item_rewards_hash\":["
+    },
+    {
+      "instruction_rva": "0x11dc4fe",
+      "target_rva": "0x20e2ba0",
+      "text": "OperationEnd"
+    },
+    {
+      "instruction_rva": "0x11dc505",
+      "target_rva": "0x20e2b80",
+      "text": "],\"item_rewards_amount\":["
+    },
+    {
+      "instruction_rva": "0x11dc6b4",
+      "target_rva": "0x20e1e98",
+      "text": ",\"game_id\":"
+    },
+    {
+      "instruction_rva": "0x11dc6cb",
+      "target_rva": "0x20e2370",
+      "text": ",\"lobby_id\":\""
+    },
+    {
+      "instruction_rva": "0x11dc6e8",
+      "target_rva": "0x20e2de0",
+      "text": "\",\"user_id\":\""
+    },
+    {
+      "instruction_rva": "0x11dc703",
+      "target_rva": "0x20e2da8",
+      "text": "\",\"player_count\":"
+    },
+    {
+      "instruction_rva": "0x11dc724",
+      "target_rva": "0x20e2dc0",
+      "text": "PlayerJoin"
+    },
+    {
+      "instruction_rva": "0x11dca7f",
+      "target_rva": "0x20e1e98",
+      "text": ",\"game_id\":"
+    },
+    {
+      "instruction_rva": "0x11dca96",
+      "target_rva": "0x20e2370",
+      "text": ",\"lobby_id\":\""
+    },
+    {
+      "instruction_rva": "0x11dcab3",
+      "target_rva": "0x20e23c8",
+      "text": "\",\"reason\":"
+    },
+    {
+      "instruction_rva": "0x11dcac2",
+      "target_rva": "0x20ed5d8",
+      "text": "lobby_host_propagation_timeout"
+    },
+    {
+      "instruction_rva": "0x11dcad8",
+      "target_rva": "0x20dff20",
+      "text": "NetworkDisconnected"
+    },
+    {
+      "instruction_rva": "0x11dcc40",
+      "target_rva": "0x20e1e98",
+      "text": ",\"game_id\":"
+    },
+    {
+      "instruction_rva": "0x11dcc57",
+      "target_rva": "0x20e2370",
+      "text": ",\"lobby_id\":\""
+    },
+    {
+      "instruction_rva": "0x11dcc74",
+      "target_rva": "0x20e23c8",
+      "text": "\",\"reason\":"
+    },
+    {
+      "instruction_rva": "0x11dcc95",
+      "target_rva": "0x20e2400",
+      "text": "ClientDisconnected"
+    },
+    {
+      "instruction_rva": "0x11dce08",
+      "target_rva": "0x20e1e98",
+      "text": ",\"game_id\":"
+    },
+    {
+      "instruction_rva": "0x11dce1f",
+      "target_rva": "0x20e2370",
+      "text": ",\"lobby_id\":\""
+    },
+    {
+      "instruction_rva": "0x11dce3c",
+      "target_rva": "0x20e23c8",
+      "text": "\",\"reason\":"
+    },
+    {
+      "instruction_rva": "0x11dce57",
+      "target_rva": "0x20e2390",
+      "text": ",\"error_code\":"
+    },
+    {
+      "instruction_rva": "0x11dce78",
+      "target_rva": "0x20e23f0",
+      "text": "LobbyJoinFailed"
+    },
+    {
+      "instruction_rva": "0x11dcff8",
+      "target_rva": "0x20e1e98",
+      "text": ",\"game_id\":"
+    },
+    {
+      "instruction_rva": "0x12f1735",
+      "target_rva": "0x2157760",
+      "text": "generated_credits_settings.dl_bin"
+    },
+    {
+      "instruction_rva": "0x12f174b",
+      "target_rva": "0x2157760",
+      "text": "generated_credits_settings.dl_bin"
+    },
+    {
+      "instruction_rva": "0x12f1770",
+      "target_rva": "0x2157760",
+      "text": "generated_credits_settings.dl_bin"
+    },
+    {
+      "instruction_rva": "0x12f632d",
+      "target_rva": "0x2156c08",
+      "text": "OldWarbond"
+    },
+    {
+      "instruction_rva": "0x12f6334",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12f633b",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x12f802d",
+      "target_rva": "0x2156c58",
+      "text": "DebugServerBrowser"
+    },
+    {
+      "instruction_rva": "0x12f8034",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12f803b",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x12f848e",
+      "target_rva": "0x2156c58",
+      "text": "DebugServerBrowser"
+    },
+    {
+      "instruction_rva": "0x12f8495",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12f849c",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x12f8c4d",
+      "target_rva": "0x214e1a8",
+      "text": "Ignored"
+    },
+    {
+      "instruction_rva": "0x12fca4c",
+      "target_rva": "0x21569e0",
+      "text": "MissionEnd"
+    },
+    {
+      "instruction_rva": "0x12fca5a",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12fca61",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x12fcbbd",
+      "target_rva": "0x21569e0",
+      "text": "MissionEnd"
+    },
+    {
+      "instruction_rva": "0x12fcbc4",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12fcbcb",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x12fcc2d",
+      "target_rva": "0x21569e0",
+      "text": "MissionEnd"
+    },
+    {
+      "instruction_rva": "0x12fcc34",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x12fcc3b",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x132b527",
+      "target_rva": "0x2150bf8",
+      "text": "WeaponCustomization"
+    },
+    {
+      "instruction_rva": "0x132b52e",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x132b535",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x132b57d",
+      "target_rva": "0x2150bf8",
+      "text": "WeaponCustomization"
+    },
+    {
+      "instruction_rva": "0x132b584",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x132b58b",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x132caeb",
+      "target_rva": "0x20e99f8",
+      "text": "ui_blur_sigma"
+    },
+    {
+      "instruction_rva": "0x132ce09",
+      "target_rva": "0x20e99f8",
+      "text": "ui_blur_sigma"
+    },
+    {
+      "instruction_rva": "0x132cf2b",
+      "target_rva": "0x21575b0",
+      "text": "queue_pop_screen(), current_type %s"
+    },
+    {
+      "instruction_rva": "0x132cf32",
+      "target_rva": "0x2157570",
+      "text": "MenuSystem"
+    },
+    {
+      "instruction_rva": "0x139d031",
+      "target_rva": "0x215f5a0",
+      "text": "NamesB"
+    },
+    {
+      "instruction_rva": "0x139d4f9",
+      "target_rva": "0x215f590",
+      "text": "ASelectedIndex"
+    },
+    {
+      "instruction_rva": "0x139d59e",
+      "target_rva": "0x215f618",
+      "text": "BSelectedIndex"
+    },
+    {
+      "instruction_rva": "0x139d705",
+      "target_rva": "0x215f590",
+      "text": "ASelectedIndex"
+    },
+    {
+      "instruction_rva": "0x139d759",
+      "target_rva": "0x215f618",
+      "text": "BSelectedIndex"
+    },
+    {
+      "instruction_rva": "0x139d8ba",
+      "target_rva": "0x20cd401",
+      "text": "ui_destroyer"
+    },
+    {
+      "instruction_rva": "0x139d8c4",
+      "target_rva": "0x20cd400",
+      "text": "nui_destroyer"
+    },
+    {
+      "instruction_rva": "0x139d9b4",
+      "target_rva": "0x20cd400",
+      "text": "nui_destroyer"
+    },
+    {
+      "instruction_rva": "0x139d9df",
+      "target_rva": "0x20cd400",
+      "text": "nui_destroyer"
+    },
+    {
+      "instruction_rva": "0x139dbb3",
+      "target_rva": "0x215d5b8",
+      "text": "ShipClass"
+    },
+    {
+      "instruction_rva": "0x139dc90",
+      "target_rva": "0x2159218",
+      "text": "ui.MenuShipNamingFirstTime"
+    },
+    {
+      "instruction_rva": "0x139de10",
+      "target_rva": "0x21591f8",
+      "text": "ui.MenuWeaponCustomization"
+    },
+    {
+      "instruction_rva": "0x139dfa0",
+      "target_rva": "0x2159270",
+      "text": "ui.MenuMissionSummary"
+    },
+    {
+      "instruction_rva": "0x139f120",
+      "target_rva": "0x2159318",
+      "text": "ui.MenuOldReward"
+    },
+    {
+      "instruction_rva": "0x139f2b0",
+      "target_rva": "0x21593f0",
+      "text": "ui.MenuOldBrightnessSettings"
+    },
+    {
+      "instruction_rva": "0x139f440",
+      "target_rva": "0x21593d8",
+      "text": "ui.MenuOldPremium"
+    },
+    {
+      "instruction_rva": "0x139f5e0",
+      "target_rva": "0x21593c0",
+      "text": "ui.MenuOldWarbond"
+    },
+    {
+      "instruction_rva": "0x139f780",
+      "target_rva": "0x21593a8",
+      "text": "ui.MenuOldAgreement"
+    },
+    {
+      "instruction_rva": "0x139f910",
+      "target_rva": "0x2159460",
+      "text": "ui.MenuCheatDebugMission"
+    },
+    {
+      "instruction_rva": "0x139fad0",
+      "target_rva": "0x2159448",
+      "text": "ui.MenuDebugPlayground"
+    },
+    {
+      "instruction_rva": "0x139fc98",
+      "target_rva": "0x21c3790",
+      "text": "D:\\Work\\noesisgui\\code\\Native\\Src\\Packages\\Gui\\Core\\Src\\UI.cpp"
+    },
+    {
+      "instruction_rva": "0x139fc9f",
+      "target_rva": "0x21c3968",
+      "text": "Xaml not found '%s'"
+    },
+    {
+      "instruction_rva": "0x17aa564",
+      "target_rva": "0x218e3e0",
+      "text": "requisition_store"
+    },
+    {
+      "instruction_rva": "0x17aa5da",
+      "target_rva": "0x218e3d0",
+      "text": "ship_management"
+    },
+    {
+      "instruction_rva": "0x17aa5e6",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x17aa5f7",
+      "target_rva": "0x20ec060",
+      "text": "stratagems"
+    },
+    {
+      "instruction_rva": "0x17b007f",
+      "target_rva": "0x218e3d0",
+      "text": "ship_management"
+    },
+    {
+      "instruction_rva": "0x17b00b1",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x17b00df",
+      "target_rva": "0x218e3e0",
+      "text": "requisition_store"
+    },
+    {
+      "instruction_rva": "0x17b00f8",
+      "target_rva": "0x218e408",
+      "text": "ship_module"
+    },
+    {
+      "instruction_rva": "0x17b013d",
+      "target_rva": "0x218e3d0",
+      "text": "ship_management"
+    },
+    {
+      "instruction_rva": "0x17b0144",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x17b01cd",
+      "target_rva": "0x218e3d0",
+      "text": "ship_management"
+    },
+    {
+      "instruction_rva": "0x17b01e1",
+      "target_rva": "0x218e3e0",
+      "text": "requisition_store"
+    },
+    {
+      "instruction_rva": "0x17b01f4",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x17b0207",
+      "target_rva": "0x218e408",
+      "text": "ship_module"
+    },
+    {
+      "instruction_rva": "0x17b0341",
+      "target_rva": "0x2151290",
+      "text": "ProgressionPackageLevel"
+    },
+    {
+      "instruction_rva": "0x17b035c",
+      "target_rva": "0x218e3e0",
+      "text": "requisition_store"
+    },
+    {
+      "instruction_rva": "0x17b6e89",
+      "target_rva": "0x218e3f8",
+      "text": "survey_url"
+    },
+    {
+      "instruction_rva": "0x17b7570",
+      "target_rva": "0x218e3f8",
+      "text": "survey_url"
+    },
+    {
+      "instruction_rva": "0x17b76ce",
+      "target_rva": "0x218e3f8",
+      "text": "survey_url"
+    },
+    {
+      "instruction_rva": "0x17b7721",
+      "target_rva": "0x218e3f8",
+      "text": "survey_url"
+    },
+    {
+      "instruction_rva": "0x17e13f0",
+      "target_rva": "0x2156b78",
+      "text": "OldPremium"
+    },
+    {
+      "instruction_rva": "0x17e13f7",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x17e13fe",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x17e1a70",
+      "target_rva": "0x2156b78",
+      "text": "OldPremium"
+    },
+    {
+      "instruction_rva": "0x17e1a77",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x17e1a7e",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x17e45dd",
+      "target_rva": "0x2156b78",
+      "text": "OldPremium"
+    },
+    {
+      "instruction_rva": "0x17e45e4",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x17e45eb",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x17e5009",
+      "target_rva": "0x215979c",
+      "text": "season"
+    },
+    {
+      "instruction_rva": "0x17e5050",
+      "target_rva": "0x2159720",
+      "text": "warbond"
+    },
+    {
+      "instruction_rva": "0x17e5074",
+      "target_rva": "0x2159040",
+      "text": "acquisition_center"
+    },
+    {
+      "instruction_rva": "0x17e5080",
+      "target_rva": "0x2159788",
+      "text": "store_transaction"
+    },
+    {
+      "instruction_rva": "0x17e5093",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x17e50a6",
+      "target_rva": "0x2159750",
+      "text": "warbonds"
+    },
+    {
+      "instruction_rva": "0x17ed807",
+      "target_rva": "0x2156c08",
+      "text": "OldWarbond"
+    },
+    {
+      "instruction_rva": "0x17ed80e",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x17ed81c",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x17ed9fd",
+      "target_rva": "0x2156c08",
+      "text": "OldWarbond"
+    },
+    {
+      "instruction_rva": "0x17eda04",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x17eda0b",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x17fb197",
+      "target_rva": "0x218e440",
+      "text": "D:\\Work\\Testament_Game_Build\\game\\code\\hud\\mvvm\\premium\\super_credits\\super_credits_tab_view.cpp"
+    },
+    {
+      "instruction_rva": "0x17fdc80",
+      "target_rva": "0x214bfa8",
+      "text": "%s/StoreFront/2776696735"
+    },
+    {
+      "instruction_rva": "0x17fdd6f",
+      "target_rva": "0x214bfc8",
+      "text": "%s/StoreFront/rotation"
+    },
+    {
+      "instruction_rva": "0x1880cd5",
+      "target_rva": "0x2150bf8",
+      "text": "WeaponCustomization"
+    },
+    {
+      "instruction_rva": "0x1880d0f",
+      "target_rva": "0x218e7a0",
+      "text": "weapon_customization"
+    },
+    {
+      "instruction_rva": "0x1880d99",
+      "target_rva": "0x2159788",
+      "text": "store_transaction"
+    },
+    {
+      "instruction_rva": "0x1880db1",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    },
+    {
+      "instruction_rva": "0x1882558",
+      "target_rva": "0x2150bf8",
+      "text": "WeaponCustomization"
+    },
+    {
+      "instruction_rva": "0x1882592",
+      "target_rva": "0x218e7a0",
+      "text": "weapon_customization"
+    },
+    {
+      "instruction_rva": "0x1882619",
+      "target_rva": "0x2159788",
+      "text": "store_transaction"
+    },
+    {
+      "instruction_rva": "0x1882631",
+      "target_rva": "0x2159834",
+      "text": "ingame"
+    }
+  ]
+}

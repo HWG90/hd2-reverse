@@ -1,0 +1,277 @@
+{
+  "image_bytes": 54009856,
+  "gained_pages": 728,
+  "gained_bytes": 2981888,
+  "lost_pages": 0,
+  "remaining_unreadable_pages": 2693,
+  "gained_sections": {
+    ".text": 728
+  },
+  "changed_readable_sections": {
+    ".data": 71
+  },
+  "newly_readable_instructions": 694184,
+  "contiguous_new_ranges": 332,
+  "largest_new_ranges": [
+    {
+      "start": "0xde9000",
+      "end": "0xdff000",
+      "bytes": 90112
+    },
+    {
+      "start": "0xdcf000",
+      "end": "0xde1000",
+      "bytes": 73728
+    },
+    {
+      "start": "0xe08000",
+      "end": "0xe15000",
+      "bytes": 53248
+    },
+    {
+      "start": "0xc3b000",
+      "end": "0xc47000",
+      "bytes": 49152
+    },
+    {
+      "start": "0xc4d000",
+      "end": "0xc58000",
+      "bytes": 45056
+    },
+    {
+      "start": "0xe1f000",
+      "end": "0xe29000",
+      "bytes": 40960
+    },
+    {
+      "start": "0xdc1000",
+      "end": "0xdca000",
+      "bytes": 36864
+    },
+    {
+      "start": "0x1319000",
+      "end": "0x1322000",
+      "bytes": 36864
+    },
+    {
+      "start": "0x172e000",
+      "end": "0x1737000",
+      "bytes": 36864
+    },
+    {
+      "start": "0x169e000",
+      "end": "0x16a6000",
+      "bytes": 32768
+    },
+    {
+      "start": "0x16b2000",
+      "end": "0x16ba000",
+      "bytes": 32768
+    },
+    {
+      "start": "0x16c6000",
+      "end": "0x16ce000",
+      "bytes": 32768
+    },
+    {
+      "start": "0x1712000",
+      "end": "0x171a000",
+      "bytes": 32768
+    },
+    {
+      "start": "0xdb2000",
+      "end": "0xdb9000",
+      "bytes": 28672
+    },
+    {
+      "start": "0x5e2000",
+      "end": "0x5e8000",
+      "bytes": 24576
+    }
+  ],
+  "compared_with_prior_evidence": {
+    "file": "/home/goose/Documents/ChatGPT/Linux HD2/native-work/evidence/game-26088801.dll",
+    "identical_pages": 688,
+    "previously_zero_pages": 0,
+    "nonzero_but_different_pages": 40
+  },
+  "top_call_targets": [
+    {
+      "rva": "0x12e07e0",
+      "calls": 1267,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e42d0",
+      "calls": 888,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x1f0fd50",
+      "calls": 761,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e03a0",
+      "calls": 751,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e3fd0",
+      "calls": 744,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12dee70",
+      "calls": 733,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e6de0",
+      "calls": 670,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12df3b0",
+      "calls": 625,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x1f13110",
+      "calls": 584,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e6e70",
+      "calls": 582,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e5a80",
+      "calls": 573,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x1f946f4",
+      "calls": 553,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e0f00",
+      "calls": 469,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0xdb6550",
+      "calls": 429,
+      "newly_readable_target": true
+    },
+    {
+      "rva": "0x12e73f0",
+      "calls": 413,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x15af900",
+      "calls": 384,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12de550",
+      "calls": 373,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e85f0",
+      "calls": 315,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x12e4110",
+      "calls": 295,
+      "newly_readable_target": false
+    },
+    {
+      "rva": "0x15afc50",
+      "calls": 294,
+      "newly_readable_target": false
+    }
+  ],
+  "new_ascii_candidates": [
+    {
+      "rva": "0x96c82e",
+      "text": "AU@USVWATAUAVAWH"
+    },
+    {
+      "rva": "0xb30115",
+      "text": "D$8WWWATAWS@SATAWH"
+    },
+    {
+      "rva": "0xbd0d26",
+      "text": "t$pWWW@UAV@UATAUAWH"
+    },
+    {
+      "rva": "0x169fda3",
+      "text": "AUWVUAW@SAV@S@SH"
+    },
+    {
+      "rva": "0x1895be3",
+      "text": "AVWWWW@SAVAWU@SH"
+    }
+  ],
+  "prior_evidence_byte_differences": {
+    "differing_bytes": 163180,
+    "covered_by_dir64_relocations": 0,
+    "other_differences": 163180,
+    "sample_spans": [
+      {
+        "rva": "0x1f1000",
+        "size": 166
+      },
+      {
+        "rva": "0x1f10a7",
+        "size": 46
+      },
+      {
+        "rva": "0x1f10d6",
+        "size": 17
+      },
+      {
+        "rva": "0x1f10e8",
+        "size": 183
+      },
+      {
+        "rva": "0x1f11a0",
+        "size": 621
+      },
+      {
+        "rva": "0x1f140e",
+        "size": 133
+      },
+      {
+        "rva": "0x1f1494",
+        "size": 54
+      },
+      {
+        "rva": "0x1f14cb",
+        "size": 137
+      },
+      {
+        "rva": "0x1f1555",
+        "size": 310
+      },
+      {
+        "rva": "0x1f168c",
+        "size": 199
+      },
+      {
+        "rva": "0x1f1754",
+        "size": 388
+      },
+      {
+        "rva": "0x1f18d9",
+        "size": 229
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source": "/home/goose/Documents/ChatGPT/GooseGadgets/game-live-20261023T2142.bin",
+  "sha256": "1479b7237486e57d67a828eea9fc48374e817542ec61c177d5e88d426c567b9d",
+  "actual_base": "0x6ffff0870000",
+  "preferred_base": "0x6ffff0870000",
+  "function_records": 0,
+  "function_metadata_source": ".pdata section (exception directory points outside image)",
+  "executable_sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 33128448,
+      "characteristics": 1610612768,
+      "file": "text.asm",
+      "readable_bytes_disassembled": 19116032,
+      "unreadable_bytes_skipped": 14012416,
+      "instructions": 4840242
+    }
+  ],
+  "limitations": [
+    "Mapped-image RVAs; not original PE disk offsets",
+    "Protected zero-filled pages excluded",
+    "Linear decoding may interpret embedded data as code",
+    "Function labels from readable x64 unwind metadata; no original symbols recovered",
+    "No valid function records recovered from .pdata; exception directory lies outside this captured image."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "/home/goose/Documents/ChatGPT/GooseGadgets/game-live-20261023T2142.bin",
+  "sha256": "1479b7237486e57d67a828eea9fc48374e817542ec61c177d5e88d426c567b9d",
+  "bytes": 54009856,
+  "zero_filled_bytes": 14012416,
+  "unreadable_reason": "3421 committed PAGE_NOACCESS pages",
+  "capture": "ReadProcessMemory executed inside game.dll host process; mapped-image layout",
+  "byte_complete": false,
+  "page_report": "/home/goose/Documents/ChatGPT/GooseGadgets/game-live-20261023T2142.bin.pages.txt"
+}

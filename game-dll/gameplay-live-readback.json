@@ -1,0 +1,17 @@
+{
+  "read_only": true,
+  "pid": 79186,
+  "build": "6AD7C05D",
+  "director_state_offset": "0x8556a8",
+  "scene": 3,
+  "timer_offset": "0x53748",
+  "timer": 2034.980712890625,
+  "avatar_entity": 4195405,
+  "avatar_unit": 1982,
+  "ammo": [
+    8,
+    44,
+    0
+  ],
+  "health_refresh_pin": "488bc4488958104889701848897820554154415541564157488d68a14881ecf00000000f"
+}

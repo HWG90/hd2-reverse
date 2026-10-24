@@ -1,0 +1,394 @@
+{
+  "pages": 40,
+  "bytes": 163840,
+  "old_mean_entropy": 7.955074999999999,
+  "new_mean_entropy": 5.994,
+  "undecodable_bytes_old_new": [
+    8914,
+    83
+  ],
+  "page_stats": [
+    {
+      "rva": "0x1f1000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.325
+    },
+    {
+      "rva": "0x1f2000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.234
+    },
+    {
+      "rva": "0x215000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.316
+    },
+    {
+      "rva": "0x216000",
+      "old_entropy": 7.964,
+      "new_entropy": 6.122
+    },
+    {
+      "rva": "0x239000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.291
+    },
+    {
+      "rva": "0x23a000",
+      "old_entropy": 7.962,
+      "new_entropy": 6.0
+    },
+    {
+      "rva": "0x23b000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.19
+    },
+    {
+      "rva": "0x249000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.273
+    },
+    {
+      "rva": "0x24a000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.068
+    },
+    {
+      "rva": "0x24b000",
+      "old_entropy": 7.961,
+      "new_entropy": 6.121
+    },
+    {
+      "rva": "0x24d000",
+      "old_entropy": 7.957,
+      "new_entropy": 6.265
+    },
+    {
+      "rva": "0x24e000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.097
+    },
+    {
+      "rva": "0x24f000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.156
+    },
+    {
+      "rva": "0x4a4000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.351
+    },
+    {
+      "rva": "0x62b000",
+      "old_entropy": 7.958,
+      "new_entropy": 5.737
+    },
+    {
+      "rva": "0xadf000",
+      "old_entropy": 7.954,
+      "new_entropy": 6.018
+    },
+    {
+      "rva": "0xc2b000",
+      "old_entropy": 7.958,
+      "new_entropy": 5.932
+    },
+    {
+      "rva": "0xc2c000",
+      "old_entropy": 7.951,
+      "new_entropy": 5.899
+    },
+    {
+      "rva": "0xc3b000",
+      "old_entropy": 7.958,
+      "new_entropy": 5.049
+    },
+    {
+      "rva": "0xc50000",
+      "old_entropy": 7.949,
+      "new_entropy": 5.001
+    },
+    {
+      "rva": "0xcac000",
+      "old_entropy": 7.962,
+      "new_entropy": 5.115
+    },
+    {
+      "rva": "0xcad000",
+      "old_entropy": 7.954,
+      "new_entropy": 5.419
+    },
+    {
+      "rva": "0xcae000",
+      "old_entropy": 7.954,
+      "new_entropy": 5.458
+    },
+    {
+      "rva": "0xcaf000",
+      "old_entropy": 7.95,
+      "new_entropy": 5.618
+    },
+    {
+      "rva": "0xcb4000",
+      "old_entropy": 7.959,
+      "new_entropy": 4.772
+    },
+    {
+      "rva": "0xe64000",
+      "old_entropy": 7.955,
+      "new_entropy": 5.96
+    },
+    {
+      "rva": "0xf43000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.278
+    },
+    {
+      "rva": "0xf44000",
+      "old_entropy": 7.956,
+      "new_entropy": 6.138
+    },
+    {
+      "rva": "0xf4a000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.381
+    },
+    {
+      "rva": "0xf4b000",
+      "old_entropy": 7.955,
+      "new_entropy": 6.18
+    },
+    {
+      "rva": "0xfa5000",
+      "old_entropy": 7.96,
+      "new_entropy": 6.564
+    },
+    {
+      "rva": "0x1048000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.915
+    },
+    {
+      "rva": "0x124f000",
+      "old_entropy": 7.956,
+      "new_entropy": 5.595
+    },
+    {
+      "rva": "0x130d000",
+      "old_entropy": 7.953,
+      "new_entropy": 6.442
+    },
+    {
+      "rva": "0x139e000",
+      "old_entropy": 7.952,
+      "new_entropy": 5.911
+    },
+    {
+      "rva": "0x1470000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.021
+    },
+    {
+      "rva": "0x1678000",
+      "old_entropy": 7.959,
+      "new_entropy": 6.291
+    },
+    {
+      "rva": "0x1694000",
+      "old_entropy": 7.949,
+      "new_entropy": 6.494
+    },
+    {
+      "rva": "0x16cb000",
+      "old_entropy": 7.951,
+      "new_entropy": 6.525
+    },
+    {
+      "rva": "0x181f000",
+      "old_entropy": 7.95,
+      "new_entropy": 6.238
+    }
+  ],
+  "string_references": [
+    {
+      "instruction_rva": "0xc3b10d",
+      "target_rva": "0x20e5420",
+      "text": "generate_tutorial_location"
+    },
+    {
+      "instruction_rva": "0xc3b19b",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0xc3b363",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc3b54e",
+      "target_rva": "0x20e5440",
+      "text": "generate_forced_locations"
+    },
+    {
+      "instruction_rva": "0xc3b6f8",
+      "target_rva": "0x20e5370",
+      "text": "generate_extraction_locations"
+    },
+    {
+      "instruction_rva": "0xc3b750",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0xc3b97d",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc3b9ee",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0xc3bbb6",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc3bda1",
+      "target_rva": "0x20e53a0",
+      "text": "generate_force_locations"
+    },
+    {
+      "instruction_rva": "0xc3bf5f",
+      "target_rva": "0x20e5370",
+      "text": "generate_extraction_locations"
+    },
+    {
+      "instruction_rva": "0xc5017a",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc50365",
+      "target_rva": "0x20e5440",
+      "text": "generate_forced_locations"
+    },
+    {
+      "instruction_rva": "0xc5050f",
+      "target_rva": "0x20e5370",
+      "text": "generate_extraction_locations"
+    },
+    {
+      "instruction_rva": "0xc50567",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0xc50787",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc507f8",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0xc509c0",
+      "target_rva": "0x20e5320",
+      "text": "place_the_objective_missions"
+    },
+    {
+      "instruction_rva": "0xc50bab",
+      "target_rva": "0x20e53a0",
+      "text": "generate_force_locations"
+    },
+    {
+      "instruction_rva": "0xc50d67",
+      "target_rva": "0x20e5370",
+      "text": "generate_extraction_locations"
+    },
+    {
+      "instruction_rva": "0xc50efb",
+      "target_rva": "0x20e53e0",
+      "text": "generate_outpost_locations"
+    },
+    {
+      "instruction_rva": "0xc50f6c",
+      "target_rva": "0x20e5308",
+      "text": "generate_mission_stamps"
+    },
+    {
+      "instruction_rva": "0x130d715",
+      "target_rva": "0x2156ae8",
+      "text": "Bindings"
+    },
+    {
+      "instruction_rva": "0x130d71c",
+      "target_rva": "0x2158848",
+      "text": "set_pending_close(%s)"
+    },
+    {
+      "instruction_rva": "0x130d723",
+      "target_rva": "0x2158958",
+      "text": "PresenterManager"
+    },
+    {
+      "instruction_rva": "0x139e170",
+      "target_rva": "0x2159260",
+      "text": "ui.MenuLoad"
+    },
+    {
+      "instruction_rva": "0x139e300",
+      "target_rva": "0x2159250",
+      "text": "ui.MenuJoin"
+    },
+    {
+      "instruction_rva": "0x139e490",
+      "target_rva": "0x2159240",
+      "text": "ui.MenuBindings"
+    },
+    {
+      "instruction_rva": "0x139e620",
+      "target_rva": "0x21592f0",
+      "text": "ui.MenuOldInitialSettingsLanguage"
+    },
+    {
+      "instruction_rva": "0x139e7c0",
+      "target_rva": "0x21592d0",
+      "text": "ui.MenuOldInitialSettingsAudio"
+    },
+    {
+      "instruction_rva": "0x139e950",
+      "target_rva": "0x21592b0",
+      "text": "ui.MenuOldInitialSettingsPsn"
+    },
+    {
+      "instruction_rva": "0x139eae0",
+      "target_rva": "0x2159288",
+      "text": "ui.MenuOldInitialSettingsPlatform"
+    },
+    {
+      "instruction_rva": "0x139ec70",
+      "target_rva": "0x2159380",
+      "text": "ui.MenuOldInitialSettingsSubtitle"
+    },
+    {
+      "instruction_rva": "0x139ee00",
+      "target_rva": "0x2159358",
+      "text": "ui.MenuOldInitialSettingsInitial"
+    },
+    {
+      "instruction_rva": "0x139ef90",
+      "target_rva": "0x2159330",
+      "text": "ui.MenuOldInitialSettingsConsent"
+    },
+    {
+      "instruction_rva": "0x1470639",
+      "target_rva": "0x20cda38",
+      "text": "nui_ship_name"
+    }
+  ]
+}

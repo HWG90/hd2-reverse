@@ -1,0 +1,209 @@
+{
+  "0xac21c": [
+    {
+      "old": "0x571435",
+      "new": "0x57a3e2",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 48,
+      "old_window_rva": "0x571435",
+      "old_function": "0x571250",
+      "new_hex": "83b89cc20a00030f857f010000488b0532de8b0239b0a06401000f856c0100008bde895c2440413976080f865c010000",
+      "runtime_accepted": false,
+      "field": "0xac29c",
+      "instruction": "cmp dword ptr [rax + 0xac29c], 3"
+    },
+    {
+      "old": "0x5bcb59",
+      "new": "0x5c5999",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x5bcb59",
+      "old_function": "0x5bca90",
+      "new_hex": "83b89cc20a0004751f4438a099fa01007416418b45183dc9ab9acb740b3d7f6c7ba80f85fe0300004183feff7414488b86d0080000418bce488b0cc8f6411401750bc64424600144386570740544886424608bcfe87efcffff3b3dc4a28702488b05712d8602418b5d04418b7518488944247074248bcfe8cb428a00448b480c488b442470eb153bc70f854dffffff458b74d204e949ffffff458bcc85f60f84",
+      "runtime_accepted": false,
+      "field": "0xac29c",
+      "instruction": "cmp dword ptr [rax + 0xac29c], 4"
+    },
+    {
+      "old": "0x5c08a0",
+      "new": "0x5c96e0",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x5c08a0",
+      "old_function": "0x5c0894",
+      "new_hex": "83be9cc20a00030f85be000000498bcee8fb3ff3ff8b0881f9c0fc7ea7740c81f993cfb78f0f85a0000000488b154eea86028b82b042000083e8014863c87823488d829c420000488d04880f1f44000083380f0f847d0100004883e8044883e90179ed488b0dd6ea860283b998a21700007c1f8b91a4a2170085d27815448b81a8a21700e867b2b9004885c00f8544010000488b052780710280b8282f010000",
+      "runtime_accepted": false,
+      "field": "0xac29c",
+      "instruction": "cmp dword ptr [rsi + 0xac29c], 3"
+    }
+  ],
+  "0x856978": [],
+  "0x51948": [
+    {
+      "old": "0x5e4f65",
+      "new": "0x5ee635",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x5e4f65",
+      "old_function": "0x5e4d8f",
+      "new_hex": "410f2fbc24483705000f83780200004c8b0595386f024183786c000f8466020000f30f1044f74441bb00000000f3410f58c0f30f1144f744498b8508e30a0044385cf7480f84900000000fb6900101000085d28d42ff410f44c30f2f04830f86f601000045399c24840600007614488b44f738488b0d71386f028b5008e889b431004c8d47484d8d04f041c60000e9b20100004885c00f8464feffff8b400849",
+      "runtime_accepted": false,
+      "field": "0x53748",
+      "instruction": "comiss xmm7, dword ptr [r12 + 0x53748]"
+    },
+    {
+      "old": "0x94f27e",
+      "new": "0x96083e",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x94f27e",
+      "old_function": "0x94ed29",
+      "new_hex": "f3430f10b4ae483705000f28c6f3410f5cc0f3410f5fc6f3430f1184ae48370500752e488b05700c3802488d0de1677701f3410f108e48370500ff90a0000000f3430f1084ae48370500488b1dc10f3802410f2ff60f86d90a0000440f2ff00f82cf0a0000488b4338f64014017425837b08007606837b400474194c8d43604533ed458928ba5bc16a5b8b4810e8b08e5000eb034533ed488b052c0c38024d8d",
+      "runtime_accepted": false,
+      "field": "0x53748",
+      "instruction": "movss xmm6, dword ptr [r14 + r13*4 + 0x53748]"
+    },
+    {
+      "old": "0x94f295",
+      "new": "0x960855",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x94f295",
+      "old_function": "0x94ed29",
+      "new_hex": "f3430f1184ae48370500752e488b05700c3802488d0de1677701f3410f108e48370500ff90a0000000f3430f1084ae48370500488b1dc10f3802410f2ff60f86d90a0000440f2ff00f82cf0a0000488b4338f64014017425837b08007606837b400474194c8d43604533ed458928ba5bc16a5b8b4810e8b08e5000eb034533ed488b052c0c38024d8d864c370500ba0ef80412c680d8fa010000498b86b00600",
+      "runtime_accepted": false,
+      "field": "0x53748",
+      "instruction": "movss dword ptr [r14 + r13*4 + 0x53748], xmm0"
+    }
+  ],
+  "0x5194c": [
+    {
+      "old": "0x26ef5c",
+      "new": "0x275c4c",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x26ef5c",
+      "old_function": "0x26ef19",
+      "new_hex": "4038b14c3705008d4e0174028bcef3440f10153109fd010f57c0410f28ca0fb6c0410f28d2f30f2ac0f30f5cd00f57c0f30f2ac1f30f5cc80f57c0f30f2ac7f30f59caf30f59c20f5ac90f5ac0e87aa6ca010f57c9450f57c0f20f5ac8410f2fc87612ba06000000488bcbe864220000e9e00800004c8b4308440f299c24f0010000418b88e00100008bc1c1e81ca8017551488b138bc10fbae81c418980e001",
+      "runtime_accepted": false,
+      "field": "0x5374c",
+      "instruction": "cmp byte ptr [rcx + 0x5374c], sil"
+    },
+    {
+      "old": "0x2706eb",
+      "new": "0x2773db",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 128,
+      "old_window_rva": "0x2706eb",
+      "old_function": "0x2706d2",
+      "new_hex": "4038b94c370500b90100000074028bcff30f100da1f1fc01660f6ec10f5bc00fb6c0f30f5cc8660f6ec00f5bc00f5ac90f5ac0e8058fca010f57c90f57f6f20f5ac80f2fce0f86e9000000488b0341b8040000008b5008e8e9174b00488b13488b05b7a0a6024c8b4308488b481849898870010000817a10ff7f0000740e8b52",
+      "runtime_accepted": false,
+      "field": "0x5374c",
+      "instruction": "cmp byte ptr [rcx + 0x5374c], dil"
+    },
+    {
+      "old": "0x37f3de",
+      "new": "0x3860de",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x37f3de",
+      "old_function": "0x37f3c0",
+      "new_hex": "80b84c370500000f84a3000000488b4108837808030f8495000000c7400803000000488b4108c74004ffffffff488b4908488b03833903741dc70103000000817810ff7f0000740e8b500841b801000000e87cb74c00488bd3488d4c2438e87f8a15008b542438e8a68d1500488b034533c0ba5eed80c78b480ce8330a2501488b034533c0ba2faf69e18b480ce8200a2501488b034533c0babe52514e8b480c",
+      "runtime_accepted": false,
+      "field": "0x5374c",
+      "instruction": "cmp byte ptr [rax + 0x5374c], 0"
+    }
+  ],
+  "0xf22ec8": [
+    {
+      "old": "0x60658d",
+      "new": "0x60f75d",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x60658d",
+      "old_function": "0x606520",
+      "new_hex": "488bbd9049f2008bb59c49f200660f1f440000418bcf428d14184823d1488d0cd78b14d73bd6740e413bd17409ffc0413bc272df33c944390975148b4104488d0c40488d85e849f300488d04c8eb07488d05e9028302443b007435ffc34983c620413bdd0f8269ffffff8b0517f98202488b5c2438488b6c2440488b74244841890424498bc4415f415e415d415c5fc3488b4c2430488b8cd9e80000008b4108",
+      "runtime_accepted": false,
+      "field": "0xf24990",
+      "instruction": "mov rdi, qword ptr [rbp + 0xf24990]"
+    },
+    {
+      "old": "0x606f20",
+      "new": "0x6100f0",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 96,
+      "old_window_rva": "0x606f20",
+      "old_function": "0x606efa",
+      "new_hex": "2e498bbb9049f200418bb39c49f200908bc58d0c1a4823c8488d04cf8b0ccf3bce740e413bc87409ffc2413bd172e133c0488b3c24488b742420488b6c2418488b5c2410443900751f8b4004488d0440488d803d691e00498d04c38b00418902",
+      "runtime_accepted": false,
+      "field": "0xf24990",
+      "instruction": "mov rdi, qword ptr cs:[r11 + 0xf24990]"
+    },
+    {
+      "old": "0x7c827c",
+      "new": "0x7d426c",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 64,
+      "old_window_rva": "0x7c827c",
+      "old_function": "0x7c8253",
+      "new_hex": "488bb99049f2008bb19c49f2000f1f80000000008bc58d0c1a4823c8488d04cf8b0ccf3bce740f413bc8740affc2413bd172e1498bc3488b3c24488b74242048",
+      "runtime_accepted": false,
+      "field": "0xf24990",
+      "instruction": "mov rdi, qword ptr [rcx + 0xf24990]"
+    }
+  ],
+  "0xf32f18": [],
+  "0xf1aeb0": [
+    {
+      "old": "0x678836",
+      "new": "0x682406",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x678836",
+      "old_function": "0x6786a4",
+      "new_hex": "498bbb78c9f100418bb384c9f1000f1f40000f1f8400000000008bc5428d0c124823c88b04cf4c8d04cf3bc6740e3bc3740affc2413bd172e14533c04139180f858b010000418b4004488d0c404183bccbec49f300000f84740100003b1d68cc7b02488b3d71fa65020f8461010000448b870001000033c9448b8f08010000440fafcb418d70ff4585c00f84400100004c8b97f8000000448b9f040100000f1f",
+      "runtime_accepted": false,
+      "field": "0xf1c978",
+      "instruction": "mov rdi, qword ptr [r11 + 0xf1c978]"
+    },
+    {
+      "old": "0x760ac2",
+      "new": "0x76bf02",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x760ac2",
+      "old_function": "0x75fdc7",
+      "new_hex": "498bbb78c9f100458bb384c9f100418bc7428d0c124823c88b04cf4c8d04cf413bc6740e3bc3740affc2413bd172df4533c04139187512418b4004488d0c40418bbccbec49f300eb0233ff448bc3488d55b0e8d7adeefff30f104560f30f104d64f3440f104db0f3440f1045b4f3440f5cc8f30f105568f3440f5cc1f30f107db8f30f114530f30f5cfaf30f114d34410f28c1f30f115538410f28f0f3410f59",
+      "runtime_accepted": false,
+      "field": "0xf1c978",
+      "instruction": "mov rdi, qword ptr [r11 + 0xf1c978]"
+    },
+    {
+      "old": "0x7b3b9f",
+      "new": "0x7bf66f",
+      "mode": "instruction window",
+      "field_displacements_masked": true,
+      "window_bytes": 160,
+      "old_window_rva": "0x7b3b9f",
+      "old_function": "0x7b3aff",
+      "new_hex": "4c8bb678c9f100448bbe84c9f1000f1f00418bcc438d14184823d1418b0cd64d8d0cd6413bcf740f3bc8740b41ffc0453bc272dd4533c94139010f8542020000418b4104488d0c408bb4ceec49f30085f60f842b020000488b05fb1d52028bce488b5018488b8220070000ffd084c00f840d020000488b05dd1d52028bce488b5018488b828800000033d2ffd0f30f104804f30f1010f30f5c54df04f30f5c4c",
+      "runtime_accepted": false,
+      "field": "0xf1c978",
+      "instruction": "mov r14, qword ptr [rsi + 0xf1c978]"
+    }
+  ]
+}
