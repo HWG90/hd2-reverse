@@ -1,0 +1,263 @@
+{
+  "note": "Raw pointer/table observations are session-specific. Code ranges are live witnesses, not full executable recovery.",
+  "captures": [
+    {
+      "file": "engine-callback-live.log",
+      "sha256": "177ab563004690c0aecf6801979ad89802b98847f61fd41ad85d5237b1d255c4",
+      "targets": [
+        {
+          "interface_offset": 24,
+          "slot": 384,
+          "va": "0x1401f50e0"
+        },
+        {
+          "interface_offset": 24,
+          "slot": 424,
+          "va": "0x1401f6b70"
+        },
+        {
+          "interface_offset": 24,
+          "slot": 440,
+          "va": "0x1401f6bc0"
+        },
+        {
+          "interface_offset": 40,
+          "slot": 0,
+          "va": "0x1402de660"
+        },
+        {
+          "interface_offset": 40,
+          "slot": 8,
+          "va": "0x1402de670"
+        },
+        {
+          "interface_offset": 40,
+          "slot": 16,
+          "va": "0x1402de680"
+        },
+        {
+          "interface_offset": 40,
+          "slot": 24,
+          "va": "0x1402de690"
+        },
+        {
+          "interface_offset": 192,
+          "slot": 0,
+          "va": "0x142870f10"
+        },
+        {
+          "interface_offset": 192,
+          "slot": 8,
+          "va": "0x1402df510"
+        },
+        {
+          "interface_offset": 192,
+          "slot": 40,
+          "va": "0x1402df810"
+        },
+        {
+          "interface_offset": 192,
+          "slot": 72,
+          "va": "0x142873fa0"
+        },
+        {
+          "interface_offset": 192,
+          "slot": 80,
+          "va": "0x1402e1220"
+        },
+        {
+          "interface_offset": 232,
+          "slot": 16,
+          "va": "0x140313780"
+        },
+        {
+          "interface_offset": 232,
+          "slot": 24,
+          "va": "0x1403137b0"
+        }
+      ]
+    },
+    {
+      "file": "engine-header-live.log",
+      "sha256": "dddf196b92ed695e4c9bb10fdbe16b455219be9dc718800211076b34e0161cba",
+      "targets": []
+    },
+    {
+      "file": "engine-setters-live.log",
+      "sha256": "3c06686bb7463c07eb7cd6567827bc9c72f0ddd04b51b5d94f57ca91aa61812a",
+      "targets": []
+    }
+  ],
+  "chunks": [
+    {
+      "va": "0x1401f50e0",
+      "exe_rva": "0x1f50e0",
+      "read_bytes": 1024,
+      "sha256": "6386164457bb35466e6d5e3eafbe69c99c0641e23a1b875a47d97238bf757f50",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 58
+    },
+    {
+      "va": "0x1401f6b70",
+      "exe_rva": "0x1f6b70",
+      "read_bytes": 1024,
+      "sha256": "b062a3e298f324b2e72bb9a5a98348939360a4ebe89d57769d73efff9e2e059d",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 26
+    },
+    {
+      "va": "0x1401f6bc0",
+      "exe_rva": "0x1f6bc0",
+      "read_bytes": 1024,
+      "sha256": "a421f3bb5c1a53acd32413242ca4b97d477c530c5d8d93d0e3a222428dfaf4ba",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 58
+    },
+    {
+      "va": "0x1402de660",
+      "exe_rva": "0x2de660",
+      "read_bytes": 1024,
+      "sha256": "8a102cdbb3febdad310ab1b7be83b699f585ed8ba08b5df2bdc6f10e100378b1",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 5
+    },
+    {
+      "va": "0x1402de670",
+      "exe_rva": "0x2de670",
+      "read_bytes": 1024,
+      "sha256": "11cc1675e7e0bc83151726ab43d333c9071d2d4805396e9d33f1c488bba56497",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 5
+    },
+    {
+      "va": "0x1402de680",
+      "exe_rva": "0x2de680",
+      "read_bytes": 1024,
+      "sha256": "e28d523aa76f902d5ee9b74558271cc9ce7ae5ba57dd2279ecbb284d0a816fa5",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 5
+    },
+    {
+      "va": "0x1402de690",
+      "exe_rva": "0x2de690",
+      "read_bytes": 1024,
+      "sha256": "e6f3266bf918fcad3f911e33ac4dc3cb0d868c6ecbc9931d81651889af51a39a",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 5
+    },
+    {
+      "va": "0x142870f10",
+      "exe_rva": "0x2870f10",
+      "read_bytes": 1024,
+      "sha256": "95287f5d0f7758f49a18ab4e0fe015fb3cdf0bcb291d3cc56c4a5c5eddc585fc",
+      "log": "engine-callback-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x1402df510",
+      "exe_rva": "0x2df510",
+      "read_bytes": 1024,
+      "sha256": "9569c59854c907ec2973372ecc3c4070d807037b9cd8667cd80403c0f8be103e",
+      "log": "engine-callback-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x1402df810",
+      "exe_rva": "0x2df810",
+      "read_bytes": 1024,
+      "sha256": "7111d99844e8378a2f791a853582cef41e889a3f21c981121f9771b9e4635fff",
+      "log": "engine-callback-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x142873fa0",
+      "exe_rva": "0x2873fa0",
+      "read_bytes": 1024,
+      "sha256": "df8b0f1b5215c001333fc9269ef2c53de1e60dc33395261d6557548f72bec863",
+      "log": "engine-callback-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x1402e1220",
+      "exe_rva": "0x2e1220",
+      "read_bytes": 1024,
+      "sha256": "3dcd84c85de18db35e43fcf5fc8b5004d9079a2f68ff2e6a576beb39e6846984",
+      "log": "engine-callback-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x140313780",
+      "exe_rva": "0x313780",
+      "read_bytes": 1024,
+      "sha256": "c7428ba2ce997a69affba7b9a1ee64d5d310f6e8bcfbb2bf50c5d9dd3d8ba57d",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 35
+    },
+    {
+      "va": "0x1403137b0",
+      "exe_rva": "0x3137b0",
+      "read_bytes": 1024,
+      "sha256": "ab5babb92e659658b5e4134224a60927f11c3b9a354c71f627d489e2279d5d67",
+      "log": "engine-callback-live.log",
+      "listing_bytes": 11
+    },
+    {
+      "va": "0x140000000",
+      "exe_rva": "0x0",
+      "read_bytes": 4096,
+      "sha256": "0502f9bd875472ab59dd5cd0b808cacc45908c66b57c6ef54b3cc9a6759ca51b",
+      "log": "engine-header-live.log",
+      "pe_timestamp": "0x6ad78c0d",
+      "image_size": "0x29fe000",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x140503c00",
+      "exe_rva": "0x503c00",
+      "read_bytes": 2048,
+      "sha256": "e4900ddb2b6eaac17d04b41aadd880399e0d6369ecad6c2d76875494c59291c6",
+      "log": "engine-setters-live.log",
+      "listing_bytes": 198
+    },
+    {
+      "va": "0x140503db0",
+      "exe_rva": "0x503db0",
+      "read_bytes": 2048,
+      "sha256": "1947d3e91c8312824ce789ef9bd4ca64da51822c81e24019055ac073ca76e60d",
+      "log": "engine-setters-live.log",
+      "listing_bytes": 202
+    },
+    {
+      "va": "0x140503e80",
+      "exe_rva": "0x503e80",
+      "read_bytes": 2048,
+      "sha256": "0a6d1c1e127ed1d9c3116429645a3ac07bed05e2f6b723533a4c4be89d447336",
+      "log": "engine-setters-live.log",
+      "listing_bytes": 209
+    },
+    {
+      "va": "0x140503f60",
+      "exe_rva": "0x503f60",
+      "read_bytes": 2048,
+      "sha256": "a2687638ac9f0f45963557a385a1f00534b27f98978ce94217ec00a3f05db863",
+      "log": "engine-setters-live.log",
+      "listing_bytes": 200
+    },
+    {
+      "va": "0x1400a06b0",
+      "exe_rva": "0xa06b0",
+      "read_bytes": 2048,
+      "sha256": "ca2b5a19083bce8e3502ef77ef3984a5d5e1b8241f7474bd06979d19dd6e34e7",
+      "log": "engine-setters-live.log",
+      "listing_status": "Not emitted: data table, header or unbounded witness"
+    },
+    {
+      "va": "0x140669450",
+      "exe_rva": "0x669450",
+      "read_bytes": 2048,
+      "sha256": "59beefeab6c0b979e42f8e8032b06530dee9f8c88dfb9d512cbc9797e1c4f929",
+      "log": "engine-setters-live.log",
+      "listing_bytes": 138
+    }
+  ]
+}

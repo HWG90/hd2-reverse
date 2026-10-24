@@ -10,6 +10,8 @@ This combines first-readable pages from different capture times. It is not a coh
 
 ## Findings
 
+- [Engine callback resolution](engine-callback-trace/README.md): live EXE callback targets and material command setters; GPU binding remains unresolved.
+
 - [Material and shader trace](material-shader-trace/README.md): wind parameter submission, material-value dispatch, replacement candidates and shader type registration.
 
 - [Weapon firing, reload and ammunition trace](weapon-trace/README.md): connected static candidates, exact stores and caller evidence.
