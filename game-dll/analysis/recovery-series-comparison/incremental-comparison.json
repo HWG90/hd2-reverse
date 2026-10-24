@@ -1,0 +1,284 @@
+{
+  "baseline_pages": 9627,
+  "baseline_image_sha256": "d01e62c111f216a0d6662fb3d4e039a0161092e6bb5fcb60ab6f307d8a7dc065",
+  "current_pages": 9661,
+  "current_image_sha256": "a9ee038aa83aeff9edb2f0d1d18800ff4e2cc3318880d9c78e8e684ec34ff726",
+  "previous_image_sha256": "7713bba51d6ead9e43286b3665ac0e7220b1008753a9fdcfb5ddb07a2b48a03f",
+  "older_research_sha256": "8bc3b164f16620c4ff202f04743ac76e0de306d57fd8bb88a36f97f89c6a7030",
+  "added_pages": 34,
+  "pages": [
+    {
+      "rva": "0x3cf000",
+      "sha256": "0a3ecd4e0911abe787c8f69156c1d3c8a22fb69944dbd989dd67af4de2e387b4",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x3d0000",
+      "sha256": "7e7078bdb7f1d7509bfe905c8eb3977bc0f2b2260d37561d9139aea95f48228b",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x5b4000",
+      "sha256": "50be5e08270adf4d7298a998339bb1d99d7c4e126041cbfc616235da104637f4",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x801000",
+      "sha256": "80e6f407b15d48182ebabe37a4a031308609b857cc9c2a58d374ab76671ab590",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x854000",
+      "sha256": "357b3f2d5faa01f48a09b0731538dc8bc23c911385482a8ae69b8872502e6291",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbb6000",
+      "sha256": "b38a4bbad4e629f45cb024a5649bbd4e551ad5e7879ce0cf1e88c775c0295b88",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbb7000",
+      "sha256": "6075ca555ff29585f65ff491af83e56ee7c98a2a28b3febc753b0f0cafb0e624",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbc3000",
+      "sha256": "b76580573e5590ea4e8c6dd235639ab16cc21ce8d7985c8bd23f29e32786b2bd",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbc5000",
+      "sha256": "9f665486e475a3dcf7989542911341fa8b2f8de812d66dadedebaa4266dbb198",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbcb000",
+      "sha256": "730602a5c90f4590427fe664355c250a7dfca9f4031cf075697b6530c66a68ae",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbcc000",
+      "sha256": "85bc6048bd71ff8cd5153772b759afffea57693b92eee594f52e166bcfcddce4",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbd1000",
+      "sha256": "162a41d5fed6abdb193778325bd3bdca2eecb04dcb9dbd8c20bde8afe2bf4e39",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbd2000",
+      "sha256": "b4b466bc00ce6f0b10fe29e8d984d162e0951022f027df653368a899b056fe53",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbde000",
+      "sha256": "12214cb74e904827ab98bc4345fa034c2738657d11a5c5ddda140eda758eb601",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xbdf000",
+      "sha256": "359d42be3dede4d101fcffea8831ff42dadae0d280034e5153ea0f0d23468437",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0xc08000",
+      "sha256": "8e08d5b9aaafafebbca6efd199769cbbfb392a9b45f351a1612f6515face3afe",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x1097000",
+      "sha256": "7f4af5f7b645c52e3882ef03a84ef8ae93897eb72e10eb79bad12aa913320899",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x109d000",
+      "sha256": "8da51f8ab2871398b3209cdcbc817685f94167794f7eeab8635e2de7436cc3ad",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10a0000",
+      "sha256": "c64fa438e6bb45aebcc467456a49f9bd079e70869e83bd12c9c9e60d06bd390d",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10a1000",
+      "sha256": "269431aeedcb0522e092435c9e2ba07db54b6b7bf5797ec26c6abc1899d870b8",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10a2000",
+      "sha256": "bc239d6b1a4aaee37ce3e3ac5d9f832b07bae44027105e6ca1b82ef0ab3b6ae0",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10a9000",
+      "sha256": "4ac2c4e2ea17072b9e99b45432e04aa0d6a187cf5701ff3eec62cee496ac8bc9",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10aa000",
+      "sha256": "d3eeacae84b46c0567fb080407c8f5805bfc0e2d5820a34670670007d7969a78",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10ab000",
+      "sha256": "e5b611a9274c6ee476315a0330a191b298a522831ac2db33048f9711d25666a6",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10c5000",
+      "sha256": "2d61ba4ddc225ed65d36143f140081750cc6f4cb0831776a9be3538e5b15a938",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10ca000",
+      "sha256": "265b0c734ed512243b5cf9b7e140d53f5d0c3f32f6581a8c293d44cfd5e49b48",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10cd000",
+      "sha256": "013d5a54496329184b43fe88c4fe896ebcebfd684650462470a4af9e12db22cd",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10ce000",
+      "sha256": "4f28c87c23191b9e0450db61433761294e93c11626a26ca667f20989db23af54",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10d0000",
+      "sha256": "5566e0e3800c21d11502506d3dd001bbb52f24f012536ab700a0c054d299f22d",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10d5000",
+      "sha256": "121274733eaa0030366a33bfe009ddb2f97091d4a3434e92b4085b8629c2a3a4",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10d6000",
+      "sha256": "4dbf495dda9d81b14c15078181fb7820065f8b739a98a76c3a2ce9cbd35960c3",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x10d7000",
+      "sha256": "10bc7ec09c1e0a055cd26aa1fe71ccb8ade422da43209acd7a0b15a48e0bfc19",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x1169000",
+      "sha256": "17c2b6c4365ce3d7d2be6797331e19815294d4cc4760ee3ad4bd877ff94c9427",
+      "capture_source": 2,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    },
+    {
+      "rva": "0x1f4e000",
+      "sha256": "5b86bdcec6dacd25edffa56157b985e4e4b7cc3277feac1cc9eb32dc407b4e9d",
+      "capture_source": 1,
+      "present_in_previous_series": true,
+      "same_bytes_as_previous_series": true,
+      "same_bytes_as_older_research": true
+    }
+  ],
+  "normalization": "None required for equality reported here: exact page-byte comparison. No cross-base merge."
+}
