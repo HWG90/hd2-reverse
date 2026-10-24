@@ -1,0 +1,1004 @@
+{
+  "image_sha256": "bcad43f462e452407d7ac41ae4d7bf17810802720f6aea325afd1d99b1e8ce00",
+  "recovered_pages": 10942,
+  "ranges": {
+    "shot_consumption_candidate": {
+      "start": "0x74fbf0",
+      "end_exclusive": "0x75002f",
+      "sha256": "3eea3ff1b94868787f7ef4d4f200367e340b4ab251604dd8e43203b680a81a6d",
+      "coverage_sources": {
+        "0x74f000": 0,
+        "0x750000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x74fca7",
+          "kind": "call",
+          "target": "0x4fbaa0"
+        },
+        {
+          "site": "0x74fd16",
+          "kind": "call",
+          "target": "0x51d860"
+        },
+        {
+          "site": "0x74fd38",
+          "kind": "jmp",
+          "target": "0x74fd6b"
+        },
+        {
+          "site": "0x74fd46",
+          "kind": "jmp",
+          "target": "0x74fc6d"
+        },
+        {
+          "site": "0x74fd53",
+          "kind": "jmp",
+          "target": "0x74fd06"
+        },
+        {
+          "site": "0x74fd65",
+          "kind": "jmp",
+          "target": "0x74fd6b"
+        },
+        {
+          "site": "0x74fdd9",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x74fde3",
+          "kind": "call",
+          "target": "0x7798c0"
+        },
+        {
+          "site": "0x74fdf1",
+          "kind": "jmp",
+          "target": "0x74fff8"
+        },
+        {
+          "site": "0x74fe15",
+          "kind": "call",
+          "target": "0x5061e0"
+        },
+        {
+          "site": "0x74febd",
+          "kind": "call",
+          "target": "0x786bc0"
+        },
+        {
+          "site": "0x74ff15",
+          "kind": "jmp",
+          "target": "0x74ff3a"
+        },
+        {
+          "site": "0x74ff23",
+          "kind": "jmp",
+          "target": "0x74fe7e"
+        },
+        {
+          "site": "0x74ff2e",
+          "kind": "jmp",
+          "target": "0x74ff3a"
+        },
+        {
+          "site": "0x74ff9b",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x74ffab",
+          "kind": "call",
+          "target": "0x785e60"
+        },
+        {
+          "site": "0x74ffb7",
+          "kind": "call",
+          "target": "0x785560"
+        },
+        {
+          "site": "0x74ffbc",
+          "kind": "jmp",
+          "target": "0x74fff8"
+        },
+        {
+          "site": "0x74ffe2",
+          "kind": "call",
+          "target": "0x77dc50"
+        },
+        {
+          "site": "0x74fff3",
+          "kind": "call",
+          "target": "0x77db10"
+        },
+        {
+          "site": "0x75002a",
+          "kind": "jmp",
+          "target": "0xe6dcf0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x74fc01",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x74fc0a",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x74fcac",
+          "target": "0x2ce17f8"
+        },
+        {
+          "site": "0x74fe1a",
+          "target": "0x2ce1eb0"
+        },
+        {
+          "site": "0x74ffd9",
+          "target": "0x2ce1c60"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "loaded_ammo_dispatch": {
+      "start": "0x74d810",
+      "end_exclusive": "0x74d8ec",
+      "sha256": "1436044976cced1551e1997bf8f826fbae7c09e3ff561518abd3b27cebe74996",
+      "coverage_sources": {
+        "0x74d000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x74d827",
+          "kind": "jmp",
+          "target": "0x74d895"
+        },
+        {
+          "site": "0x74d8b5",
+          "kind": "jmp",
+          "target": "0x770290"
+        },
+        {
+          "site": "0x74d8c3",
+          "kind": "jmp",
+          "target": "0x74d881"
+        },
+        {
+          "site": "0x74d8d0",
+          "kind": "jmp",
+          "target": "0x7798c0"
+        },
+        {
+          "site": "0x74d8e2",
+          "kind": "jmp",
+          "target": "0x785e60"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x74d814",
+          "target": "0x2e3f0d0"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "magazine_loaded_setter": {
+      "start": "0x7798c0",
+      "end_exclusive": "0x7799a0",
+      "sha256": "2e063617e2325079a32fb56f242fa54adc4617a62d7814eba7f40e19d4dde7af",
+      "coverage_sources": {
+        "0x779000": 2
+      },
+      "direct_edges": [
+        {
+          "site": "0x7798dd",
+          "kind": "jmp",
+          "target": "0x779959"
+        },
+        {
+          "site": "0x779991",
+          "kind": "jmp",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x77999e",
+          "kind": "jmp",
+          "target": "0x779945"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x7798c6",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x7798cf",
+          "target": "0x2ce17f8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "magazine_reload_fill": {
+      "start": "0x7796a0",
+      "end_exclusive": "0x7797f0",
+      "sha256": "71b909f96f9646375974ed8f7126fe0a16a91ab598e79ee87207b5e1cbb59dd3",
+      "coverage_sources": {
+        "0x779000": 2
+      },
+      "direct_edges": [
+        {
+          "site": "0x779722",
+          "kind": "call",
+          "target": "0x4fbaa0"
+        },
+        {
+          "site": "0x779745",
+          "kind": "jmp",
+          "target": "0x7797a3"
+        },
+        {
+          "site": "0x77974f",
+          "kind": "jmp",
+          "target": "0x779715"
+        },
+        {
+          "site": "0x779795",
+          "kind": "call",
+          "target": "0xb88df0"
+        },
+        {
+          "site": "0x7797cf",
+          "kind": "call",
+          "target": "0xe69780"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x7796b6",
+          "target": "0x2ce17f8"
+        },
+        {
+          "site": "0x7796c0",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x779767",
+          "target": "0x2ce14c8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "magazine_reload_predicate": {
+      "start": "0x779f60",
+      "end_exclusive": "0x77a088",
+      "sha256": "1179488c786f258c2ad2d372a2bda6ece5ff598427b8a4143189a91c8ea54737",
+      "coverage_sources": {
+        "0x779000": 2,
+        "0x77a000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x77a003",
+          "kind": "call",
+          "target": "0x4fbaa0"
+        },
+        {
+          "site": "0x77a066",
+          "kind": "jmp",
+          "target": "0x779fd3"
+        },
+        {
+          "site": "0x77a086",
+          "kind": "jmp",
+          "target": "0x77a049"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x779f78",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x779f81",
+          "target": "0x2ce17f8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "reload_commit_candidate": {
+      "start": "0x782000",
+      "end_exclusive": "0x782d07",
+      "sha256": "3c9a0b57b0b0568efd344c5b7c80b2ecc98060f0072d366b9d051563e8b5701f",
+      "coverage_sources": {
+        "0x782000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x78207d",
+          "kind": "jmp",
+          "target": "0x782cf4"
+        },
+        {
+          "site": "0x7820ce",
+          "kind": "call",
+          "target": "0x505590"
+        },
+        {
+          "site": "0x7820e1",
+          "kind": "call",
+          "target": "0x74de60"
+        },
+        {
+          "site": "0x7821a5",
+          "kind": "jmp",
+          "target": "0x7823aa"
+        },
+        {
+          "site": "0x7821c5",
+          "kind": "call",
+          "target": "0x4fbaa0"
+        },
+        {
+          "site": "0x782233",
+          "kind": "jmp",
+          "target": "0x7823aa"
+        },
+        {
+          "site": "0x782241",
+          "kind": "jmp",
+          "target": "0x78220f"
+        },
+        {
+          "site": "0x782258",
+          "kind": "call",
+          "target": "0x74e970"
+        },
+        {
+          "site": "0x782263",
+          "kind": "call",
+          "target": "0x785560"
+        },
+        {
+          "site": "0x782271",
+          "kind": "call",
+          "target": "0x74de60"
+        },
+        {
+          "site": "0x782288",
+          "kind": "call",
+          "target": "0x5061e0"
+        },
+        {
+          "site": "0x782383",
+          "kind": "jmp",
+          "target": "0x7823aa"
+        },
+        {
+          "site": "0x782392",
+          "kind": "jmp",
+          "target": "0x7822f8"
+        },
+        {
+          "site": "0x7823a0",
+          "kind": "jmp",
+          "target": "0x78236f"
+        },
+        {
+          "site": "0x7823b6",
+          "kind": "call",
+          "target": "0x74d810"
+        },
+        {
+          "site": "0x78241d",
+          "kind": "jmp",
+          "target": "0x7824de"
+        },
+        {
+          "site": "0x7824a1",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x7824d2",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x78253c",
+          "kind": "jmp",
+          "target": "0x782618"
+        },
+        {
+          "site": "0x78254e",
+          "kind": "jmp",
+          "target": "0x782475"
+        },
+        {
+          "site": "0x78260c",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x7826f5",
+          "kind": "jmp",
+          "target": "0x7828e3"
+        },
+        {
+          "site": "0x782707",
+          "kind": "jmp",
+          "target": "0x7825b5"
+        },
+        {
+          "site": "0x782774",
+          "kind": "call",
+          "target": "0xe69920"
+        },
+        {
+          "site": "0x782779",
+          "kind": "jmp",
+          "target": "0x782694"
+        },
+        {
+          "site": "0x782787",
+          "kind": "jmp",
+          "target": "0x78275f"
+        },
+        {
+          "site": "0x7827a5",
+          "kind": "call",
+          "target": "0x74f6e0"
+        },
+        {
+          "site": "0x7827bd",
+          "kind": "call",
+          "target": "0x9bb8e0"
+        },
+        {
+          "site": "0x7827dc",
+          "kind": "jmp",
+          "target": "0x7827e9"
+        },
+        {
+          "site": "0x7827e1",
+          "kind": "call",
+          "target": "0x4ffc80"
+        },
+        {
+          "site": "0x78285c",
+          "kind": "jmp",
+          "target": "0x782cca"
+        },
+        {
+          "site": "0x7828ad",
+          "kind": "jmp",
+          "target": "0x7828b8"
+        },
+        {
+          "site": "0x7828d2",
+          "kind": "call",
+          "target": "0x88cfa0"
+        },
+        {
+          "site": "0x7828d7",
+          "kind": "jmp",
+          "target": "0x782cca"
+        },
+        {
+          "site": "0x782a45",
+          "kind": "jmp",
+          "target": "0x782cca"
+        },
+        {
+          "site": "0x782a69",
+          "kind": "call",
+          "target": "0x88cfa0"
+        },
+        {
+          "site": "0x782a6e",
+          "kind": "jmp",
+          "target": "0x782cca"
+        },
+        {
+          "site": "0x782abc",
+          "kind": "jmp",
+          "target": "0x782ac7"
+        },
+        {
+          "site": "0x782ae2",
+          "kind": "jmp",
+          "target": "0x782b52"
+        },
+        {
+          "site": "0x782b2c",
+          "kind": "jmp",
+          "target": "0x782b37"
+        },
+        {
+          "site": "0x782b61",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x782b6e",
+          "kind": "jmp",
+          "target": "0x782c22"
+        },
+        {
+          "site": "0x782b98",
+          "kind": "call",
+          "target": "0x5061e0"
+        },
+        {
+          "site": "0x782bdf",
+          "kind": "jmp",
+          "target": "0x782bea"
+        },
+        {
+          "site": "0x782c15",
+          "kind": "call",
+          "target": "0xe69780"
+        },
+        {
+          "site": "0x782c46",
+          "kind": "call",
+          "target": "0xe69b40"
+        },
+        {
+          "site": "0x782c4b",
+          "kind": "jmp",
+          "target": "0x782c5c"
+        },
+        {
+          "site": "0x782c75",
+          "kind": "jmp",
+          "target": "0x782c7e"
+        },
+        {
+          "site": "0x782c84",
+          "kind": "call",
+          "target": "0x60fe60"
+        },
+        {
+          "site": "0x782c99",
+          "kind": "call",
+          "target": "0x67a8b0"
+        },
+        {
+          "site": "0x782cae",
+          "kind": "jmp",
+          "target": "0x782cbe"
+        },
+        {
+          "site": "0x782cc5",
+          "kind": "call",
+          "target": "0x121f5f0"
+        },
+        {
+          "site": "0x782cdd",
+          "kind": "call",
+          "target": "0x77feb0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x782012",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x78201b",
+          "target": "0x2ce1c30"
+        },
+        {
+          "site": "0x7820d3",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x7820e6",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x7820f4",
+          "target": "0x2ce17f8"
+        },
+        {
+          "site": "0x78214e",
+          "target": "0x2ce1eb0"
+        },
+        {
+          "site": "0x782268",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x78228d",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x782293",
+          "target": "0x2ce1eb0"
+        },
+        {
+          "site": "0x7823aa",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x7823bb",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x7823cb",
+          "target": "0x2ce1f08"
+        },
+        {
+          "site": "0x7824a6",
+          "target": "0x2ce1f08"
+        },
+        {
+          "site": "0x7824d7",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x7824e7",
+          "target": "0x2ce1888"
+        },
+        {
+          "site": "0x782611",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x782626",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x782631",
+          "target": "0x2ce1848"
+        },
+        {
+          "site": "0x78269e",
+          "target": "0x2ce1da8"
+        },
+        {
+          "site": "0x78279c",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x7827f0",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x7827fc",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x782808",
+          "target": "0x2ce1798"
+        },
+        {
+          "site": "0x7828dc",
+          "target": "0x2e3f0d0"
+        },
+        {
+          "site": "0x7828f3",
+          "target": "0x2ce1798"
+        },
+        {
+          "site": "0x78294e",
+          "target": "0x2ce1f08"
+        },
+        {
+          "site": "0x7829a4",
+          "target": "0x2ce17f8"
+        },
+        {
+          "site": "0x7829f5",
+          "target": "0x2ce1eb0"
+        },
+        {
+          "site": "0x782c22",
+          "target": "0x2ce1618"
+        },
+        {
+          "site": "0x782c29",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x782c77",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x782c89",
+          "target": "0x2ce1880"
+        },
+        {
+          "site": "0x782ca2",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x782cb0",
+          "target": "0x2e3f0e4"
+        },
+        {
+          "site": "0x782cbe",
+          "target": "0x2e28768"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "projectile_consume_callsite": {
+      "start": "0x61dc76",
+      "end_exclusive": "0x61dca2",
+      "sha256": "24afda501b3838a589681720a51a3bee44c1b940d6a8b8e2fa8d82c1243dabcf",
+      "coverage_sources": {
+        "0x61d000": 6
+      },
+      "direct_edges": [
+        {
+          "site": "0x61dc9d",
+          "kind": "call",
+          "target": "0x74fbf0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x61dc93",
+          "target": "0x2ce1810"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "beam_consume_callsite": {
+      "start": "0x84ca97",
+      "end_exclusive": "0x84cab0",
+      "sha256": "62766e427d407d9365c4001a139d0f567695f47b3deca22aac41bf27a7118527",
+      "coverage_sources": {
+        "0x84c000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x84caab",
+          "kind": "call",
+          "target": "0x74fbf0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x84ca9c",
+          "target": "0x2ce1810"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "ability_consume_callsite": {
+      "start": "0x7e2253",
+      "end_exclusive": "0x7e22a2",
+      "sha256": "efcb8fcae21f481291e556db73d721656548675199344adf630ac590b898abc8",
+      "coverage_sources": {
+        "0x7e2000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x7e227b",
+          "kind": "call",
+          "target": "0x74fbf0"
+        },
+        {
+          "site": "0x7e2289",
+          "kind": "call",
+          "target": "0x74f0f0"
+        },
+        {
+          "site": "0x7e229d",
+          "kind": "call",
+          "target": "0x75eb30"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x7e2272",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x7e2280",
+          "target": "0x2ce1810"
+        },
+        {
+          "site": "0x7e228e",
+          "target": "0x2ce1ea0"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "magazine_growth": {
+      "start": "0x77b0e0",
+      "end_exclusive": "0x77b160",
+      "sha256": "2e293b4eac907341ce30b5acf13cee6359334017140caccfc8d3e83cbcc793ad",
+      "coverage_sources": {
+        "0x77b000": 3
+      },
+      "direct_edges": [
+        {
+          "site": "0x77b10c",
+          "kind": "call",
+          "target": "0x1f88924"
+        },
+        {
+          "site": "0x77b12e",
+          "kind": "call",
+          "target": "0xe6cbc0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x77b0fe",
+          "target": "0x2246bf8"
+        },
+        {
+          "site": "0x77b114",
+          "target": "0x20d4008"
+        },
+        {
+          "site": "0x77b133",
+          "target": "0x2ce1578"
+        },
+        {
+          "site": "0x77b14a",
+          "target": "0x2ce1538"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "reload_growth": {
+      "start": "0x783ba0",
+      "end_exclusive": "0x783c1e",
+      "sha256": "74af5d20b24b03e69a8b269535c159d1fc9f2d5acbe8ab30441ade57ef2947a9",
+      "coverage_sources": {
+        "0x783000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x783bca",
+          "kind": "call",
+          "target": "0x1f88924"
+        },
+        {
+          "site": "0x783bec",
+          "kind": "call",
+          "target": "0xe6cbc0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x783bbc",
+          "target": "0x2246bf8"
+        },
+        {
+          "site": "0x783bd2",
+          "target": "0x20d40b0"
+        },
+        {
+          "site": "0x783bf1",
+          "target": "0x2ce1578"
+        },
+        {
+          "site": "0x783c08",
+          "target": "0x2ce1538"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "rounds_growth": {
+      "start": "0x787cd0",
+      "end_exclusive": "0x787d53",
+      "sha256": "8e233edbca1f75e8ca9f458ebb41baaf2e3eb713addc2535d8590db42b464e1f",
+      "coverage_sources": {
+        "0x787000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x787cfd",
+          "kind": "call",
+          "target": "0x1f88924"
+        },
+        {
+          "site": "0x787d20",
+          "kind": "call",
+          "target": "0xe6cbc0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x787cee",
+          "target": "0x2246ad0"
+        },
+        {
+          "site": "0x787d05",
+          "target": "0x20d4100"
+        },
+        {
+          "site": "0x787d25",
+          "target": "0x2ce1578"
+        },
+        {
+          "site": "0x787d3d",
+          "target": "0x2ce1538"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    }
+  },
+  "direct_call_byte_candidates": {
+    "0x779f60": [
+      "0x75161c",
+      "0x84c79a"
+    ],
+    "0x7796a0": [
+      "0x710d4f",
+      "0x781fd3",
+      "0xba913a",
+      "0x104ac8f",
+      "0x104adec"
+    ],
+    "0x7798c0": [
+      "0x74fde3",
+      "0x9b98a8",
+      "0x9b99ba"
+    ],
+    "0x782000": [
+      "0x5b1a87",
+      "0x1049da4",
+      "0x1052bf9"
+    ],
+    "0x77b0e0": [
+      "0x51f0c2",
+      "0x51f146",
+      "0x57ff90",
+      "0x77b435",
+      "0x77b4b6",
+      "0x77b562",
+      "0x77b615"
+    ],
+    "0x783ba0": [
+      "0x5308c2",
+      "0x530946",
+      "0x582ddb",
+      "0x783ed5",
+      "0x783f56",
+      "0x784012",
+      "0x7840c5"
+    ],
+    "0x74fbf0": [
+      "0x61dc9d",
+      "0x7e227b",
+      "0x84caab"
+    ],
+    "0x74d810": [
+      "0x689e5c",
+      "0x7471b4",
+      "0x74da7f",
+      "0x781e9d",
+      "0x7823b6"
+    ],
+    "0x787cd0": [
+      "0x531993",
+      "0x531a17",
+      "0x58309e",
+      "0x788036",
+      "0x7880b7",
+      "0x788173",
+      "0x788226"
+    ]
+  },
+  "call_scan_limit": "E8 byte scan; callers require instruction-boundary inspection; indirect and tail calls are not included"
+}

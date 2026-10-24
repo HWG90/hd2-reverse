@@ -1,0 +1,152 @@
+[
+  {
+    "rva": "0x60bda4",
+    "string": "PhysicsWeaponComponent",
+    "target": "0x20d14c8",
+    "instruction": "lea rdx, [rip + 0x1ac571d]"
+  },
+  {
+    "rva": "0x60e280",
+    "string": "MeleeWeaponComponent",
+    "target": "0x20d1520",
+    "instruction": "lea rdx, [rip + 0x1ac3299]"
+  },
+  {
+    "rva": "0x622ca5",
+    "string": "ProjectileWeaponComponent",
+    "target": "0x20d1880",
+    "instruction": "lea rdx, [rip + 0x1aaebd4]"
+  },
+  {
+    "rva": "0x68c565",
+    "string": "SprayWeaponComponent",
+    "target": "0x20d28a8",
+    "instruction": "lea rdx, [rip + 0x1a4633c]"
+  },
+  {
+    "rva": "0x74792d",
+    "string": "WeaponAssistedReloadComponent",
+    "target": "0x20d3c18",
+    "instruction": "lea rdx, [rip + 0x198c2e4]"
+  },
+  {
+    "rva": "0x74a814",
+    "string": "WeaponChargeComponent",
+    "target": "0x20d3d00",
+    "instruction": "lea rdx, [rip + 0x19894e5]"
+  },
+  {
+    "rva": "0x7521bf",
+    "string": "WeaponComponent",
+    "target": "0x20d3d18",
+    "instruction": "lea rdx, [rip + 0x1981b52]"
+  },
+  {
+    "rva": "0x75b636",
+    "string": "WeaponCustomizationComponent",
+    "target": "0x20d3d78",
+    "instruction": "lea rdx, [rip + 0x197873b]"
+  },
+  {
+    "rva": "0x768e45",
+    "string": "WeaponDataComponent",
+    "target": "0x20d3ea8",
+    "instruction": "lea rdx, [rip + 0x196b05c]"
+  },
+  {
+    "rva": "0x76ca05",
+    "string": "WeaponFlashlightComponent",
+    "target": "0x20d3ef8",
+    "instruction": "lea rdx, [rip + 0x19674ec]"
+  },
+  {
+    "rva": "0x771de5",
+    "string": "WeaponHeatComponent",
+    "target": "0x20d3f70",
+    "instruction": "lea rdx, [rip + 0x1962184]"
+  },
+  {
+    "rva": "0x775c18",
+    "string": "WeaponLaserComponent",
+    "target": "0x20d3f88",
+    "instruction": "lea rdx, [rip + 0x195e369]"
+  },
+  {
+    "rva": "0x778402",
+    "string": "WeaponLinkerComponent",
+    "target": "0x20d3fb8",
+    "instruction": "lea rdx, [rip + 0x195bbaf]"
+  },
+  {
+    "rva": "0x77b114",
+    "string": "WeaponMagazineComponent",
+    "target": "0x20d4008",
+    "instruction": "lea rdx, [rip + 0x1958eed]"
+  },
+  {
+    "rva": "0x77eaf4",
+    "string": "WeaponLinkedAmmoComponent",
+    "target": "0x20d4058",
+    "instruction": "lea rdx, [rip + 0x195555d]"
+  },
+  {
+    "rva": "0x783bd2",
+    "string": "WeaponReloadComponent",
+    "target": "0x20d40b0",
+    "instruction": "lea rdx, [rip + 0x19504d7]"
+  },
+  {
+    "rva": "0x787d05",
+    "string": "WeaponRoundsComponent",
+    "target": "0x20d4100",
+    "instruction": "lea rdx, [rip + 0x194c3f4]"
+  },
+  {
+    "rva": "0x79482f",
+    "string": "WeaponWielderComponent",
+    "target": "0x20d0718",
+    "instruction": "lea rdx, [rip + 0x193bee2]"
+  },
+  {
+    "rva": "0x796b13",
+    "string": "WeaponWindUpComponent",
+    "target": "0x20d41a8",
+    "instruction": "lea rdx, [rip + 0x193d68e]"
+  },
+  {
+    "rva": "0x79821e",
+    "string": "WeaponScreenComponent",
+    "target": "0x20d41f8",
+    "instruction": "lea rdx, [rip + 0x193bfd3]"
+  },
+  {
+    "rva": "0x7e320d",
+    "string": "AbilityWeaponComponent",
+    "target": "0x20d4ea0",
+    "instruction": "lea rdx, [rip + 0x18f1c8c]"
+  },
+  {
+    "rva": "0x81ba45",
+    "string": "ArcWeaponComponent",
+    "target": "0x20d51f8",
+    "instruction": "lea rdx, [rip + 0x18b97ac]"
+  },
+  {
+    "rva": "0x84e015",
+    "string": "BeamWeaponComponent",
+    "target": "0x20d5500",
+    "instruction": "lea rdx, [rip + 0x18874e4]"
+  },
+  {
+    "rva": "0xa51774",
+    "string": "MountedWeaponComponent",
+    "target": "0x20d8e18",
+    "instruction": "lea rdx, [rip + 0x168769d]"
+  },
+  {
+    "rva": "0xa52f14",
+    "string": "GuidedWeaponComponent",
+    "target": "0x20d8e68",
+    "instruction": "lea rdx, [rip + 0x1685f4d]"
+  }
+]

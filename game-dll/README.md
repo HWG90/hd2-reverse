@@ -10,6 +10,8 @@ This combines first-readable pages from different capture times. It is not a coh
 
 ## Findings
 
+- [Weapon firing, reload and ammunition trace](weapon-trace/README.md): connected static candidates, exact stores and caller evidence.
+
 - [Initial capture comparison](dump-analysis/report.md): mission/extraction-location generation and UI references. These do not identify an extraction countdown.
 - [Earlier cumulative analysis](dump-analysis/merged/report.md): Eagle component management and diagnostics, ragdoll publication, horizontal acceleration. The report describes an earlier snapshot; the adjacent JSON/listing was refreshed later.
 - [Latest analysis details](dump-analysis/merged/new-code-details.json): page differences, entropy and instruction-to-string references.
