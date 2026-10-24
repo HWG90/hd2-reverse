@@ -1,0 +1,67 @@
+[
+  {
+    "rva": "0x574d45",
+    "target": "0x20d7ad8",
+    "string": "\"material_swap\" : { \"max\" : %u, \"capacity\" : 32 }"
+  },
+  {
+    "rva": "0x575dcb",
+    "target": "0x20d7a80",
+    "string": "\"material_variables\" : { \"max\" : %u, \"capacity\" : 256 }"
+  },
+  {
+    "rva": "0x9eadf4",
+    "target": "0x20d7ab8",
+    "string": "MaterialVariablesComponent"
+  },
+  {
+    "rva": "0x9eb17d",
+    "target": "0x20d7a80",
+    "string": "\"material_variables\" : { \"max\" : %u, \"capacity\" : 256 }"
+  },
+  {
+    "rva": "0x9ebfe4",
+    "target": "0x20d7b10",
+    "string": "MaterialSwapComponent"
+  },
+  {
+    "rva": "0xec29e1",
+    "target": "0x20ea060",
+    "string": "wind_shader_settings"
+  },
+  {
+    "rva": "0x199195d",
+    "target": "0x21a3524",
+    "string": "Shader"
+  },
+  {
+    "rva": "0x1991c23",
+    "target": "0x21a3524",
+    "string": "Shader"
+  },
+  {
+    "rva": "0x1992933",
+    "target": "0x21a3524",
+    "string": "Shader"
+  },
+  {
+    "rva": "0x19c495e",
+    "target": "0x21a6958",
+    "string": "BrushShader"
+  },
+  {
+    "rva": "0x1a2e28e",
+    "target": "0x21ad6d0",
+    "string": "ShaderEffect"
+  },
+  {
+    "rva": "0x1e57f41",
+    "target": "0x21a3524",
+    "string": "Shader"
+  },
+  {
+    "rva": "0x1e58030",
+    "target": "0x21a3524",
+    "string": "Shader"
+  }
+]

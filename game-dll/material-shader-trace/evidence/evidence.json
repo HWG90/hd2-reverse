@@ -1,0 +1,678 @@
+{
+  "image_sha256": "bcad43f462e452407d7ac41ae4d7bf17810802720f6aea325afd1d99b1e8ce00",
+  "recovered_pages": 10942,
+  "ranges": {
+    "material_variable_apply": {
+      "start": "0x9e9360",
+      "end_exclusive": "0x9e9660",
+      "sha256": "bde0fac71b9b198cd203fb86a73d14d67d8170a045ce0ecdb4c325f3ca315b69",
+      "coverage_sources": {
+        "0x9e9000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x9e944b",
+          "kind": "jmp",
+          "target": "0x9e9617"
+        },
+        {
+          "site": "0x9e948a",
+          "kind": "jmp",
+          "target": "0x9e9617"
+        },
+        {
+          "site": "0x9e94c8",
+          "kind": "jmp",
+          "target": "0x9e9617"
+        },
+        {
+          "site": "0x9e94e5",
+          "kind": "jmp",
+          "target": "0x9e9617"
+        },
+        {
+          "site": "0x9e9562",
+          "kind": "jmp",
+          "target": "0x9e95f6"
+        },
+        {
+          "site": "0x9e95a1",
+          "kind": "jmp",
+          "target": "0x9e95f6"
+        },
+        {
+          "site": "0x9e95dc",
+          "kind": "jmp",
+          "target": "0x9e95f6"
+        },
+        {
+          "site": "0x9e9651",
+          "kind": "call",
+          "target": "0x1f0fd50"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x9e9369",
+          "target": "0x24b5010"
+        },
+        {
+          "site": "0x9e9378",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e93b0",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e93d7",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e93f8",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9433",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e945a",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e94b9",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e94cd",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e94ea",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9510",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e954a",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9571",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e95cd",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e95de",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e95f6",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9617",
+          "target": "0x2ce14c8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "material_variable_propagation": {
+      "start": "0x9e9660",
+      "end_exclusive": "0x9e9781",
+      "sha256": "52e3b71448509f489f4d55c7fd56f568a674f745c036e4f8c9a1539378ea004c",
+      "coverage_sources": {
+        "0x9e9000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x9e967a",
+          "kind": "call",
+          "target": "0x9e9360"
+        },
+        {
+          "site": "0x9e9722",
+          "kind": "jmp",
+          "target": "0x9e973a"
+        },
+        {
+          "site": "0x9e9760",
+          "kind": "call",
+          "target": "0x9e9360"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x9e968c",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e96c1",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e96db",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e970d",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9724",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0x9e9740",
+          "target": "0x2ce14c8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "material_variable_growth": {
+      "start": "0x9eadc0",
+      "end_exclusive": "0x9eaf00",
+      "sha256": "de50d050b6fe9b0ad75cfa955eb19687ecafc5048c062dfde58e19f3e2910ad0",
+      "coverage_sources": {
+        "0x9ea000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x9eadec",
+          "kind": "call",
+          "target": "0x1f88924"
+        },
+        {
+          "site": "0x9eae0e",
+          "kind": "call",
+          "target": "0xe6cbc0"
+        },
+        {
+          "site": "0x9eae58",
+          "kind": "call",
+          "target": "0x1f1ff40"
+        },
+        {
+          "site": "0x9eae6c",
+          "kind": "call",
+          "target": "0x1f13110"
+        },
+        {
+          "site": "0x9eae71",
+          "kind": "jmp",
+          "target": "0x9eae7b"
+        },
+        {
+          "site": "0x9eae76",
+          "kind": "call",
+          "target": "0x1f1ff40"
+        },
+        {
+          "site": "0x9eaed3",
+          "kind": "call",
+          "target": "0x1f1ff40"
+        },
+        {
+          "site": "0x9eaeeb",
+          "kind": "call",
+          "target": "0x1f13110"
+        },
+        {
+          "site": "0x9eaef0",
+          "kind": "jmp",
+          "target": "0x9eaefa"
+        },
+        {
+          "site": "0x9eaef5",
+          "kind": "call",
+          "target": "0x1f1ff40"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x9eadde",
+          "target": "0x2246bb8"
+        },
+        {
+          "site": "0x9eadf4",
+          "target": "0x20d7ab8"
+        },
+        {
+          "site": "0x9eae13",
+          "target": "0x2ce1578"
+        },
+        {
+          "site": "0x9eae2a",
+          "target": "0x2ce1538"
+        },
+        {
+          "site": "0x9eae7b",
+          "target": "0x2ce1578"
+        },
+        {
+          "site": "0x9eae85",
+          "target": "0x2ce1538"
+        },
+        {
+          "site": "0x9eae97",
+          "target": "0x2ce1538"
+        },
+        {
+          "site": "0x9eaeb0",
+          "target": "0x2ce1578"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "material_swap_apply": {
+      "start": "0x9eb540",
+      "end_exclusive": "0x9eb5df",
+      "sha256": "e9f7aa4024856dac73a79f8596dd708edf8327365abc4f5ef668f0b9a48307dd",
+      "coverage_sources": {
+        "0x9eb000": 0
+      },
+      "direct_edges": [],
+      "rip_references": [
+        {
+          "site": "0x9eb584",
+          "target": "0x2ce14c8"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "material_swap_growth_prefix": {
+      "start": "0x9ebfb0",
+      "end_exclusive": "0x9ec000",
+      "sha256": "4452992c0769f9e085f6c87c4e05b14020379d0875b87c818a42d7a9bc5cb3ef",
+      "coverage_sources": {
+        "0x9eb000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x9ebfdc",
+          "kind": "call",
+          "target": "0x1f88924"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x9ebfce",
+          "target": "0x2246a80"
+        },
+        {
+          "site": "0x9ebfe4",
+          "target": "0x20d7b10"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "wind_parameter_submission": {
+      "start": "0xec26f0",
+      "end_exclusive": "0xec2abf",
+      "sha256": "923a8488ca7c4dcba1ede607783c753698e7d9711e7dbed0d26af40d5fc876c6",
+      "coverage_sources": {
+        "0xec2000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0xec29ef",
+          "kind": "call",
+          "target": "0xacbd00"
+        },
+        {
+          "site": "0xec2a9e",
+          "kind": "call",
+          "target": "0x1f0fd50"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0xec2711",
+          "target": "0x24b5010"
+        },
+        {
+          "site": "0xec2722",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec272c",
+          "target": "0x20e9f58"
+        },
+        {
+          "site": "0xec2744",
+          "target": "0x20e9f68"
+        },
+        {
+          "site": "0xec274b",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec2763",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec2775",
+          "target": "0x20e9f40"
+        },
+        {
+          "site": "0xec2782",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec2794",
+          "target": "0x20e9f48"
+        },
+        {
+          "site": "0xec27a1",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec27b3",
+          "target": "0x20e9f98"
+        },
+        {
+          "site": "0xec27c0",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec27d2",
+          "target": "0x20e9fa8"
+        },
+        {
+          "site": "0xec27df",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec27f1",
+          "target": "0x20e9f78"
+        },
+        {
+          "site": "0xec27fe",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec2810",
+          "target": "0x20e9f88"
+        },
+        {
+          "site": "0xec281d",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec282f",
+          "target": "0x20e9fe8"
+        },
+        {
+          "site": "0xec283b",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec284d",
+          "target": "0x20e9ff8"
+        },
+        {
+          "site": "0xec2859",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec286b",
+          "target": "0x20e9fb8"
+        },
+        {
+          "site": "0xec2877",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec2889",
+          "target": "0x20e9fc8"
+        },
+        {
+          "site": "0xec2974",
+          "target": "0x2ce14c8"
+        },
+        {
+          "site": "0xec29e1",
+          "target": "0x20ea060"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "wind_update_callsite": {
+      "start": "0xad3460",
+      "end_exclusive": "0xad349c",
+      "sha256": "757993ba8e18534fc2afd855379d4e8e58c140bd2f51720286308ab8828a3945",
+      "coverage_sources": {
+        "0xad3000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0xad3497",
+          "kind": "call",
+          "target": "0xec26f0"
+        }
+      ],
+      "rip_references": [],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "brush_shader_type_registration": {
+      "start": "0x19c4940",
+      "end_exclusive": "0x19c4976",
+      "sha256": "f8056bd3e8d678261430cee1dfe3c1349ef61c2648f60300a6cb23e157655d86",
+      "coverage_sources": {
+        "0x19c4000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x19c4965",
+          "kind": "call",
+          "target": "0x1969400"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x19c4944",
+          "target": "0x3191730"
+        },
+        {
+          "site": "0x19c4950",
+          "target": "0x19c4ad0"
+        },
+        {
+          "site": "0x19c4957",
+          "target": "0x19c4a30"
+        },
+        {
+          "site": "0x19c495e",
+          "target": "0x21a6958"
+        },
+        {
+          "site": "0x19c496a",
+          "target": "0x3191730"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "shader_effect_type_registration": {
+      "start": "0x1a2e270",
+      "end_exclusive": "0x1a2e2a6",
+      "sha256": "912f5634c155b267a1c3597ed30e5a0fb27e7545bbdca62be5cc65e277af800b",
+      "coverage_sources": {
+        "0x1a2e000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x1a2e295",
+          "kind": "call",
+          "target": "0x1969400"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x1a2e274",
+          "target": "0x3191980"
+        },
+        {
+          "site": "0x1a2e280",
+          "target": "0x1a2e3d0"
+        },
+        {
+          "site": "0x1a2e287",
+          "target": "0x1a2e330"
+        },
+        {
+          "site": "0x1a2e28e",
+          "target": "0x21ad6d0"
+        },
+        {
+          "site": "0x1a2e29a",
+          "target": "0x3191980"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    },
+    "shader_property_binding": {
+      "start": "0x1991912",
+      "end_exclusive": "0x19919cd",
+      "sha256": "c43e0b8c45c3323984a0a94b892db87e497412283944e983d346fd320b168139",
+      "coverage_sources": {
+        "0x1991000": 0
+      },
+      "direct_edges": [
+        {
+          "site": "0x1991920",
+          "kind": "call",
+          "target": "0x19c4940"
+        },
+        {
+          "site": "0x199192d",
+          "kind": "call",
+          "target": "0x1f10528"
+        },
+        {
+          "site": "0x1991964",
+          "kind": "call",
+          "target": "0x1981360"
+        },
+        {
+          "site": "0x19919c2",
+          "kind": "call",
+          "target": "0x19d60b0"
+        }
+      ],
+      "rip_references": [
+        {
+          "site": "0x1991932",
+          "target": "0x2e4b6b8"
+        },
+        {
+          "site": "0x199193c",
+          "target": "0x2185e88"
+        },
+        {
+          "site": "0x199194b",
+          "target": "0x2cd8070"
+        },
+        {
+          "site": "0x199195d",
+          "target": "0x21a3524"
+        },
+        {
+          "site": "0x199196d",
+          "target": "0x21a8290"
+        }
+      ],
+      "boundary_status": "candidate; no usable unwind metadata",
+      "identical_to_prior_research": true
+    }
+  },
+  "direct_call_byte_candidates": {
+    "0x9e9360": [
+      "0x9e967a",
+      "0x9e9760"
+    ],
+    "0x9eb540": [
+      "0x9eb6b9",
+      "0x122b33d",
+      "0x122c555",
+      "0x122d42d",
+      "0x122d6b1"
+    ],
+    "0x9e9660": [
+      "0x9e9128",
+      "0x9e9308",
+      "0x9e9929",
+      "0x9e9b16",
+      "0x9e9d06",
+      "0x9ea09b",
+      "0x9ea188",
+      "0x9ea264",
+      "0x9ea340",
+      "0x9ea42c",
+      "0xbcbbad",
+      "0xbd2548",
+      "0xbdcce1",
+      "0xbdfa04",
+      "0x1031dfb"
+    ],
+    "0x9eadc0": [
+      "0x5371b8",
+      "0x537248",
+      "0x583f43",
+      "0x9eaf95",
+      "0x9eafe8",
+      "0x9eb088",
+      "0x9eb145"
+    ],
+    "0x19c4940": [
+      "0x1461589",
+      "0x146167e",
+      "0x1461919",
+      "0x1461c19",
+      "0x19918ce",
+      "0x1991920",
+      "0x1991bcd",
+      "0x1991c1a",
+      "0x1991fd4",
+      "0x19928dd",
+      "0x199292a",
+      "0x1e57eee",
+      "0x1e57f39",
+      "0x1e57fdd",
+      "0x1e58028"
+    ],
+    "0x9ebfb0": [
+      "0x52be42",
+      "0x52bebe",
+      "0x581ff0"
+    ],
+    "0xec26f0": [
+      "0xad3497"
+    ],
+    "0x1a2e270": [
+      "0x146024e",
+      "0x1460506",
+      "0x1460819",
+      "0x1460c3e",
+      "0x1460e0e",
+      "0x1461136",
+      "0x14613ce"
+    ],
+    "0x1991912": []
+  },
+  "call_scan_limit": "E8 byte scan; callers require instruction-boundary inspection; indirect and tail calls are not included"
+}
