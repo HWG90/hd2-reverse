@@ -1,0 +1,43 @@
+{
+  "previous": {
+    "series": "6ad7c05d-6ffff0870000",
+    "sha256": "7713bba51d6ead9e43286b3665ac0e7220b1008753a9fdcfb5ddb07a2b48a03f",
+    "base": "0x6ffff0870000",
+    "recovered_pages": 10981
+  },
+  "current": {
+    "series": "6ad7c05d-6ffff1300000",
+    "sha256": "d01e62c111f216a0d6662fb3d4e039a0161092e6bb5fcb60ab6f307d8a7dc065",
+    "base": "0x6ffff1300000",
+    "recovered_pages": 9627
+  },
+  "newly_readable_pages": 1,
+  "newly_readable_by_section": {
+    ".text": 1
+  },
+  "new_executable_pages": [
+    "0x168c000"
+  ],
+  "new_page_rvas": [
+    "0x168c000"
+  ],
+  "previous_only_pages": 1355,
+  "common_readable_pages": 9626,
+  "raw_changed_common_pages": 1065,
+  "relocation_directory_complete": true,
+  "dir64_slots": 98687,
+  "base_delta": "0xa90000",
+  "changed_after_dir64_normalization": 111,
+  "normalized_changed_by_section": {
+    "headers/other": 1,
+    ".data": 110
+  },
+  "normalized_changed_executable_pages": [],
+  "limitations": [
+    "Different bases remain separate; no cross-series merge performed.",
+    "DIR64 normalization is not a general semantic equivalence test.",
+    "Dynamic values and runtime pointers may still differ."
+  ],
+  "new_page_string_references": [],
+  "new_page_matches_older_research": true
+}

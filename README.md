@@ -1,5 +1,5 @@
 # hd2-reverse
 
-Helldivers 2 reverse-engineering findings, capture coverage, and analysis tools.
+Helldivers 2 reverse engineering. Captured code, offsets, call paths and unresolved questions.
 
-See [game-dll](game-dll/README.md) for the combined game.dll research.
+Start with [game-dll](game-dll/README.md). Findings distinguish decoded instructions, static interpretations and live observations.

@@ -1,6 +1,6 @@
 # game.dll and engine research
 
-Evidence-driven Helldivers 2 reverse engineering with REA and Ghidra.
+Helldivers 2 code captures, disassembly and findings.
 
 | Directory | Contents |
 |---|---|
@@ -12,7 +12,9 @@ Evidence-driven Helldivers 2 reverse engineering with REA and Ghidra.
 
 ## Cases
 
-- [REA decompiler validation](analysis/rea-material-setter/README.md)
+- [Recovery series comparison](analysis/recovery-series-comparison/README.md)
+
+- [Material setter decompilation](analysis/material-setter-decompilation/README.md)
 
 - [Weapons](analysis/weapons/README.md)
 - [Materials and wind](analysis/materials/README.md)
