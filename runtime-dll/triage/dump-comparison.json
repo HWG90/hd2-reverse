@@ -1,0 +1,146 @@
+{
+ "dump": "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.bin",
+ "disk": "/mnt/WORMHOLE/SteamLibrary/steamapps/common/Helldivers 2/bin/runtime.dll",
+ "base": "0x700000000000",
+ "pages": 15702,
+ "unreadable_pages": 0,
+ "by_section": {
+  "headers": {
+   "identical_to_relocated_file": 1
+  },
+  ".rdata": {
+   "identical_to_relocated_file": 2
+  },
+  ".rodata": {
+   "identical_to_relocated_file": 1
+  },
+  ".rwx": {
+   "different": 1
+  },
+  "packer0": {
+   "identical_to_relocated_file": 1151
+  },
+  "packer1": {
+   "identical_to_relocated_file": 377
+  },
+  "packer2": {
+   "different": 7,
+   "identical_to_relocated_file": 19
+  },
+  ".rsrc": {
+   "identical_to_relocated_file": 1286
+  },
+  ".reloc": {
+   "identical_to_relocated_file": 2
+  },
+  "packer30": {
+   "identical_to_relocated_file": 579
+  },
+  "packer40": {
+   "identical_to_relocated_file": 135
+  },
+  "packer31": {
+   "identical_to_relocated_file": 12038
+  },
+  "packer42": {
+   "identical_to_relocated_file": 103
+  }
+ },
+ "different_pages": [
+  {
+   "rva": "0x4000",
+   "section": ".rwx",
+   "changed_bytes": 122,
+   "file_entropy": -0.0,
+   "live_entropy": 0.335,
+   "live_zero_bytes": 3974,
+   "new_strings": []
+  },
+  {
+   "rva": "0x5FD000",
+   "section": "packer2",
+   "changed_bytes": 153,
+   "file_entropy": 1.613,
+   "live_entropy": 1.807,
+   "live_zero_bytes": 3383,
+   "new_strings": []
+  },
+  {
+   "rva": "0x600000",
+   "section": "packer2",
+   "changed_bytes": 8,
+   "file_entropy": 7.133,
+   "live_entropy": 7.132,
+   "live_zero_bytes": 122,
+   "new_strings": []
+  },
+  {
+   "rva": "0x603000",
+   "section": "packer2",
+   "changed_bytes": 1403,
+   "file_entropy": 5.582,
+   "live_entropy": 5.761,
+   "live_zero_bytes": 1596,
+   "new_strings": [
+    "Rk$E7q",
+    "'OVDd@u",
+    "%f[0Yn",
+    "B\"D|BT"
+   ]
+  },
+  {
+   "rva": "0x604000",
+   "section": "packer2",
+   "changed_bytes": 3803,
+   "file_entropy": -0.0,
+   "live_entropy": 7.739,
+   "live_zero_bytes": 293,
+   "new_strings": [
+    "c8H1((",
+    "QFx>{Hk",
+    "i_k(b*o",
+    "Ib0E7;",
+    "2L;<-3(",
+    "V3JYqL"
+   ]
+  },
+  {
+   "rva": "0x605000",
+   "section": "packer2",
+   "changed_bytes": 4083,
+   "file_entropy": -0.0,
+   "live_entropy": 7.956,
+   "live_zero_bytes": 13,
+   "new_strings": [
+    "o\\Ez6l",
+    "4&\\WgH",
+    "%V6P09",
+    "Equ~?7",
+    "h^1yFJ(",
+    "XQ6NPVht",
+    "i~Nh|&*",
+    "c^A@O$E"
+   ]
+  },
+  {
+   "rva": "0x606000",
+   "section": "packer2",
+   "changed_bytes": 741,
+   "file_entropy": -0.0,
+   "live_entropy": 2.071,
+   "live_zero_bytes": 3355,
+   "new_strings": [
+    "L#z?/k"
+   ]
+  },
+  {
+   "rva": "0x616000",
+   "section": "packer2",
+   "changed_bytes": 181,
+   "file_entropy": -0.0,
+   "live_entropy": 0.532,
+   "live_zero_bytes": 3915,
+   "new_strings": []
+  }
+ ]
+}

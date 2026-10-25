@@ -1,0 +1,16 @@
+{
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.bin": "artifacts/capture/fde6c135-700000000000/runtime-live-20261024T2310.bin.gz",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.bin.pages.txt": "artifacts/capture/fde6c135-700000000000/pages.txt",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.regions.txt": "artifacts/capture/fde6c135-700000000000/regions.txt",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-dump.json": "triage/live-dump.json",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-regions-20261024T2248.json": "triage/live-regions-20261024T2248.json",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-maps-20261024T2310.json": "triage/maps-20261024T2310.json",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-dump-comparison.json": "triage/dump-comparison.json",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-disk-analysis.json": "analysis/disk-image/disk-analysis.json",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-root-certs.txt": "analysis/disk-image/root-certificates.txt",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/relay-tools/runtime_disk_analysis.py": "analysis/disk-image/runtime_disk_analysis.py",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/relay-tools/compare_runtime.py": "analysis/live-vs-disk/compare_runtime.py",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/relay-tools/dump_runtime_live.py": "tools/capture/dump_runtime_live.py",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/relay-tools/llm_host.py": "tools/capture/llm_host.py",
+  "/home/goose/Documents/ChatGPT/GooseGadgets/relay-tools/runtime_maps_snapshot.py": "tools/capture/runtime_maps_snapshot.py"
+}

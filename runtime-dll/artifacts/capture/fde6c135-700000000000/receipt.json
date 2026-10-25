@@ -1,0 +1,40 @@
+{
+  "capture": "runtime-live-20261024T2310",
+  "local_time": "2026-10-24T23:10:14-04:00",
+  "process": {
+    "pid": 2289138,
+    "launched": "2026-10-24T23:07:05-04:00",
+    "host": "Proton (Wine) on Linux"
+  },
+  "modules": {
+    "runtime.dll": {
+      "timestamp": "0xFDE6C135",
+      "base": "0x700000000000",
+      "size_of_image": "0x3D56000",
+      "loader_entry": false
+    },
+    "preloader.dll": {
+      "timestamp": "0xA0CF546E"
+    },
+    "game.dll": {
+      "timestamp": "0x6AD7C05D"
+    },
+    "helldivers2.exe": {
+      "timestamp": "0x6AD78C0D"
+    }
+  },
+  "method": "LLtM eval inside helldivers2.exe: ReadProcessMemory on own process, 4 KiB pages, mapped-image layout",
+  "llm_batches": "966 (header + VirtualQuery regions), 967-970 (four dump parts)",
+  "pages": 15702,
+  "unreadable_pages": 0,
+  "zero_filled_bytes": 0,
+  "seconds": 1.6,
+  "raw_bytes": 64315392,
+  "raw_sha256": "266b99f2d9d3dd47451d0cda369164807457520f0c8d1bb2327981cb1cf009c6",
+  "archive": "runtime-live-20261024T2310.bin.gz",
+  "archive_sha256": "d03096fd5aa4cd7d84ad5082f9962e04ce0dcfedd4536f7d590be49a2db857ef",
+  "archive_bytes": 38641038,
+  "game_memory_writes": 0,
+  "game_function_calls": 0,
+  "protection_changes": 0
+}

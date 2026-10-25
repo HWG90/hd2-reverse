@@ -1,0 +1,278 @@
+{
+ "pid": 2289138,
+ "time": "2026-10-24T23:10:07",
+ "source": "/proc/2289138/maps (read-only)",
+ "runtime.dll": {
+  "base": "0x700000000000",
+  "size_of_image": "0x3D56000",
+  "timestamp": "0xFDE6C135",
+  "file_backed": false,
+  "mappings": [
+   {
+    "rva": "0x0",
+    "size": "0x3000",
+    "perm": "r--p"
+   },
+   {
+    "rva": "0x3000",
+    "size": "0x2000",
+    "perm": "r-xp"
+   },
+   {
+    "rva": "0x5000",
+    "size": "0x47F000",
+    "perm": "r--p"
+   },
+   {
+    "rva": "0x484000",
+    "size": "0x179000",
+    "perm": "r-xp"
+   },
+   {
+    "rva": "0x5FD000",
+    "size": "0x6000",
+    "perm": "rw-p"
+   },
+   {
+    "rva": "0x603000",
+    "size": "0x1000",
+    "perm": "r--p"
+   },
+   {
+    "rva": "0x604000",
+    "size": "0x13000",
+    "perm": "rw-p"
+   },
+   {
+    "rva": "0x617000",
+    "size": "0x508000",
+    "perm": "r--p"
+   },
+   {
+    "rva": "0xB1F000",
+    "size": "0x243000",
+    "perm": "r-xp"
+   },
+   {
+    "rva": "0xD62000",
+    "size": "0x87000",
+    "perm": "rw-p"
+   },
+   {
+    "rva": "0xDE9000",
+    "size": "0x2F06000",
+    "perm": "r-xp"
+   },
+   {
+    "rva": "0x3CEF000",
+    "size": "0x67000",
+    "perm": "rw-p"
+   }
+  ],
+  "section_layout": [
+   {
+    "name": ".rdata",
+    "rva": "0x1000",
+    "vsize": "0x1040",
+    "chars": "0x40000040"
+   },
+   {
+    "name": ".rodata",
+    "rva": "0x3000",
+    "vsize": "0x21",
+    "chars": "0x60000060"
+   },
+   {
+    "name": ".rwx",
+    "rva": "0x4000",
+    "vsize": "0x1000",
+    "chars": "0xE0000060"
+   },
+   {
+    "name": "packer0",
+    "rva": "0x5000",
+    "vsize": "0x47EF48",
+    "chars": "0x40000040"
+   },
+   {
+    "name": "packer1",
+    "rva": "0x484000",
+    "vsize": "0x178464",
+    "chars": "0x60000060"
+   },
+   {
+    "name": "packer2",
+    "rva": "0x5FD000",
+    "vsize": "0x19908",
+    "chars": "0xC0000040"
+   },
+   {
+    "name": ".rsrc",
+    "rva": "0x617000",
+    "vsize": "0x505F00",
+    "chars": "0x40000040"
+   },
+   {
+    "name": ".reloc",
+    "rva": "0xB1D000",
+    "vsize": "0x11AC",
+    "chars": "0x42000040"
+   },
+   {
+    "name": "packer30",
+    "rva": "0xB1F000",
+    "vsize": "0x24267E",
+    "chars": "0x60000060"
+   },
+   {
+    "name": "packer40",
+    "rva": "0xD62000",
+    "vsize": "0x86260",
+    "chars": "0xC0000040"
+   },
+   {
+    "name": "packer31",
+    "rva": "0xDE9000",
+    "vsize": "0x2F055CF",
+    "chars": "0x60000060"
+   },
+   {
+    "name": "packer42",
+    "rva": "0x3CEF000",
+    "vsize": "0x666B8",
+    "chars": "0xC0000040"
+   }
+  ]
+ },
+ "protected_module_views": [
+  {
+   "inode": "220308",
+   "start": "0x800000",
+   "span": "0x144000",
+   "module_by_size": null,
+   "pages_by_perm": {
+    "r--p": 324
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "226321",
+   "start": "0xAF0000",
+   "span": "0x200000",
+   "module_by_size": null,
+   "pages_by_perm": {
+    "rw-s": 512
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "221428",
+   "start": "0x4F00000",
+   "span": "0x29FE000",
+   "module_by_size": "helldivers2.exe",
+   "pages_by_perm": {
+    "rw-s": 10750
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "221428",
+   "start": "0x140000000",
+   "span": "0x29FE000",
+   "module_by_size": "helldivers2.exe",
+   "pages_by_perm": {
+    "r--s": 1592,
+    "r-xs": 3393,
+    "---s": 1867,
+    "rw-s": 3898
+   },
+   "kind": "exec view (PROT_NONE = not yet decrypted)"
+  },
+  {
+   "inode": "223467",
+   "start": "0x7FBF0000",
+   "span": "0x9A000",
+   "module_by_size": "level_generation_pluginw64_release.dll",
+   "pages_by_perm": {
+    "rw-s": 154
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "223467",
+   "start": "0x6FFFF42F0000",
+   "span": "0x9A000",
+   "module_by_size": "level_generation_pluginw64_release.dll",
+   "pages_by_perm": {
+    "r--s": 36,
+    "---s": 81,
+    "r-xs": 30,
+    "rw-s": 7
+   },
+   "kind": "exec view (PROT_NONE = not yet decrypted)"
+  },
+  {
+   "inode": "223468",
+   "start": "0x8BDF0000",
+   "span": "0x6C5000",
+   "module_by_size": "wwise_pluginw64_release.dll",
+   "pages_by_perm": {
+    "rw-s": 1733
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "223468",
+   "start": "0x6FFFF3C10000",
+   "span": "0x6C5000",
+   "module_by_size": "wwise_pluginw64_release.dll",
+   "pages_by_perm": {
+    "r--s": 402,
+    "---s": 351,
+    "r-xs": 734,
+    "rw-s": 246
+   },
+   "kind": "exec view (PROT_NONE = not yet decrypted)"
+  },
+  {
+   "inode": "224392",
+   "start": "0x8E180000",
+   "span": "0x3382000",
+   "module_by_size": "game.dll",
+   "pages_by_perm": {
+    "rw-s": 13186
+   },
+   "kind": "read-write alias"
+  },
+  {
+   "inode": "224392",
+   "start": "0x6FFFF0870000",
+   "span": "0x3382000",
+   "module_by_size": "game.dll",
+   "pages_by_perm": {
+    "r--s": 1803,
+    "---s": 3431,
+    "r-xs": 4657,
+    "rw-s": 3295
+   },
+   "kind": "exec view (PROT_NONE = not yet decrypted)"
+  }
+ ],
+ "private_rw_buffers_matching_pdata_size": [
+  {
+   "module": "helldivers2.exe",
+   "pdata_size": "0x112000",
+   "buffer": "0x142A00000"
+  },
+  {
+   "module": "game.dll",
+   "pdata_size": "0x1B7000",
+   "buffer": "0x6FFFFCC70000"
+  },
+  {
+   "module": "wwise_pluginw64_release.dll",
+   "pdata_size": "0x3B000",
+   "buffer": "0x6FFFF4410000"
+  }
+ ]
+}

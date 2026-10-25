@@ -1,0 +1,2 @@
+base=0x700000000000 size=64315392 stamp=fde6c135
+complete_bytes=64315392 zero_filled_bytes=0

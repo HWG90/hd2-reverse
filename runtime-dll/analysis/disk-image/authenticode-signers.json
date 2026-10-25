@@ -1,0 +1,42 @@
+{
+  "verified": false,
+  "tool": "OpenSSL 3.6.5 29 Sep 2026 (Library: OpenSSL 3.6.5 29 Sep 2026)",
+  "files": {
+    "runtime.dll": {
+      "sha256": "97fe1c10fce52a4aeaa772b164eedb35075708eb12885f135fd85cbe05fc947b",
+      "file_offset": "0x3D3CC00",
+      "length": "0x2858",
+      "revision": "0x200",
+      "certificate_type": 2,
+      "pkcs7_sha256": "cd658ec20a99a1c1daa17027c631e63ac40b5df6fef02b7a9f0afb41c6257c35",
+      "certificates": [
+        {
+          "subject": "C=US, O=DigiCert, Inc., CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+          "issuer": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Trusted Root G4"
+        },
+        {
+          "subject": "C=SE, L=Stockholm, O=Arrowhead Game Studios AB, CN=Arrowhead Game Studios AB",
+          "issuer": "C=US, O=DigiCert, Inc., CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1"
+        }
+      ]
+    },
+    "preloader.dll": {
+      "sha256": "2e416e6516ec1f425e8aeb159e45bb474a32afadebb275c41d8f87a1d76dc257",
+      "file_offset": "0x8C00",
+      "length": "0x2858",
+      "revision": "0x200",
+      "certificate_type": 2,
+      "pkcs7_sha256": "5f6488964b3235cb695c8458473f68b2fab48a2e0007a811c7c4ed31a91b4d8e",
+      "certificates": [
+        {
+          "subject": "C=US, O=DigiCert, Inc., CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+          "issuer": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Trusted Root G4"
+        },
+        {
+          "subject": "C=SE, L=Stockholm, O=Arrowhead Game Studios AB, CN=Arrowhead Game Studios AB",
+          "issuer": "C=US, O=DigiCert, Inc., CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1"
+        }
+      ]
+    }
+  }
+}

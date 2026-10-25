@@ -1,0 +1,12 @@
+{
+  "disassembler": {
+    "tool": "GNU objdump (GNU Binutils) 2.47",
+    "syntax": "intel",
+    "path": "/usr/bin/objdump"
+  },
+  "python": "3.14.8",
+  "pefile": "2024.8.26",
+  "zstd": "1.5.7",
+  "openssl": "3.6.5",
+  "scope": "Static: PE parsing, entropy, resource decompression, certificate listing and bounded objdump disassembly of preloader.dll and live .rwx bytes. Capstone 5.x (used by game-dll) was not installed; no Ghidra decompilation of runtime.dll yet. Runtime instrumentation not used."
+}

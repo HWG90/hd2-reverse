@@ -1,0 +1,16 @@
+[
+  {
+    "file": "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.bin",
+    "sha256": "266b99f2d9d3dd47451d0cda369164807457520f0c8d1bb2327981cb1cf009c6",
+    "bytes": 64315392,
+    "zero_filled_bytes": 0,
+    "unreadable_pages": 0,
+    "base": "0x700000000000",
+    "image_size": "0x3D56000",
+    "capture": "LLtM eval inside helldivers2.exe: ReadProcessMemory on own process, 4 KiB pages, mapped-image layout",
+    "byte_complete": true,
+    "page_report": "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.bin.pages.txt",
+    "regions": "/home/goose/Documents/ChatGPT/GooseGadgets/runtime-live-20261024T2310.regions.txt",
+    "seconds": 1.6
+  }
+]

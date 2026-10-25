@@ -1,0 +1,4762 @@
+{
+ "capture": "../../artifacts/capture/fde6c135-700000000000/runtime-live-20261024T2310.bin.gz",
+ "capture_sha256": "266b99f2d9d3dd47451d0cda369164807457520f0c8d1bb2327981cb1cf009c6",
+ "disk": "/mnt/WORMHOLE/SteamLibrary/steamapps/common/Helldivers 2/bin/runtime.dll",
+ "disk_sha256": "97fe1c10fce52a4aeaa772b164eedb35075708eb12885f135fd85cbe05fc947b",
+ "base": "0x700000000000",
+ "pages_compared": 15702,
+ "pages_different": 8,
+ "pages": [
+  {
+   "rva": "0x4000",
+   "section": ".rwx",
+   "changed_bytes": 122,
+   "runs": [
+    {
+     "rva": "0x4000",
+     "length": 5,
+     "live": "4c8bd1b8cf",
+     "expected": "0000000000"
+    },
+    {
+     "rva": "0x4008",
+     "length": 10,
+     "live": "e9fbc3f1ff4c8bd1b8d0",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x4015",
+     "length": 10,
+     "live": "e90ec4f1ff4c8bd1b82c",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x4022",
+     "length": 10,
+     "live": "e981aff1ff4c8bd1b850",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x402F",
+     "length": 9,
+     "live": "e9f4b3f1ff488da424",
+     "expected": "000000000000000000"
+    },
+    {
+     "rva": "0x403C",
+     "length": 23,
+     "live": "e947a2f2ff555756534883ec28e94aa1f2ff4c8bd1b843",
+     "expected": "0000000000000000000000000000000000000000000000"
+    },
+    {
+     "rva": "0x4056",
+     "length": 10,
+     "live": "e92db2f1ff4c8bd1b875",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x4063",
+     "length": 10,
+     "live": "e960b8f1ff4c8bd1b81c",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x4070",
+     "length": 10,
+     "live": "e933adf1ff4c8bd1b84e",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x407D",
+     "length": 10,
+     "live": "e966b3f1ff4c8bd1b885",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x408A",
+     "length": 10,
+     "live": "e939baf1ff4c8bd1b819",
+     "expected": "00000000000000000000"
+    },
+    {
+     "rva": "0x4097",
+     "length": 5,
+     "live": "e9acacf1ff",
+     "expected": "0000000000"
+    }
+   ]
+  },
+  {
+   "rva": "0x5FD000",
+   "section": "packer2",
+   "changed_bytes": 153,
+   "runs": [
+    {
+     "rva": "0x5FD070",
+     "length": 3,
+     "live": "f08517",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FD080",
+     "length": 1,
+     "live": "05",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD082",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD088",
+     "length": 1,
+     "live": "68",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD090",
+     "length": 3,
+     "live": "088c17",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FD0A0",
+     "length": 3,
+     "live": "80b818",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FD0B0",
+     "length": 1,
+     "live": "7f",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD0B3",
+     "length": 1,
+     "live": "00",
+     "expected": "40"
+    },
+    {
+     "rva": "0x5FD0C0",
+     "length": 1,
+     "live": "40",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD0C2",
+     "length": 2,
+     "live": "d804",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x5FD0CA",
+     "length": 2,
+     "live": "6e88",
+     "expected": "ee8f"
+    },
+    {
+     "rva": "0x5FD0D1",
+     "length": 1,
+     "live": "6d",
+     "expected": "ad"
+    },
+    {
+     "rva": "0x5FD0D3",
+     "length": 1,
+     "live": "8a",
+     "expected": "88"
+    },
+    {
+     "rva": "0x5FD0D9",
+     "length": 2,
+     "live": "3c97",
+     "expected": "1c9d"
+    },
+    {
+     "rva": "0x5FD0E3",
+     "length": 2,
+     "live": "4001",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x5FD0E9",
+     "length": 3,
+     "live": "56a1c8",
+     "expected": "1624f6"
+    },
+    {
+     "rva": "0x5FD0F0",
+     "length": 2,
+     "live": "9501",
+     "expected": "9700"
+    },
+    {
+     "rva": "0x5FD0F8",
+     "length": 4,
+     "live": "80518609",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FD100",
+     "length": 1,
+     "live": "45",
+     "expected": "5c"
+    },
+    {
+     "rva": "0x5FD103",
+     "length": 2,
+     "live": "2434",
+     "expected": "445c"
+    },
+    {
+     "rva": "0x5FD107",
+     "length": 1,
+     "live": "fc",
+     "expected": "44"
+    },
+    {
+     "rva": "0x5FD140",
+     "length": 1,
+     "live": "06",
+     "expected": "01"
+    },
+    {
+     "rva": "0x5FD148",
+     "length": 8,
+     "live": "a0fe23a01edf644d",
+     "expected": "cd5fd595e5c46f8a"
+    },
+    {
+     "rva": "0x5FD230",
+     "length": 3,
+     "live": "40f955",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FD235",
+     "length": 1,
+     "live": "70",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FD240",
+     "length": 3,
+     "live": "f09d59",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FD245",
+     "length": 1,
+     "live": "70",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FDA18",
+     "length": 3,
+     "live": "be442b",
+     "expected": "e9a5d6"
+    },
+    {
+     "rva": "0x5FDA28",
+     "length": 1,
+     "live": "6e",
+     "expected": "02"
+    },
+    {
+     "rva": "0x5FDA40",
+     "length": 4,
+     "live": "80d32a0a",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDA49",
+     "length": 2,
+     "live": "1ef6",
+     "expected": "a0ee"
+    },
+    {
+     "rva": "0x5FDA4C",
+     "length": 2,
+     "live": "ceaa",
+     "expected": "eea9"
+    },
+    {
+     "rva": "0x5FDA51",
+     "length": 2,
+     "live": "43b1",
+     "expected": "adae"
+    },
+    {
+     "rva": "0x5FDA55",
+     "length": 1,
+     "live": "34",
+     "expected": "33"
+    },
+    {
+     "rva": "0x5FDA59",
+     "length": 3,
+     "live": "a29ac2",
+     "expected": "1c9dc3"
+    },
+    {
+     "rva": "0x5FDA62",
+     "length": 4,
+     "live": "2ff4ff6f",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDA69",
+     "length": 5,
+     "live": "b4cdf75250",
+     "expected": "1624f63251"
+    },
+    {
+     "rva": "0x5FDA71",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FDA78",
+     "length": 4,
+     "live": "10ce2a0a",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDA83",
+     "length": 1,
+     "live": "14",
+     "expected": "44"
+    },
+    {
+     "rva": "0x5FDA87",
+     "length": 1,
+     "live": "0e",
+     "expected": "44"
+    },
+    {
+     "rva": "0x5FDBD8",
+     "length": 1,
+     "live": "50",
+     "expected": "30"
+    },
+    {
+     "rva": "0x5FDC00",
+     "length": 1,
+     "live": "40",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FDC02",
+     "length": 2,
+     "live": "fb8d",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x5FDC09",
+     "length": 2,
+     "live": "ae8f",
+     "expected": "a0ee"
+    },
+    {
+     "rva": "0x5FDC0C",
+     "length": 2,
+     "live": "ceaa",
+     "expected": "eea9"
+    },
+    {
+     "rva": "0x5FDC11",
+     "length": 2,
+     "live": "1fbb",
+     "expected": "adae"
+    },
+    {
+     "rva": "0x5FDC15",
+     "length": 1,
+     "live": "34",
+     "expected": "33"
+    },
+    {
+     "rva": "0x5FDC19",
+     "length": 3,
+     "live": "6c79c2",
+     "expected": "1c9dc3"
+    },
+    {
+     "rva": "0x5FDC22",
+     "length": 4,
+     "live": "87f0ff6f",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDC29",
+     "length": 5,
+     "live": "84def75250",
+     "expected": "1624f63251"
+    },
+    {
+     "rva": "0x5FDC31",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FDC38",
+     "length": 4,
+     "live": "60f0540a",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDC40",
+     "length": 1,
+     "live": "3e",
+     "expected": "5c"
+    },
+    {
+     "rva": "0x5FDC43",
+     "length": 2,
+     "live": "b231",
+     "expected": "445c"
+    },
+    {
+     "rva": "0x5FDC47",
+     "length": 1,
+     "live": "40",
+     "expected": "44"
+    },
+    {
+     "rva": "0x5FDCA1",
+     "length": 1,
+     "live": "50",
+     "expected": "40"
+    },
+    {
+     "rva": "0x5FDCC0",
+     "length": 4,
+     "live": "50cc330a",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDCC9",
+     "length": 2,
+     "live": "2289",
+     "expected": "a0ee"
+    },
+    {
+     "rva": "0x5FDCCC",
+     "length": 2,
+     "live": "ceaa",
+     "expected": "eea9"
+    },
+    {
+     "rva": "0x5FDCD1",
+     "length": 2,
+     "live": "25b0",
+     "expected": "adae"
+    },
+    {
+     "rva": "0x5FDCD5",
+     "length": 1,
+     "live": "34",
+     "expected": "33"
+    },
+    {
+     "rva": "0x5FDCD9",
+     "length": 3,
+     "live": "e282c2",
+     "expected": "1c9dc3"
+    },
+    {
+     "rva": "0x5FDCE2",
+     "length": 4,
+     "live": "c1f3ff6f",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x5FDCE9",
+     "length": 5,
+     "live": "90cdf75250",
+     "expected": "1624f63251"
+    },
+    {
+     "rva": "0x5FDCF1",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x5FDCF8",
+     "length": 3,
+     "live": "10bb21",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x5FDD00",
+     "length": 1,
+     "live": "5b",
+     "expected": "5c"
+    },
+    {
+     "rva": "0x5FDD03",
+     "length": 2,
+     "live": "4259",
+     "expected": "445c"
+    },
+    {
+     "rva": "0x5FDD07",
+     "length": 1,
+     "live": "b6",
+     "expected": "44"
+    }
+   ]
+  },
+  {
+   "rva": "0x600000",
+   "section": "packer2",
+   "changed_bytes": 8,
+   "runs": [
+    {
+     "rva": "0x600C60",
+     "length": 3,
+     "live": "40be5a",
+     "expected": "30375c"
+    },
+    {
+     "rva": "0x600C68",
+     "length": 3,
+     "live": "c0c648",
+     "expected": "40f55c"
+    },
+    {
+     "rva": "0x600C71",
+     "length": 2,
+     "live": "0d58",
+     "expected": "1e5d"
+    }
+   ]
+  },
+  {
+   "rva": "0x603000",
+   "section": "packer2",
+   "changed_bytes": 1403,
+   "runs": [
+    {
+     "rva": "0x603080",
+     "length": 3,
+     "live": "28a423",
+     "expected": "a95a22"
+    },
+    {
+     "rva": "0x603087",
+     "length": 7,
+     "live": "3060084bffff6f",
+     "expected": "10000000000000"
+    },
+    {
+     "rva": "0x603090",
+     "length": 6,
+     "live": "1c72b5ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x603098",
+     "length": 6,
+     "live": "80aff4ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030A0",
+     "length": 6,
+     "live": "8091f3ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030A8",
+     "length": 6,
+     "live": "1075f3ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030B0",
+     "length": 6,
+     "live": "c03bf3ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030B8",
+     "length": 6,
+     "live": "802ef3ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030C0",
+     "length": 6,
+     "live": "e0f0f1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030C8",
+     "length": 6,
+     "live": "40fbf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030D1",
+     "length": 5,
+     "live": "eff1ffff6f",
+     "expected": "0000000000"
+    },
+    {
+     "rva": "0x6030D8",
+     "length": 6,
+     "live": "c0f4f1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030E0",
+     "length": 6,
+     "live": "c0faf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030E8",
+     "length": 6,
+     "live": "40ecf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030F0",
+     "length": 6,
+     "live": "40edf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x6030F9",
+     "length": 5,
+     "live": "ecf1ffff6f",
+     "expected": "0000000000"
+    },
+    {
+     "rva": "0x603100",
+     "length": 6,
+     "live": "c0f0f1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x603108",
+     "length": 6,
+     "live": "a0eaf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x603110",
+     "length": 6,
+     "live": "c0fbf1ffff6f",
+     "expected": "000000000000"
+    },
+    {
+     "rva": "0x603118",
+     "length": 1,
+     "live": "64",
+     "expected": "00"
+    },
+    {
+     "rva": "0x603120",
+     "length": 3,
+     "live": "2e1d00",
+     "expected": "45f103"
+    },
+    {
+     "rva": "0x603124",
+     "length": 2,
+     "live": "ea47",
+     "expected": "ca40"
+    },
+    {
+     "rva": "0x603127",
+     "length": 4,
+     "live": "960f13e8",
+     "expected": "3e19f7e9"
+    },
+    {
+     "rva": "0x60312C",
+     "length": 1,
+     "live": "f6",
+     "expected": "16"
+    },
+    {
+     "rva": "0x60312F",
+     "length": 3,
+     "live": "343644",
+     "expected": "74dd68"
+    },
+    {
+     "rva": "0x603134",
+     "length": 2,
+     "live": "ef2c",
+     "expected": "8f2d"
+    },
+    {
+     "rva": "0x603137",
+     "length": 1,
+     "live": "d5",
+     "expected": "c5"
+    },
+    {
+     "rva": "0x603148",
+     "length": 2,
+     "live": "c496",
+     "expected": "4597"
+    },
+    {
+     "rva": "0x60314C",
+     "length": 2,
+     "live": "9b99",
+     "expected": "bb9e"
+    },
+    {
+     "rva": "0x60314F",
+     "length": 3,
+     "live": "fc553b",
+     "expected": "e6d224"
+    },
+    {
+     "rva": "0x603154",
+     "length": 1,
+     "live": "fd",
+     "expected": "1d"
+    },
+    {
+     "rva": "0x603157",
+     "length": 1,
+     "live": "b8",
+     "expected": "b4"
+    },
+    {
+     "rva": "0x603160",
+     "length": 2,
+     "live": "2e28",
+     "expected": "ae29"
+    },
+    {
+     "rva": "0x603164",
+     "length": 2,
+     "live": "a2b1",
+     "expected": "c2b0"
+    },
+    {
+     "rva": "0x603168",
+     "length": 2,
+     "live": "d656",
+     "expected": "5657"
+    },
+    {
+     "rva": "0x60316C",
+     "length": 2,
+     "live": "bfad",
+     "expected": "9fae"
+    },
+    {
+     "rva": "0x60316F",
+     "length": 2,
+     "live": "2c89",
+     "expected": "0209"
+    },
+    {
+     "rva": "0x603174",
+     "length": 2,
+     "live": "b9f9",
+     "expected": "99f6"
+    },
+    {
+     "rva": "0x603177",
+     "length": 3,
+     "live": "663421",
+     "expected": "b2b420"
+    },
+    {
+     "rva": "0x60317C",
+     "length": 1,
+     "live": "4a",
+     "expected": "aa"
+    },
+    {
+     "rva": "0x60317F",
+     "length": 3,
+     "live": "51bff0",
+     "expected": "e33cf3"
+    },
+    {
+     "rva": "0x603184",
+     "length": 1,
+     "live": "1b",
+     "expected": "fb"
+    },
+    {
+     "rva": "0x603187",
+     "length": 2,
+     "live": "0037",
+     "expected": "70b6"
+    },
+    {
+     "rva": "0x60318C",
+     "length": 2,
+     "live": "847f",
+     "expected": "a47e"
+    },
+    {
+     "rva": "0x60318F",
+     "length": 3,
+     "live": "592388",
+     "expected": "3da289"
+    },
+    {
+     "rva": "0x603194",
+     "length": 2,
+     "live": "a3f5",
+     "expected": "83fa"
+    },
+    {
+     "rva": "0x603197",
+     "length": 1,
+     "live": "8c",
+     "expected": "3a"
+    },
+    {
+     "rva": "0x6031A0",
+     "length": 2,
+     "live": "fb8d",
+     "expected": "d0e0"
+    },
+    {
+     "rva": "0x6031A4",
+     "length": 1,
+     "live": "1c",
+     "expected": "fc"
+    },
+    {
+     "rva": "0x6031A7",
+     "length": 2,
+     "live": "1c10",
+     "expected": "dc91"
+    },
+    {
+     "rva": "0x6031AC",
+     "length": 2,
+     "live": "7ce4",
+     "expected": "5ce3"
+    },
+    {
+     "rva": "0x6031AF",
+     "length": 2,
+     "live": "d4cd",
+     "expected": "7c4d"
+    },
+    {
+     "rva": "0x6031B4",
+     "length": 1,
+     "live": "0f",
+     "expected": "ef"
+    },
+    {
+     "rva": "0x6031B7",
+     "length": 2,
+     "live": "7afd",
+     "expected": "f47c"
+    },
+    {
+     "rva": "0x6031BC",
+     "length": 2,
+     "live": "af00",
+     "expected": "8f01"
+    },
+    {
+     "rva": "0x6031BF",
+     "length": 2,
+     "live": "7f04",
+     "expected": "5d00"
+    },
+    {
+     "rva": "0x6031CA",
+     "length": 1,
+     "live": "f0",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6031D0",
+     "length": 2,
+     "live": "2c0b",
+     "expected": "b956"
+    },
+    {
+     "rva": "0x6031D7",
+     "length": 1,
+     "live": "71",
+     "expected": "11"
+    },
+    {
+     "rva": "0x6031DA",
+     "length": 2,
+     "live": "c604",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x6031E2",
+     "length": 4,
+     "live": "4ffcff6f",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x6031E8",
+     "length": 3,
+     "live": "992338",
+     "expected": "865b3e"
+    },
+    {
+     "rva": "0x6031EC",
+     "length": 2,
+     "live": "3435",
+     "expected": "d434"
+    },
+    {
+     "rva": "0x6031EF",
+     "length": 4,
+     "live": "95dfaa3d",
+     "expected": "d5d72d3c"
+    },
+    {
+     "rva": "0x6031F4",
+     "length": 2,
+     "live": "a52c",
+     "expected": "c52d"
+    },
+    {
+     "rva": "0x6031F8",
+     "length": 3,
+     "live": "b69451",
+     "expected": "700b53"
+    },
+    {
+     "rva": "0x6031FC",
+     "length": 2,
+     "live": "48f2",
+     "expected": "68f3"
+    },
+    {
+     "rva": "0x6031FF",
+     "length": 4,
+     "live": "dc0c1f87",
+     "expected": "bc1e9385"
+    },
+    {
+     "rva": "0x603204",
+     "length": 2,
+     "live": "f171",
+     "expected": "9170"
+    },
+    {
+     "rva": "0x603207",
+     "length": 4,
+     "live": "25cb26b8",
+     "expected": "a5ffa6b9"
+    },
+    {
+     "rva": "0x60320C",
+     "length": 2,
+     "live": "525e",
+     "expected": "b25f"
+    },
+    {
+     "rva": "0x60320F",
+     "length": 3,
+     "live": "97c77a",
+     "expected": "77634f"
+    },
+    {
+     "rva": "0x603214",
+     "length": 2,
+     "live": "8c48",
+     "expected": "ac4b"
+    },
+    {
+     "rva": "0x603217",
+     "length": 3,
+     "live": "4a5af1",
+     "expected": "9221c5"
+    },
+    {
+     "rva": "0x60321C",
+     "length": 2,
+     "live": "574b",
+     "expected": "374a"
+    },
+    {
+     "rva": "0x60321F",
+     "length": 4,
+     "live": "b0042f05",
+     "expected": "5829d0fa"
+    },
+    {
+     "rva": "0x603224",
+     "length": 2,
+     "live": "eaa9",
+     "expected": "8aa8"
+    },
+    {
+     "rva": "0x603228",
+     "length": 2,
+     "live": "d6ba",
+     "expected": "0ec6"
+    },
+    {
+     "rva": "0x60322C",
+     "length": 2,
+     "live": "201d",
+     "expected": "001c"
+    },
+    {
+     "rva": "0x60322F",
+     "length": 4,
+     "live": "76a8777b",
+     "expected": "2e7f9878"
+    },
+    {
+     "rva": "0x603234",
+     "length": 2,
+     "live": "6a8e",
+     "expected": "4a8f"
+    },
+    {
+     "rva": "0x603237",
+     "length": 3,
+     "live": "400915",
+     "expected": "782d21"
+    },
+    {
+     "rva": "0x60323C",
+     "length": 2,
+     "live": "dce2",
+     "expected": "fce3"
+    },
+    {
+     "rva": "0x60323F",
+     "length": 3,
+     "live": "1c0842",
+     "expected": "e4281e"
+    },
+    {
+     "rva": "0x603244",
+     "length": 2,
+     "live": "409f",
+     "expected": "209e"
+    },
+    {
+     "rva": "0x603247",
+     "length": 3,
+     "live": "c334fb",
+     "expected": "3b10cf"
+    },
+    {
+     "rva": "0x60324C",
+     "length": 2,
+     "live": "eacd",
+     "expected": "cacc"
+    },
+    {
+     "rva": "0x60324F",
+     "length": 3,
+     "live": "70aee4",
+     "expected": "780bdb"
+    },
+    {
+     "rva": "0x603254",
+     "length": 2,
+     "live": "c120",
+     "expected": "a121"
+    },
+    {
+     "rva": "0x603257",
+     "length": 3,
+     "live": "7c46f2",
+     "expected": "fc25a8"
+    },
+    {
+     "rva": "0x60325C",
+     "length": 2,
+     "live": "c693",
+     "expected": "e692"
+    },
+    {
+     "rva": "0x60325F",
+     "length": 3,
+     "live": "de462c",
+     "expected": "5e7fd8"
+    },
+    {
+     "rva": "0x603264",
+     "length": 2,
+     "live": "0835",
+     "expected": "6834"
+    },
+    {
+     "rva": "0x603267",
+     "length": 3,
+     "live": "349a57",
+     "expected": "fc623b"
+    },
+    {
+     "rva": "0x60326C",
+     "length": 2,
+     "live": "b4b8",
+     "expected": "9487"
+    },
+    {
+     "rva": "0x60326F",
+     "length": 3,
+     "live": "7c6e1c",
+     "expected": "447128"
+    },
+    {
+     "rva": "0x603274",
+     "length": 2,
+     "live": "438f",
+     "expected": "638e"
+    },
+    {
+     "rva": "0x603277",
+     "length": 3,
+     "live": "5e26b8",
+     "expected": "663484"
+    },
+    {
+     "rva": "0x60327C",
+     "length": 2,
+     "live": "8307",
+     "expected": "e306"
+    },
+    {
+     "rva": "0x60327F",
+     "length": 4,
+     "live": "72499a90",
+     "expected": "eae14093"
+    },
+    {
+     "rva": "0x603284",
+     "length": 2,
+     "live": "57fa",
+     "expected": "77e5"
+    },
+    {
+     "rva": "0x603287",
+     "length": 3,
+     "live": "a12741",
+     "expected": "e1921a"
+    },
+    {
+     "rva": "0x60328C",
+     "length": 2,
+     "live": "d615",
+     "expected": "b616"
+    },
+    {
+     "rva": "0x60328F",
+     "length": 3,
+     "live": "5710ed",
+     "expected": "f72a39"
+    },
+    {
+     "rva": "0x603294",
+     "length": 1,
+     "live": "49",
+     "expected": "a9"
+    },
+    {
+     "rva": "0x603297",
+     "length": 1,
+     "live": "67",
+     "expected": "4f"
+    },
+    {
+     "rva": "0x603299",
+     "length": 1,
+     "live": "25",
+     "expected": "11"
+    },
+    {
+     "rva": "0x60329C",
+     "length": 2,
+     "live": "f071",
+     "expected": "907e"
+    },
+    {
+     "rva": "0x60329F",
+     "length": 3,
+     "live": "cafcbb",
+     "expected": "f2834f"
+    },
+    {
+     "rva": "0x6032A4",
+     "length": 2,
+     "live": "c5a0",
+     "expected": "e5a3"
+    },
+    {
+     "rva": "0x6032A7",
+     "length": 3,
+     "live": "0a0420",
+     "expected": "e218dc"
+    },
+    {
+     "rva": "0x6032AC",
+     "length": 2,
+     "live": "ab24",
+     "expected": "cb27"
+    },
+    {
+     "rva": "0x6032AF",
+     "length": 3,
+     "live": "9e4f28",
+     "expected": "3642c4"
+    },
+    {
+     "rva": "0x6032B4",
+     "length": 2,
+     "live": "1225",
+     "expected": "7224"
+    },
+    {
+     "rva": "0x6032B7",
+     "length": 3,
+     "live": "b580f4",
+     "expected": "ed251c"
+    },
+    {
+     "rva": "0x6032BC",
+     "length": 2,
+     "live": "c6ad",
+     "expected": "e6ac"
+    },
+    {
+     "rva": "0x6032BF",
+     "length": 3,
+     "live": "d00933",
+     "expected": "70d058"
+    },
+    {
+     "rva": "0x6032C4",
+     "length": 2,
+     "live": "1aeb",
+     "expected": "3aec"
+    },
+    {
+     "rva": "0x6032C7",
+     "length": 3,
+     "live": "fc2c01",
+     "expected": "7c0c35"
+    },
+    {
+     "rva": "0x6032CC",
+     "length": 2,
+     "live": "2c92",
+     "expected": "0c9d"
+    },
+    {
+     "rva": "0x6032CF",
+     "length": 4,
+     "live": "88dde8c8",
+     "expected": "405b6cc9"
+    },
+    {
+     "rva": "0x6032D4",
+     "length": 2,
+     "live": "5760",
+     "expected": "7767"
+    },
+    {
+     "rva": "0x6032D7",
+     "length": 3,
+     "live": "893322",
+     "expected": "09b1a6"
+    },
+    {
+     "rva": "0x6032DC",
+     "length": 2,
+     "live": "5656",
+     "expected": "7657"
+    },
+    {
+     "rva": "0x6032DF",
+     "length": 3,
+     "live": "9bad3c",
+     "expected": "fbffa5"
+    },
+    {
+     "rva": "0x6032E4",
+     "length": 2,
+     "live": "f59a",
+     "expected": "d599"
+    },
+    {
+     "rva": "0x6032E7",
+     "length": 3,
+     "live": "8c7b75",
+     "expected": "0cd6ee"
+    },
+    {
+     "rva": "0x6032EC",
+     "length": 2,
+     "live": "54f3",
+     "expected": "34f2"
+    },
+    {
+     "rva": "0x6032EF",
+     "length": 4,
+     "live": "2b05c69f",
+     "expected": "4b26229e"
+    },
+    {
+     "rva": "0x6032F4",
+     "length": 2,
+     "live": "2cbe",
+     "expected": "0cbf"
+    },
+    {
+     "rva": "0x6032F7",
+     "length": 3,
+     "live": "356cc6",
+     "expected": "0d3722"
+    },
+    {
+     "rva": "0x6032FC",
+     "length": 2,
+     "live": "b439",
+     "expected": "9438"
+    },
+    {
+     "rva": "0x6032FF",
+     "length": 3,
+     "live": "c04fad",
+     "expected": "4060c1"
+    },
+    {
+     "rva": "0x603304",
+     "length": 2,
+     "live": "f009",
+     "expected": "d00a"
+    },
+    {
+     "rva": "0x603307",
+     "length": 3,
+     "live": "452b70",
+     "expected": "65565c"
+    },
+    {
+     "rva": "0x60330C",
+     "length": 2,
+     "live": "1729",
+     "expected": "372a"
+    },
+    {
+     "rva": "0x60330F",
+     "length": 3,
+     "live": "851225",
+     "expected": "cd9601"
+    },
+    {
+     "rva": "0x603314",
+     "length": 2,
+     "live": "38b3",
+     "expected": "18b2"
+    },
+    {
+     "rva": "0x603317",
+     "length": 3,
+     "live": "3f32bf",
+     "expected": "bf19a3"
+    },
+    {
+     "rva": "0x60331C",
+     "length": 2,
+     "live": "7713",
+     "expected": "5712"
+    },
+    {
+     "rva": "0x60331F",
+     "length": 1,
+     "live": "95",
+     "expected": "0d"
+    },
+    {
+     "rva": "0x603328",
+     "length": 2,
+     "live": "88f4",
+     "expected": "bfd0"
+    },
+    {
+     "rva": "0x60332C",
+     "length": 2,
+     "live": "8b2f",
+     "expected": "eb2e"
+    },
+    {
+     "rva": "0x60332F",
+     "length": 1,
+     "live": "c7",
+     "expected": "d7"
+    },
+    {
+     "rva": "0x603338",
+     "length": 3,
+     "live": "bba4c6",
+     "expected": "a258c7"
+    },
+    {
+     "rva": "0x60333C",
+     "length": 2,
+     "live": "a8de",
+     "expected": "88df"
+    },
+    {
+     "rva": "0x60333F",
+     "length": 1,
+     "live": "48",
+     "expected": "88"
+    },
+    {
+     "rva": "0x603350",
+     "length": 2,
+     "live": "30a9",
+     "expected": "87d5"
+    },
+    {
+     "rva": "0x603354",
+     "length": 2,
+     "live": "9a11",
+     "expected": "ba10"
+    },
+    {
+     "rva": "0x603357",
+     "length": 3,
+     "live": "cbe667",
+     "expected": "2bce40"
+    },
+    {
+     "rva": "0x60335C",
+     "length": 2,
+     "live": "b929",
+     "expected": "d928"
+    },
+    {
+     "rva": "0x60335F",
+     "length": 1,
+     "live": "00",
+     "expected": "40"
+    },
+    {
+     "rva": "0x603368",
+     "length": 2,
+     "live": "713c",
+     "expected": "5519"
+    },
+    {
+     "rva": "0x60336C",
+     "length": 2,
+     "live": "bf96",
+     "expected": "9f97"
+    },
+    {
+     "rva": "0x60336F",
+     "length": 3,
+     "live": "8911cf",
+     "expected": "09052a"
+    },
+    {
+     "rva": "0x603374",
+     "length": 2,
+     "live": "1da5",
+     "expected": "7da4"
+    },
+    {
+     "rva": "0x603377",
+     "length": 3,
+     "live": "b0459f",
+     "expected": "7048a0"
+    },
+    {
+     "rva": "0x60337C",
+     "length": 2,
+     "live": "bef2",
+     "expected": "9ef3"
+    },
+    {
+     "rva": "0x60337F",
+     "length": 3,
+     "live": "c7198b",
+     "expected": "671ae0"
+    },
+    {
+     "rva": "0x603384",
+     "length": 2,
+     "live": "14f7",
+     "expected": "f4f8"
+    },
+    {
+     "rva": "0x603387",
+     "length": 3,
+     "live": "d1a55e",
+     "expected": "512a34"
+    },
+    {
+     "rva": "0x60338C",
+     "length": 2,
+     "live": "410c",
+     "expected": "610b"
+    },
+    {
+     "rva": "0x60338F",
+     "length": 4,
+     "live": "a0f1c8b9",
+     "expected": "203c2db8"
+    },
+    {
+     "rva": "0x603394",
+     "length": 2,
+     "live": "b97c",
+     "expected": "997f"
+    },
+    {
+     "rva": "0x603397",
+     "length": 3,
+     "live": "848738",
+     "expected": "a4cc12"
+    },
+    {
+     "rva": "0x60339C",
+     "length": 2,
+     "live": "6479",
+     "expected": "0478"
+    },
+    {
+     "rva": "0x6033A8",
+     "length": 2,
+     "live": "5c13",
+     "expected": "4177"
+    },
+    {
+     "rva": "0x6033AC",
+     "length": 2,
+     "live": "6368",
+     "expected": "4369"
+    },
+    {
+     "rva": "0x6033AF",
+     "length": 3,
+     "live": "a9d1cb",
+     "expected": "f1d0f1"
+    },
+    {
+     "rva": "0x6033B4",
+     "length": 2,
+     "live": "6a5b",
+     "expected": "4a5a"
+    },
+    {
+     "rva": "0x6033B7",
+     "length": 3,
+     "live": "6ef6fb",
+     "expected": "eed281"
+    },
+    {
+     "rva": "0x6033BC",
+     "length": 1,
+     "live": "8c",
+     "expected": "6c"
+    },
+    {
+     "rva": "0x6033BF",
+     "length": 3,
+     "live": "7a0d1d",
+     "expected": "fad203"
+    },
+    {
+     "rva": "0x6033C4",
+     "length": 2,
+     "live": "6076",
+     "expected": "4071"
+    },
+    {
+     "rva": "0x6033C8",
+     "length": 2,
+     "live": "67ff",
+     "expected": "ffd0"
+    },
+    {
+     "rva": "0x6033CC",
+     "length": 2,
+     "live": "949f",
+     "expected": "f49e"
+    },
+    {
+     "rva": "0x6033CF",
+     "length": 3,
+     "live": "f42aca",
+     "expected": "74e3ec"
+    },
+    {
+     "rva": "0x6033D4",
+     "length": 2,
+     "live": "1aba",
+     "expected": "3ab5"
+    },
+    {
+     "rva": "0x6033D7",
+     "length": 3,
+     "live": "e4030d",
+     "expected": "2420e4"
+    },
+    {
+     "rva": "0x6033DC",
+     "length": 2,
+     "live": "d312",
+     "expected": "f311"
+    },
+    {
+     "rva": "0x6033DF",
+     "length": 3,
+     "live": "e7e906",
+     "expected": "470c79"
+    },
+    {
+     "rva": "0x6033E4",
+     "length": 2,
+     "live": "838b",
+     "expected": "e38a"
+    },
+    {
+     "rva": "0x6033E7",
+     "length": 3,
+     "live": "6ca567",
+     "expected": "8cb258"
+    },
+    {
+     "rva": "0x6033EC",
+     "length": 2,
+     "live": "a287",
+     "expected": "8288"
+    },
+    {
+     "rva": "0x6033EF",
+     "length": 3,
+     "live": "c5f352",
+     "expected": "65ae7a"
+    },
+    {
+     "rva": "0x6033F4",
+     "length": 1,
+     "live": "92",
+     "expected": "72"
+    },
+    {
+     "rva": "0x603400",
+     "length": 2,
+     "live": "7552",
+     "expected": "783a"
+    },
+    {
+     "rva": "0x603404",
+     "length": 2,
+     "live": "7dcd",
+     "expected": "5dca"
+    },
+    {
+     "rva": "0x603407",
+     "length": 4,
+     "live": "2ce3ad0d",
+     "expected": "ec8d450c"
+    },
+    {
+     "rva": "0x60340C",
+     "length": 1,
+     "live": "7a",
+     "expected": "9a"
+    },
+    {
+     "rva": "0x60340F",
+     "length": 3,
+     "live": "b66b31",
+     "expected": "561626"
+    },
+    {
+     "rva": "0x603414",
+     "length": 2,
+     "live": "2a58",
+     "expected": "0a47"
+    },
+    {
+     "rva": "0x603417",
+     "length": 3,
+     "live": "5b5c78",
+     "expected": "db6a43"
+    },
+    {
+     "rva": "0x60341C",
+     "length": 2,
+     "live": "384e",
+     "expected": "184d"
+    },
+    {
+     "rva": "0x60341F",
+     "length": 3,
+     "live": "ed9501",
+     "expected": "ad3b1f"
+    },
+    {
+     "rva": "0x603424",
+     "length": 2,
+     "live": "09e5",
+     "expected": "29e2"
+    },
+    {
+     "rva": "0x603427",
+     "length": 3,
+     "live": "ee39de",
+     "expected": "ce97f4"
+    },
+    {
+     "rva": "0x60342C",
+     "length": 2,
+     "live": "38ec",
+     "expected": "18ed"
+    },
+    {
+     "rva": "0x60342F",
+     "length": 3,
+     "live": "e91413",
+     "expected": "696c65"
+    },
+    {
+     "rva": "0x603434",
+     "length": 2,
+     "live": "1395",
+     "expected": "f392"
+    },
+    {
+     "rva": "0x603437",
+     "length": 3,
+     "live": "8c7d8c",
+     "expected": "0c16f2"
+    },
+    {
+     "rva": "0x60343C",
+     "length": 2,
+     "live": "f87d",
+     "expected": "d802"
+    },
+    {
+     "rva": "0x603440",
+     "length": 2,
+     "live": "8797",
+     "expected": "f96d"
+    },
+    {
+     "rva": "0x603444",
+     "length": 2,
+     "live": "5b6f",
+     "expected": "3b6e"
+    },
+    {
+     "rva": "0x603447",
+     "length": 3,
+     "live": "0e7a00",
+     "expected": "2eda6a"
+    },
+    {
+     "rva": "0x60344C",
+     "length": 1,
+     "live": "03",
+     "expected": "e3"
+    },
+    {
+     "rva": "0x60344F",
+     "length": 3,
+     "live": "950452",
+     "expected": "75a34c"
+    },
+    {
+     "rva": "0x603454",
+     "length": 2,
+     "live": "cb0e",
+     "expected": "eb0d"
+    },
+    {
+     "rva": "0x603458",
+     "length": 2,
+     "live": "aa25",
+     "expected": "0030"
+    },
+    {
+     "rva": "0x60345C",
+     "length": 2,
+     "live": "b246",
+     "expected": "9245"
+    },
+    {
+     "rva": "0x60345F",
+     "length": 3,
+     "live": "2b6020",
+     "expected": "abc655"
+    },
+    {
+     "rva": "0x603464",
+     "length": 2,
+     "live": "f402",
+     "expected": "940d"
+    },
+    {
+     "rva": "0x603470",
+     "length": 2,
+     "live": "858a",
+     "expected": "16a0"
+    },
+    {
+     "rva": "0x603474",
+     "length": 2,
+     "live": "8513",
+     "expected": "a512"
+    },
+    {
+     "rva": "0x603477",
+     "length": 3,
+     "live": "3c4e8b",
+     "expected": "9cdf91"
+    },
+    {
+     "rva": "0x60347C",
+     "length": 2,
+     "live": "901c",
+     "expected": "b01f"
+    },
+    {
+     "rva": "0x60347F",
+     "length": 4,
+     "live": "3190c4a0",
+     "expected": "d1b520af"
+    },
+    {
+     "rva": "0x603484",
+     "length": 2,
+     "live": "7bb4",
+     "expected": "9bb5"
+    },
+    {
+     "rva": "0x603487",
+     "length": 1,
+     "live": "b3",
+     "expected": "63"
+    },
+    {
+     "rva": "0x603490",
+     "length": 2,
+     "live": "6e68",
+     "expected": "579f"
+    },
+    {
+     "rva": "0x603494",
+     "length": 2,
+     "live": "12ac",
+     "expected": "32ad"
+    },
+    {
+     "rva": "0x603497",
+     "length": 3,
+     "live": "2885b4",
+     "expected": "88dc9f"
+    },
+    {
+     "rva": "0x60349C",
+     "length": 2,
+     "live": "83e9",
+     "expected": "e3e8"
+    },
+    {
+     "rva": "0x60349F",
+     "length": 3,
+     "live": "8df873",
+     "expected": "6dfc18"
+    },
+    {
+     "rva": "0x6034A4",
+     "length": 2,
+     "live": "3f8f",
+     "expected": "1f8c"
+    },
+    {
+     "rva": "0x6034A7",
+     "length": 3,
+     "live": "3f0b76",
+     "expected": "ff2652"
+    },
+    {
+     "rva": "0x6034AC",
+     "length": 2,
+     "live": "cd50",
+     "expected": "ed51"
+    },
+    {
+     "rva": "0x6034B0",
+     "length": 2,
+     "live": "526b",
+     "expected": "434f"
+    },
+    {
+     "rva": "0x6034B4",
+     "length": 2,
+     "live": "3771",
+     "expected": "5770"
+    },
+    {
+     "rva": "0x6034B7",
+     "length": 3,
+     "live": "677de2",
+     "expected": "e75bce"
+    },
+    {
+     "rva": "0x6034BC",
+     "length": 2,
+     "live": "4678",
+     "expected": "a67b"
+    },
+    {
+     "rva": "0x6034BF",
+     "length": 3,
+     "live": "fa4ec7",
+     "expected": "3a45e3"
+    },
+    {
+     "rva": "0x6034C4",
+     "length": 2,
+     "live": "6620",
+     "expected": "4623"
+    },
+    {
+     "rva": "0x6034C7",
+     "length": 3,
+     "live": "bd2aa3",
+     "expected": "fd4287"
+    },
+    {
+     "rva": "0x6034CC",
+     "length": 2,
+     "live": "ba90",
+     "expected": "5a97"
+    },
+    {
+     "rva": "0x6034CF",
+     "length": 3,
+     "live": "be4367",
+     "expected": "fe547b"
+    },
+    {
+     "rva": "0x6034D4",
+     "length": 1,
+     "live": "ae",
+     "expected": "4e"
+    },
+    {
+     "rva": "0x6034D7",
+     "length": 1,
+     "live": "44",
+     "expected": "c4"
+    },
+    {
+     "rva": "0x6034E0",
+     "length": 3,
+     "live": "829c34",
+     "expected": "847035"
+    },
+    {
+     "rva": "0x6034E4",
+     "length": 2,
+     "live": "a58d",
+     "expected": "858c"
+    },
+    {
+     "rva": "0x6034E8",
+     "length": 2,
+     "live": "e32f",
+     "expected": "f903"
+    },
+    {
+     "rva": "0x6034EC",
+     "length": 2,
+     "live": "c469",
+     "expected": "e468"
+    },
+    {
+     "rva": "0x6034EF",
+     "length": 3,
+     "live": "6cfbb1",
+     "expected": "acf99d"
+    },
+    {
+     "rva": "0x6034F4",
+     "length": 2,
+     "live": "14a5",
+     "expected": "34a4"
+    },
+    {
+     "rva": "0x6034F7",
+     "length": 4,
+     "live": "8436d597",
+     "expected": "445d3196"
+    },
+    {
+     "rva": "0x6034FC",
+     "length": 2,
+     "live": "22f6",
+     "expected": "42f5"
+    },
+    {
+     "rva": "0x6034FF",
+     "length": 3,
+     "live": "6af401",
+     "expected": "ea09e4"
+    },
+    {
+     "rva": "0x603504",
+     "length": 1,
+     "live": "83",
+     "expected": "63"
+    },
+    {
+     "rva": "0x603508",
+     "length": 2,
+     "live": "e862",
+     "expected": "e07e"
+    },
+    {
+     "rva": "0x60350C",
+     "length": 1,
+     "live": "dc",
+     "expected": "3c"
+    },
+    {
+     "rva": "0x603510",
+     "length": 2,
+     "live": "b82a",
+     "expected": "a00e"
+    },
+    {
+     "rva": "0x603514",
+     "length": 2,
+     "live": "6c1d",
+     "expected": "8c1c"
+    },
+    {
+     "rva": "0x603517",
+     "length": 3,
+     "live": "7f0fa9",
+     "expected": "bfeb8d"
+    },
+    {
+     "rva": "0x60351C",
+     "length": 2,
+     "live": "94c4",
+     "expected": "b4c7"
+    },
+    {
+     "rva": "0x603520",
+     "length": 2,
+     "live": "1b98",
+     "expected": "2db4"
+    },
+    {
+     "rva": "0x603524",
+     "length": 2,
+     "live": "299b",
+     "expected": "0998"
+    },
+    {
+     "rva": "0x603527",
+     "length": 3,
+     "live": "fa0043",
+     "expected": "7a275f"
+    },
+    {
+     "rva": "0x60352C",
+     "length": 2,
+     "live": "ae95",
+     "expected": "ce8a"
+    },
+    {
+     "rva": "0x60352F",
+     "length": 3,
+     "live": "415242",
+     "expected": "01ba6e"
+    },
+    {
+     "rva": "0x603534",
+     "length": 2,
+     "live": "e624",
+     "expected": "8623"
+    },
+    {
+     "rva": "0x603537",
+     "length": 3,
+     "live": "8d6074",
+     "expected": "4d8508"
+    },
+    {
+     "rva": "0x60353C",
+     "length": 2,
+     "live": "9d9c",
+     "expected": "fd9b"
+    },
+    {
+     "rva": "0x60353F",
+     "length": 3,
+     "live": "709ebe",
+     "expected": "b0a69a"
+    },
+    {
+     "rva": "0x603544",
+     "length": 2,
+     "live": "1ef9",
+     "expected": "7ef8"
+    },
+    {
+     "rva": "0x603548",
+     "length": 2,
+     "live": "dc5e",
+     "expected": "3572"
+    },
+    {
+     "rva": "0x60354C",
+     "length": 2,
+     "live": "e97b",
+     "expected": "c97a"
+    },
+    {
+     "rva": "0x60354F",
+     "length": 3,
+     "live": "e12fb2",
+     "expected": "6105d6"
+    },
+    {
+     "rva": "0x603554",
+     "length": 2,
+     "live": "a10e",
+     "expected": "c171"
+    },
+    {
+     "rva": "0x603557",
+     "length": 4,
+     "live": "e7274f56",
+     "expected": "a71fab59"
+    },
+    {
+     "rva": "0x60355C",
+     "length": 2,
+     "live": "6440",
+     "expected": "4441"
+    },
+    {
+     "rva": "0x60355F",
+     "length": 3,
+     "live": "0a469b",
+     "expected": "8ab887"
+    },
+    {
+     "rva": "0x603564",
+     "length": 2,
+     "live": "3dbe",
+     "expected": "5dbf"
+    },
+    {
+     "rva": "0x603567",
+     "length": 3,
+     "live": "470712",
+     "expected": "c7032e"
+    },
+    {
+     "rva": "0x60356C",
+     "length": 2,
+     "live": "4c96",
+     "expected": "6c95"
+    },
+    {
+     "rva": "0x60356F",
+     "length": 1,
+     "live": "d9",
+     "expected": "59"
+    },
+    {
+     "rva": "0x603578",
+     "length": 2,
+     "live": "8c53",
+     "expected": "7877"
+    },
+    {
+     "rva": "0x60357C",
+     "length": 2,
+     "live": "5188",
+     "expected": "b18b"
+    },
+    {
+     "rva": "0x60357F",
+     "length": 3,
+     "live": "536d53",
+     "expected": "938b36"
+    },
+    {
+     "rva": "0x603584",
+     "length": 2,
+     "live": "4e35",
+     "expected": "6e36"
+    },
+    {
+     "rva": "0x603590",
+     "length": 2,
+     "live": "afe3",
+     "expected": "9f87"
+    },
+    {
+     "rva": "0x603594",
+     "length": 2,
+     "live": "0cc9",
+     "expected": "ecce"
+    },
+    {
+     "rva": "0x603597",
+     "length": 3,
+     "live": "57775a",
+     "expected": "d74a3e"
+    },
+    {
+     "rva": "0x60359C",
+     "length": 2,
+     "live": "9d75",
+     "expected": "bd74"
+    },
+    {
+     "rva": "0x60359F",
+     "length": 3,
+     "live": "fb0437",
+     "expected": "7bf313"
+    },
+    {
+     "rva": "0x6035A4",
+     "length": 2,
+     "live": "e0a5",
+     "expected": "00a2"
+    },
+    {
+     "rva": "0x6035A7",
+     "length": 3,
+     "live": "48e6c0",
+     "expected": "0813dc"
+    },
+    {
+     "rva": "0x6035AC",
+     "length": 1,
+     "live": "61",
+     "expected": "81"
+    },
+    {
+     "rva": "0x6035AF",
+     "length": 4,
+     "live": "fd349599",
+     "expected": "7d04719e"
+    },
+    {
+     "rva": "0x6035B4",
+     "length": 2,
+     "live": "f079",
+     "expected": "d078"
+    },
+    {
+     "rva": "0x6035B7",
+     "length": 3,
+     "live": "64fd29",
+     "expected": "a4cd35"
+    },
+    {
+     "rva": "0x6035BC",
+     "length": 2,
+     "live": "29af",
+     "expected": "09ae"
+    },
+    {
+     "rva": "0x6035C8",
+     "length": 2,
+     "live": "ec59",
+     "expected": "0334"
+    },
+    {
+     "rva": "0x6035CC",
+     "length": 2,
+     "live": "d976",
+     "expected": "f975"
+    },
+    {
+     "rva": "0x6035CF",
+     "length": 3,
+     "live": "2574ba",
+     "expected": "a554de"
+    },
+    {
+     "rva": "0x6035D4",
+     "length": 2,
+     "live": "6310",
+     "expected": "4313"
+    },
+    {
+     "rva": "0x6035D7",
+     "length": 3,
+     "live": "a71c5f",
+     "expected": "e77573"
+    },
+    {
+     "rva": "0x6035DC",
+     "length": 2,
+     "live": "bac7",
+     "expected": "9af8"
+    },
+    {
+     "rva": "0x6035E0",
+     "length": 2,
+     "live": "0d7b",
+     "expected": "041f"
+    },
+    {
+     "rva": "0x6035E4",
+     "length": 2,
+     "live": "8b85",
+     "expected": "eb82"
+    },
+    {
+     "rva": "0x6035E7",
+     "length": 4,
+     "live": "1c38df0d",
+     "expected": "5c023b0e"
+    },
+    {
+     "rva": "0x6035EC",
+     "length": 2,
+     "live": "80b3",
+     "expected": "a0b0"
+    },
+    {
+     "rva": "0x6035EF",
+     "length": 3,
+     "live": "468e01",
+     "expected": "06d36d"
+    },
+    {
+     "rva": "0x6035F4",
+     "length": 2,
+     "live": "786f",
+     "expected": "186c"
+    },
+    {
+     "rva": "0x603608",
+     "length": 3,
+     "live": "51b6bf",
+     "expected": "a20080"
+    },
+    {
+     "rva": "0x60360C",
+     "length": 2,
+     "live": "019c",
+     "expected": "219d"
+    },
+    {
+     "rva": "0x60360F",
+     "length": 4,
+     "live": "175237c2",
+     "expected": "77238ac0"
+    },
+    {
+     "rva": "0x603614",
+     "length": 2,
+     "live": "e9bb",
+     "expected": "09ba"
+    },
+    {
+     "rva": "0x603617",
+     "length": 4,
+     "live": "18b74ad5",
+     "expected": "98c735d4"
+    },
+    {
+     "rva": "0x60361C",
+     "length": 2,
+     "live": "f7c6",
+     "expected": "d7c5"
+    },
+    {
+     "rva": "0x60361F",
+     "length": 4,
+     "live": "a78bc5bb",
+     "expected": "07d834b9"
+    },
+    {
+     "rva": "0x603624",
+     "length": 2,
+     "live": "6d9f",
+     "expected": "4d9e"
+    },
+    {
+     "rva": "0x603627",
+     "length": 3,
+     "live": "d743f2",
+     "expected": "57eaec"
+    },
+    {
+     "rva": "0x60362C",
+     "length": 2,
+     "live": "34fb",
+     "expected": "14fc"
+    },
+    {
+     "rva": "0x60362F",
+     "length": 4,
+     "live": "05ee2a9e",
+     "expected": "e51bbc9c"
+    },
+    {
+     "rva": "0x603634",
+     "length": 2,
+     "live": "b2ad",
+     "expected": "d2ac"
+    },
+    {
+     "rva": "0x603637",
+     "length": 4,
+     "live": "b7db5828",
+     "expected": "97872829"
+    },
+    {
+     "rva": "0x60363C",
+     "length": 2,
+     "live": "9887",
+     "expected": "f884"
+    },
+    {
+     "rva": "0x60363F",
+     "length": 4,
+     "live": "61caf647",
+     "expected": "01b06641"
+    },
+    {
+     "rva": "0x603644",
+     "length": 2,
+     "live": "b56c",
+     "expected": "956f"
+    },
+    {
+     "rva": "0x603647",
+     "length": 4,
+     "live": "6c8bf595",
+     "expected": "cc074093"
+    },
+    {
+     "rva": "0x60364C",
+     "length": 1,
+     "live": "52",
+     "expected": "b2"
+    },
+    {
+     "rva": "0x603650",
+     "length": 3,
+     "live": "a995fd",
+     "expected": "2520fb"
+    },
+    {
+     "rva": "0x603654",
+     "length": 2,
+     "live": "57be",
+     "expected": "77bd"
+    },
+    {
+     "rva": "0x603657",
+     "length": 4,
+     "live": "2ee5a0eb",
+     "expected": "8e0012e5"
+    },
+    {
+     "rva": "0x60365C",
+     "length": 2,
+     "live": "0a5a",
+     "expected": "6a5b"
+    },
+    {
+     "rva": "0x60365F",
+     "length": 4,
+     "live": "d5737f8d",
+     "expected": "758cecb3"
+    },
+    {
+     "rva": "0x603664",
+     "length": 2,
+     "live": "00ab",
+     "expected": "20aa"
+    },
+    {
+     "rva": "0x603668",
+     "length": 3,
+     "live": "89d750",
+     "expected": "61a253"
+    },
+    {
+     "rva": "0x60366C",
+     "length": 2,
+     "live": "9efb",
+     "expected": "befa"
+    },
+    {
+     "rva": "0x60366F",
+     "length": 4,
+     "live": "558d6c76",
+     "expected": "354dc169"
+    },
+    {
+     "rva": "0x603674",
+     "length": 2,
+     "live": "e5c6",
+     "expected": "c5c7"
+    },
+    {
+     "rva": "0x603677",
+     "length": 4,
+     "live": "b237024f",
+     "expected": "12007d4e"
+    },
+    {
+     "rva": "0x60367C",
+     "length": 1,
+     "live": "ee",
+     "expected": "0e"
+    },
+    {
+     "rva": "0x60367F",
+     "length": 4,
+     "live": "3cf4606f",
+     "expected": "1c05d260"
+    },
+    {
+     "rva": "0x603684",
+     "length": 2,
+     "live": "1a94",
+     "expected": "fa9b"
+    },
+    {
+     "rva": "0x603687",
+     "length": 4,
+     "live": "c31a135d",
+     "expected": "ab17a053"
+    },
+    {
+     "rva": "0x60368C",
+     "length": 2,
+     "live": "4dd7",
+     "expected": "6dd6"
+    },
+    {
+     "rva": "0x60368F",
+     "length": 4,
+     "live": "37e70a12",
+     "expected": "b7fb7911"
+    },
+    {
+     "rva": "0x603694",
+     "length": 2,
+     "live": "8784",
+     "expected": "a787"
+    },
+    {
+     "rva": "0x603697",
+     "length": 4,
+     "live": "7ee45c87",
+     "expected": "3e63cef9"
+    },
+    {
+     "rva": "0x60369C",
+     "length": 2,
+     "live": "fa7c",
+     "expected": "da7f"
+    },
+    {
+     "rva": "0x60369F",
+     "length": 4,
+     "live": "512cb0d7",
+     "expected": "f13c03d4"
+    },
+    {
+     "rva": "0x6036A4",
+     "length": 2,
+     "live": "5b07",
+     "expected": "7b06"
+    },
+    {
+     "rva": "0x6036A8",
+     "length": 3,
+     "live": "059493",
+     "expected": "370190"
+    },
+    {
+     "rva": "0x6036AC",
+     "length": 2,
+     "live": "6f1e",
+     "expected": "4f11"
+    },
+    {
+     "rva": "0x6036AF",
+     "length": 4,
+     "live": "0cecc50e",
+     "expected": "acf0aa0d"
+    },
+    {
+     "rva": "0x6036B4",
+     "length": 2,
+     "live": "cefa",
+     "expected": "eefb"
+    },
+    {
+     "rva": "0x6036B7",
+     "length": 4,
+     "live": "9ee8c5da",
+     "expected": "3e3b5bd9"
+    },
+    {
+     "rva": "0x6036BC",
+     "length": 2,
+     "live": "5f93",
+     "expected": "3f9c"
+    },
+    {
+     "rva": "0x6036BF",
+     "length": 4,
+     "live": "1b54ce1e",
+     "expected": "939b5b18"
+    },
+    {
+     "rva": "0x6036C4",
+     "length": 2,
+     "live": "21f5",
+     "expected": "c1f2"
+    },
+    {
+     "rva": "0x6036C7",
+     "length": 4,
+     "live": "2a6f98e0",
+     "expected": "aad9edff"
+    },
+    {
+     "rva": "0x6036CC",
+     "length": 2,
+     "live": "5f09",
+     "expected": "3f08"
+    },
+    {
+     "rva": "0x6036CF",
+     "length": 4,
+     "live": "1c40a514",
+     "expected": "5ccac917"
+    },
+    {
+     "rva": "0x6036D4",
+     "length": 2,
+     "live": "210c",
+     "expected": "c10d"
+    },
+    {
+     "rva": "0x6036D7",
+     "length": 4,
+     "live": "09ef9215",
+     "expected": "a96f0e14"
+    },
+    {
+     "rva": "0x6036DC",
+     "length": 2,
+     "live": "3cd6",
+     "expected": "1cd7"
+    },
+    {
+     "rva": "0x6036DF",
+     "length": 4,
+     "live": "672011b8",
+     "expected": "07a19cbb"
+    },
+    {
+     "rva": "0x6036E4",
+     "length": 2,
+     "live": "41ad",
+     "expected": "21ae"
+    },
+    {
+     "rva": "0x6036E8",
+     "length": 3,
+     "live": "2e0928",
+     "expected": "aebc2b"
+    },
+    {
+     "rva": "0x6036EC",
+     "length": 1,
+     "live": "8f",
+     "expected": "6f"
+    },
+    {
+     "rva": "0x6036EF",
+     "length": 4,
+     "live": "0176debd",
+     "expected": "e11373be"
+    },
+    {
+     "rva": "0x6036F4",
+     "length": 1,
+     "live": "44",
+     "expected": "a4"
+    },
+    {
+     "rva": "0x6036F7",
+     "length": 4,
+     "live": "a3bab5ca",
+     "expected": "0357decb"
+    },
+    {
+     "rva": "0x6036FC",
+     "length": 1,
+     "live": "0a",
+     "expected": "ea"
+    },
+    {
+     "rva": "0x6036FF",
+     "length": 4,
+     "live": "eec8147d",
+     "expected": "aefa827f"
+    },
+    {
+     "rva": "0x603704",
+     "length": 2,
+     "live": "7e82",
+     "expected": "5e85"
+    },
+    {
+     "rva": "0x603707",
+     "length": 4,
+     "live": "5eebabc0",
+     "expected": "be693dc1"
+    },
+    {
+     "rva": "0x60370C",
+     "length": 2,
+     "live": "f2c4",
+     "expected": "d2c5"
+    },
+    {
+     "rva": "0x60370F",
+     "length": 4,
+     "live": "51b50ed3",
+     "expected": "f156e4dc"
+    },
+    {
+     "rva": "0x603714",
+     "length": 2,
+     "live": "c520",
+     "expected": "e5df"
+    },
+    {
+     "rva": "0x603717",
+     "length": 4,
+     "live": "609ac5b4",
+     "expected": "40775cb5"
+    },
+    {
+     "rva": "0x60371C",
+     "length": 2,
+     "live": "93a3",
+     "expected": "b3a0"
+    },
+    {
+     "rva": "0x60371F",
+     "length": 4,
+     "live": "c83321f4",
+     "expected": "0817c8f7"
+    },
+    {
+     "rva": "0x603724",
+     "length": 2,
+     "live": "b6f0",
+     "expected": "d6f1"
+    },
+    {
+     "rva": "0x603727",
+     "length": 4,
+     "live": "62c8a057",
+     "expected": "422bce50"
+    },
+    {
+     "rva": "0x60372C",
+     "length": 2,
+     "live": "89ed",
+     "expected": "a9ee"
+    },
+    {
+     "rva": "0x603730",
+     "length": 3,
+     "live": "82c757",
+     "expected": "a65e56"
+    },
+    {
+     "rva": "0x603734",
+     "length": 2,
+     "live": "be1d",
+     "expected": "de1c"
+    },
+    {
+     "rva": "0x603737",
+     "length": 4,
+     "live": "7c56d439",
+     "expected": "5cdf4337"
+    },
+    {
+     "rva": "0x60373C",
+     "length": 1,
+     "live": "71",
+     "expected": "91"
+    },
+    {
+     "rva": "0x603740",
+     "length": 3,
+     "live": "849596",
+     "expected": "b50c90"
+    },
+    {
+     "rva": "0x603744",
+     "length": 2,
+     "live": "ba2f",
+     "expected": "9a2e"
+    },
+    {
+     "rva": "0x603748",
+     "length": 3,
+     "live": "2ce919",
+     "expected": "05421b"
+    },
+    {
+     "rva": "0x60374C",
+     "length": 2,
+     "live": "a0d2",
+     "expected": "80d3"
+    },
+    {
+     "rva": "0x60374F",
+     "length": 4,
+     "live": "40c62d82",
+     "expected": "80dab683"
+    },
+    {
+     "rva": "0x603754",
+     "length": 2,
+     "live": "b433",
+     "expected": "9432"
+    },
+    {
+     "rva": "0x603757",
+     "length": 4,
+     "live": "063c620b",
+     "expected": "461ef90d"
+    },
+    {
+     "rva": "0x60375C",
+     "length": 2,
+     "live": "2bce",
+     "expected": "0bd1"
+    },
+    {
+     "rva": "0x60375F",
+     "length": 4,
+     "live": "98c5cd22",
+     "expected": "b8b15b2c"
+    },
+    {
+     "rva": "0x603764",
+     "length": 2,
+     "live": "93c2",
+     "expected": "f3c3"
+    },
+    {
+     "rva": "0x603767",
+     "length": 4,
+     "live": "504a5fa7",
+     "expected": "f0c7a4a6"
+    },
+    {
+     "rva": "0x60376C",
+     "length": 1,
+     "live": "5b",
+     "expected": "bb"
+    },
+    {
+     "rva": "0x60376F",
+     "length": 4,
+     "live": "163504e3",
+     "expected": "56a091e5"
+    },
+    {
+     "rva": "0x603774",
+     "length": 2,
+     "live": "69ce",
+     "expected": "49cd"
+    },
+    {
+     "rva": "0x603777",
+     "length": 4,
+     "live": "85c60c53",
+     "expected": "e5bfe450"
+    },
+    {
+     "rva": "0x60377C",
+     "length": 2,
+     "live": "3e49",
+     "expected": "5e48"
+    },
+    {
+     "rva": "0x60377F",
+     "length": 2,
+     "live": "d5a2",
+     "expected": "75a3"
+    },
+    {
+     "rva": "0x603783",
+     "length": 1,
+     "live": "dd",
+     "expected": "4d"
+    },
+    {
+     "rva": "0x603787",
+     "length": 1,
+     "live": "28",
+     "expected": "5e"
+    },
+    {
+     "rva": "0x60378B",
+     "length": 1,
+     "live": "5b",
+     "expected": "2f"
+    },
+    {
+     "rva": "0x60378F",
+     "length": 2,
+     "live": "af4a",
+     "expected": "6b4b"
+    },
+    {
+     "rva": "0x603793",
+     "length": 1,
+     "live": "6c",
+     "expected": "4a"
+    },
+    {
+     "rva": "0x60379B",
+     "length": 1,
+     "live": "dc",
+     "expected": "52"
+    },
+    {
+     "rva": "0x60379F",
+     "length": 2,
+     "live": "4ba0",
+     "expected": "6ba1"
+    },
+    {
+     "rva": "0x6037A3",
+     "length": 2,
+     "live": "b39f",
+     "expected": "3b9c"
+    },
+    {
+     "rva": "0x6037A7",
+     "length": 1,
+     "live": "92",
+     "expected": "6e"
+    },
+    {
+     "rva": "0x6037AC",
+     "length": 1,
+     "live": "26",
+     "expected": "27"
+    },
+    {
+     "rva": "0x6037AF",
+     "length": 2,
+     "live": "8a18",
+     "expected": "1819"
+    },
+    {
+     "rva": "0x6037B3",
+     "length": 2,
+     "live": "9b4c",
+     "expected": "4f43"
+    },
+    {
+     "rva": "0x6037B7",
+     "length": 2,
+     "live": "14cb",
+     "expected": "06c8"
+    },
+    {
+     "rva": "0x6037BB",
+     "length": 2,
+     "live": "1460",
+     "expected": "1661"
+    },
+    {
+     "rva": "0x6037C0",
+     "length": 1,
+     "live": "47",
+     "expected": "44"
+    },
+    {
+     "rva": "0x6037C3",
+     "length": 2,
+     "live": "ab53",
+     "expected": "0152"
+    },
+    {
+     "rva": "0x6037C7",
+     "length": 1,
+     "live": "7c",
+     "expected": "68"
+    },
+    {
+     "rva": "0x6037CC",
+     "length": 1,
+     "live": "34",
+     "expected": "36"
+    },
+    {
+     "rva": "0x6037CF",
+     "length": 2,
+     "live": "74a4",
+     "expected": "80a5"
+    },
+    {
+     "rva": "0x6037D3",
+     "length": 2,
+     "live": "05dd",
+     "expected": "efdc"
+    },
+    {
+     "rva": "0x6037D7",
+     "length": 2,
+     "live": "9a8b",
+     "expected": "b488"
+    },
+    {
+     "rva": "0x6037DB",
+     "length": 1,
+     "live": "b8",
+     "expected": "a4"
+    },
+    {
+     "rva": "0x6037DF",
+     "length": 1,
+     "live": "f3",
+     "expected": "83"
+    },
+    {
+     "rva": "0x6037E3",
+     "length": 1,
+     "live": "4f",
+     "expected": "c9"
+    },
+    {
+     "rva": "0x6037E7",
+     "length": 1,
+     "live": "57",
+     "expected": "f1"
+    },
+    {
+     "rva": "0x6037EB",
+     "length": 2,
+     "live": "959d",
+     "expected": "fd9c"
+    },
+    {
+     "rva": "0x6037EF",
+     "length": 2,
+     "live": "8465",
+     "expected": "ec64"
+    },
+    {
+     "rva": "0x6037F3",
+     "length": 1,
+     "live": "c1",
+     "expected": "e7"
+    },
+    {
+     "rva": "0x6037F7",
+     "length": 2,
+     "live": "0721",
+     "expected": "4526"
+    },
+    {
+     "rva": "0x6037FB",
+     "length": 2,
+     "live": "e17d",
+     "expected": "6d7e"
+    },
+    {
+     "rva": "0x6037FF",
+     "length": 2,
+     "live": "7f18",
+     "expected": "0f1e"
+    },
+    {
+     "rva": "0x603803",
+     "length": 2,
+     "live": "31f5",
+     "expected": "ebfa"
+    },
+    {
+     "rva": "0x603807",
+     "length": 1,
+     "live": "38",
+     "expected": "6c"
+    },
+    {
+     "rva": "0x60380B",
+     "length": 2,
+     "live": "ec14",
+     "expected": "9e17"
+    },
+    {
+     "rva": "0x60380F",
+     "length": 1,
+     "live": "70",
+     "expected": "06"
+    },
+    {
+     "rva": "0x603813",
+     "length": 1,
+     "live": "00",
+     "expected": "b8"
+    },
+    {
+     "rva": "0x603817",
+     "length": 2,
+     "live": "7abd",
+     "expected": "a0be"
+    },
+    {
+     "rva": "0x60381B",
+     "length": 1,
+     "live": "7c",
+     "expected": "e6"
+    },
+    {
+     "rva": "0x60381F",
+     "length": 2,
+     "live": "a6f2",
+     "expected": "f4f0"
+    },
+    {
+     "rva": "0x603823",
+     "length": 1,
+     "live": "bb",
+     "expected": "07"
+    },
+    {
+     "rva": "0x603827",
+     "length": 2,
+     "live": "bc60",
+     "expected": "2c67"
+    },
+    {
+     "rva": "0x60382B",
+     "length": 1,
+     "live": "00",
+     "expected": "8e"
+    },
+    {
+     "rva": "0x60382F",
+     "length": 2,
+     "live": "7938",
+     "expected": "3339"
+    },
+    {
+     "rva": "0x603833",
+     "length": 2,
+     "live": "3eec",
+     "expected": "fee3"
+    },
+    {
+     "rva": "0x603837",
+     "length": 1,
+     "live": "0f",
+     "expected": "ad"
+    },
+    {
+     "rva": "0x60383B",
+     "length": 2,
+     "live": "d04f",
+     "expected": "6c41"
+    },
+    {
+     "rva": "0x60383F",
+     "length": 2,
+     "live": "ddd2",
+     "expected": "47d3"
+    },
+    {
+     "rva": "0x603843",
+     "length": 2,
+     "live": "84eb",
+     "expected": "00ec"
+    },
+    {
+     "rva": "0x603847",
+     "length": 2,
+     "live": "c385",
+     "expected": "3183"
+    },
+    {
+     "rva": "0x60384B",
+     "length": 1,
+     "live": "12",
+     "expected": "92"
+    },
+    {
+     "rva": "0x60384F",
+     "length": 1,
+     "live": "76",
+     "expected": "0a"
+    },
+    {
+     "rva": "0x603853",
+     "length": 1,
+     "live": "c5",
+     "expected": "91"
+    },
+    {
+     "rva": "0x603857",
+     "length": 1,
+     "live": "4d",
+     "expected": "f9"
+    },
+    {
+     "rva": "0x60385B",
+     "length": 2,
+     "live": "12e8",
+     "expected": "56ee"
+    },
+    {
+     "rva": "0x60385F",
+     "length": 1,
+     "live": "eb",
+     "expected": "9f"
+    },
+    {
+     "rva": "0x603863",
+     "length": 1,
+     "live": "01",
+     "expected": "63"
+    },
+    {
+     "rva": "0x603867",
+     "length": 1,
+     "live": "6d",
+     "expected": "d1"
+    },
+    {
+     "rva": "0x60386C",
+     "length": 1,
+     "live": "85",
+     "expected": "84"
+    },
+    {
+     "rva": "0x60386F",
+     "length": 2,
+     "live": "ce47",
+     "expected": "9279"
+    },
+    {
+     "rva": "0x603873",
+     "length": 1,
+     "live": "ff",
+     "expected": "6f"
+    },
+    {
+     "rva": "0x603877",
+     "length": 2,
+     "live": "8b57",
+     "expected": "1955"
+    },
+    {
+     "rva": "0x60387B",
+     "length": 1,
+     "live": "e1",
+     "expected": "79"
+    },
+    {
+     "rva": "0x60387F",
+     "length": 1,
+     "live": "59",
+     "expected": "89"
+    },
+    {
+     "rva": "0x603883",
+     "length": 2,
+     "live": "c505",
+     "expected": "7d02"
+    },
+    {
+     "rva": "0x603887",
+     "length": 2,
+     "live": "17cd",
+     "expected": "bbcc"
+    },
+    {
+     "rva": "0x60388B",
+     "length": 2,
+     "live": "a062",
+     "expected": "d460"
+    },
+    {
+     "rva": "0x60388F",
+     "length": 2,
+     "live": "539a",
+     "expected": "3f98"
+    },
+    {
+     "rva": "0x603893",
+     "length": 1,
+     "live": "ec",
+     "expected": "8c"
+    },
+    {
+     "rva": "0x603897",
+     "length": 1,
+     "live": "b7",
+     "expected": "b9"
+    },
+    {
+     "rva": "0x60389B",
+     "length": 2,
+     "live": "ed6f",
+     "expected": "4b6e"
+    },
+    {
+     "rva": "0x60389F",
+     "length": 1,
+     "live": "28",
+     "expected": "a8"
+    },
+    {
+     "rva": "0x6038A3",
+     "length": 1,
+     "live": "ee",
+     "expected": "50"
+    },
+    {
+     "rva": "0x6038A7",
+     "length": 2,
+     "live": "f5e4",
+     "expected": "99e6"
+    },
+    {
+     "rva": "0x6038AB",
+     "length": 2,
+     "live": "91ac",
+     "expected": "e9ae"
+    },
+    {
+     "rva": "0x6038AF",
+     "length": 1,
+     "live": "8d",
+     "expected": "5d"
+    },
+    {
+     "rva": "0x6038B3",
+     "length": 2,
+     "live": "98a9",
+     "expected": "76a8"
+    },
+    {
+     "rva": "0x6038B7",
+     "length": 2,
+     "live": "b443",
+     "expected": "7a4d"
+    },
+    {
+     "rva": "0x6038BB",
+     "length": 1,
+     "live": "66",
+     "expected": "2c"
+    },
+    {
+     "rva": "0x6038BF",
+     "length": 1,
+     "live": "6e",
+     "expected": "48"
+    },
+    {
+     "rva": "0x6038C3",
+     "length": 1,
+     "live": "08",
+     "expected": "d8"
+    },
+    {
+     "rva": "0x6038C7",
+     "length": 1,
+     "live": "93",
+     "expected": "e9"
+    },
+    {
+     "rva": "0x6038CB",
+     "length": 2,
+     "live": "d3ab",
+     "expected": "cfad"
+    },
+    {
+     "rva": "0x6038CF",
+     "length": 1,
+     "live": "57",
+     "expected": "6b"
+    },
+    {
+     "rva": "0x6038D4",
+     "length": 1,
+     "live": "b7",
+     "expected": "c9"
+    },
+    {
+     "rva": "0x6038D7",
+     "length": 2,
+     "live": "0726",
+     "expected": "e127"
+    },
+    {
+     "rva": "0x6038DB",
+     "length": 2,
+     "live": "1820",
+     "expected": "fc22"
+    },
+    {
+     "rva": "0x6038DF",
+     "length": 2,
+     "live": "e5f3",
+     "expected": "89fd"
+    },
+    {
+     "rva": "0x6038E3",
+     "length": 1,
+     "live": "27",
+     "expected": "35"
+    },
+    {
+     "rva": "0x6038E7",
+     "length": 2,
+     "live": "a740",
+     "expected": "015f"
+    },
+    {
+     "rva": "0x6038EB",
+     "length": 2,
+     "live": "eae3",
+     "expected": "32e1"
+    },
+    {
+     "rva": "0x6038EF",
+     "length": 2,
+     "live": "cbae",
+     "expected": "f5ac"
+    },
+    {
+     "rva": "0x6038F3",
+     "length": 2,
+     "live": "91d3",
+     "expected": "95d4"
+    },
+    {
+     "rva": "0x6038F7",
+     "length": 2,
+     "live": "716b",
+     "expected": "9f75"
+    },
+    {
+     "rva": "0x6038FB",
+     "length": 2,
+     "live": "6cc9",
+     "expected": "72cf"
+    },
+    {
+     "rva": "0x6038FF",
+     "length": 2,
+     "live": "65f1",
+     "expected": "69f0"
+    },
+    {
+     "rva": "0x603903",
+     "length": 1,
+     "live": "26",
+     "expected": "ee"
+    },
+    {
+     "rva": "0x603907",
+     "length": 1,
+     "live": "ab",
+     "expected": "a5"
+    },
+    {
+     "rva": "0x60390B",
+     "length": 1,
+     "live": "f2",
+     "expected": "e4"
+    },
+    {
+     "rva": "0x60390F",
+     "length": 1,
+     "live": "35",
+     "expected": "0d"
+    },
+    {
+     "rva": "0x603913",
+     "length": 1,
+     "live": "4c",
+     "expected": "fa"
+    },
+    {
+     "rva": "0x603917",
+     "length": 4,
+     "live": "bc6d4ebf",
+     "expected": "2ee8abb8"
+    },
+    {
+     "rva": "0x60391C",
+     "length": 1,
+     "live": "25",
+     "expected": "c5"
+    },
+    {
+     "rva": "0x60391F",
+     "length": 4,
+     "live": "24857b72",
+     "expected": "a4af9573"
+    },
+    {
+     "rva": "0x603924",
+     "length": 2,
+     "live": "3893",
+     "expected": "1892"
+    },
+    {
+     "rva": "0x603927",
+     "length": 3,
+     "live": "ec4594",
+     "expected": "ac2f8f"
+    },
+    {
+     "rva": "0x60392C",
+     "length": 2,
+     "live": "0566",
+     "expected": "6561"
+    },
+    {
+     "rva": "0x60392F",
+     "length": 3,
+     "live": "6fc517",
+     "expected": "4fd2e9"
+    },
+    {
+     "rva": "0x603934",
+     "length": 2,
+     "live": "d36d",
+     "expected": "b36c"
+    },
+    {
+     "rva": "0x603937",
+     "length": 3,
+     "live": "05339a",
+     "expected": "4559bd"
+    },
+    {
+     "rva": "0x60393C",
+     "length": 2,
+     "live": "30cb",
+     "expected": "d0ca"
+    },
+    {
+     "rva": "0x60393F",
+     "length": 4,
+     "live": "95ffa8d0",
+     "expected": "35cc3ed1"
+    },
+    {
+     "rva": "0x603944",
+     "length": 2,
+     "live": "2fd4",
+     "expected": "0fd5"
+    },
+    {
+     "rva": "0x603947",
+     "length": 1,
+     "live": "0f",
+     "expected": "4f"
+    },
+    {
+     "rva": "0x603950",
+     "length": 2,
+     "live": "b106",
+     "expected": "cc73"
+    },
+    {
+     "rva": "0x603954",
+     "length": 2,
+     "live": "56e5",
+     "expected": "36ea"
+    },
+    {
+     "rva": "0x603958",
+     "length": 2,
+     "live": "aeb8",
+     "expected": "e5cd"
+    },
+    {
+     "rva": "0x60395C",
+     "length": 2,
+     "live": "b1cd",
+     "expected": "91cc"
+    },
+    {
+     "rva": "0x60395F",
+     "length": 3,
+     "live": "b3e661",
+     "expected": "d3984c"
+    },
+    {
+     "rva": "0x603964",
+     "length": 2,
+     "live": "61f7",
+     "expected": "01f6"
+    },
+    {
+     "rva": "0x603967",
+     "length": 3,
+     "live": "c66e87",
+     "expected": "869ef8"
+    },
+    {
+     "rva": "0x60396C",
+     "length": 2,
+     "live": "96d2",
+     "expected": "76dd"
+    },
+    {
+     "rva": "0x60396F",
+     "length": 3,
+     "live": "63e39e",
+     "expected": "c303a0"
+    },
+    {
+     "rva": "0x603974",
+     "length": 2,
+     "live": "4ab4",
+     "expected": "6ab5"
+    },
+    {
+     "rva": "0x603977",
+     "length": 3,
+     "live": "b51028",
+     "expected": "353101"
+    },
+    {
+     "rva": "0x60397C",
+     "length": 2,
+     "live": "6580",
+     "expected": "459f"
+    },
+    {
+     "rva": "0x60397F",
+     "length": 3,
+     "live": "f97a4d",
+     "expected": "19c654"
+    },
+    {
+     "rva": "0x603984",
+     "length": 1,
+     "live": "49",
+     "expected": "a9"
+    },
+    {
+     "rva": "0x603987",
+     "length": 3,
+     "live": "2170c1",
+     "expected": "41b8f8"
+    },
+    {
+     "rva": "0x60398C",
+     "length": 2,
+     "live": "c581",
+     "expected": "a58e"
+    },
+    {
+     "rva": "0x60398F",
+     "length": 3,
+     "live": "ec355c",
+     "expected": "2cf44a"
+    },
+    {
+     "rva": "0x603994",
+     "length": 2,
+     "live": "7d09",
+     "expected": "1d06"
+    },
+    {
+     "rva": "0x603997",
+     "length": 2,
+     "live": "d3b1",
+     "expected": "53bc"
+    },
+    {
+     "rva": "0x60399F",
+     "length": 2,
+     "live": "f107",
+     "expected": "8905"
+    },
+    {
+     "rva": "0x6039A8",
+     "length": 3,
+     "live": "f85ee3",
+     "expected": "b88b9a"
+    },
+    {
+     "rva": "0x6039B0",
+     "length": 2,
+     "live": "abfc",
+     "expected": "d0e2"
+    },
+    {
+     "rva": "0x6039B4",
+     "length": 2,
+     "live": "c92d",
+     "expected": "e92a"
+    },
+    {
+     "rva": "0x6039B7",
+     "length": 3,
+     "live": "3d19d6",
+     "expected": "9d1cc1"
+    },
+    {
+     "rva": "0x6039BC",
+     "length": 2,
+     "live": "8d68",
+     "expected": "ed6f"
+    },
+    {
+     "rva": "0x6039BF",
+     "length": 3,
+     "live": "0e63af",
+     "expected": "8e417b"
+    },
+    {
+     "rva": "0x6039C4",
+     "length": 1,
+     "live": "de",
+     "expected": "3e"
+    },
+    {
+     "rva": "0x6039C7",
+     "length": 4,
+     "live": "725ffb00",
+     "expected": "4a8c0603"
+    },
+    {
+     "rva": "0x6039CC",
+     "length": 2,
+     "live": "6d92",
+     "expected": "4d91"
+    },
+    {
+     "rva": "0x6039CF",
+     "length": 3,
+     "live": "d367d3",
+     "expected": "93cab7"
+    },
+    {
+     "rva": "0x6039D4",
+     "length": 2,
+     "live": "40c9",
+     "expected": "60c8"
+    },
+    {
+     "rva": "0x6039D7",
+     "length": 2,
+     "live": "e403",
+     "expected": "6400"
+    },
+    {
+     "rva": "0x6039E0",
+     "length": 2,
+     "live": "455f",
+     "expected": "9e44"
+    },
+    {
+     "rva": "0x6039E4",
+     "length": 2,
+     "live": "fb04",
+     "expected": "db05"
+    },
+    {
+     "rva": "0x6039E7",
+     "length": 1,
+     "live": "70",
+     "expected": "90"
+    },
+    {
+     "rva": "0x6039EA",
+     "length": 4,
+     "live": "4dfb7cfd",
+     "expected": "bc048392"
+    },
+    {
+     "rva": "0x6039F1",
+     "length": 5,
+     "live": "8bf21a29a4",
+     "expected": "0b0ce5d6cb"
+    },
+    {
+     "rva": "0x6039F8",
+     "length": 11,
+     "live": "3d497f19815336424be0da",
+     "expected": "1029ae8a04953c7fab05dd"
+    },
+    {
+     "rva": "0x603A04",
+     "length": 2,
+     "live": "f4e4",
+     "expected": "d4eb"
+    },
+    {
+     "rva": "0x603A07",
+     "length": 4,
+     "live": "390a5b78",
+     "expected": "198fbf7b"
+    },
+    {
+     "rva": "0x603A0C",
+     "length": 2,
+     "live": "7f7b",
+     "expected": "9f7c"
+    },
+    {
+     "rva": "0x603A0F",
+     "length": 4,
+     "live": "e0422244",
+     "expected": "20daa445"
+    },
+    {
+     "rva": "0x603A14",
+     "length": 2,
+     "live": "4254",
+     "expected": "a257"
+    },
+    {
+     "rva": "0x603A17",
+     "length": 4,
+     "live": "f1038af1",
+     "expected": "b1d31ace"
+    },
+    {
+     "rva": "0x603A1C",
+     "length": 1,
+     "live": "a2",
+     "expected": "42"
+    },
+    {
+     "rva": "0x603A1F",
+     "length": 4,
+     "live": "4fbf67c7",
+     "expected": "cf3bf4c5"
+    },
+    {
+     "rva": "0x603A24",
+     "length": 1,
+     "live": "e2",
+     "expected": "02"
+    },
+    {
+     "rva": "0x603A27",
+     "length": 3,
+     "live": "7531c6",
+     "expected": "5557be"
+    },
+    {
+     "rva": "0x603A2C",
+     "length": 2,
+     "live": "c73c",
+     "expected": "273b"
+    },
+    {
+     "rva": "0x603A2F",
+     "length": 3,
+     "live": "d2f98b",
+     "expected": "32607f"
+    },
+    {
+     "rva": "0x603A34",
+     "length": 2,
+     "live": "1ca3",
+     "expected": "3ca2"
+    },
+    {
+     "rva": "0x603A37",
+     "length": 3,
+     "live": "53a7b8",
+     "expected": "2b0454"
+    },
+    {
+     "rva": "0x603A3C",
+     "length": 2,
+     "live": "f12c",
+     "expected": "d12d"
+    },
+    {
+     "rva": "0x603A3F",
+     "length": 3,
+     "live": "aab3a0",
+     "expected": "02a274"
+    },
+    {
+     "rva": "0x603A44",
+     "length": 2,
+     "live": "0324",
+     "expected": "2325"
+    },
+    {
+     "rva": "0x603A47",
+     "length": 3,
+     "live": "20b25b",
+     "expected": "d8ec76"
+    },
+    {
+     "rva": "0x603A4C",
+     "length": 2,
+     "live": "5713",
+     "expected": "771c"
+    },
+    {
+     "rva": "0x603A4F",
+     "length": 4,
+     "live": "fb231604",
+     "expected": "5ba18203"
+    },
+    {
+     "rva": "0x603A54",
+     "length": 2,
+     "live": "d492",
+     "expected": "b491"
+    },
+    {
+     "rva": "0x603A57",
+     "length": 4,
+     "live": "9907f701",
+     "expected": "7989580f"
+    },
+    {
+     "rva": "0x603A5C",
+     "length": 1,
+     "live": "d0",
+     "expected": "30"
+    },
+    {
+     "rva": "0x603A5F",
+     "length": 7,
+     "live": "0b48a04ffcff6f",
+     "expected": "2b000000000000"
+    },
+    {
+     "rva": "0x603A68",
+     "length": 2,
+     "live": "fe50",
+     "expected": "1b48"
+    },
+    {
+     "rva": "0x603A6C",
+     "length": 2,
+     "live": "dfa1",
+     "expected": "3fa0"
+    },
+    {
+     "rva": "0x603A70",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x603A78",
+     "length": 2,
+     "live": "0ae8",
+     "expected": "b1e4"
+    },
+    {
+     "rva": "0x603A7C",
+     "length": 2,
+     "live": "16e1",
+     "expected": "36e0"
+    },
+    {
+     "rva": "0x603A80",
+     "length": 2,
+     "live": "f912",
+     "expected": "a42f"
+    },
+    {
+     "rva": "0x603A84",
+     "length": 1,
+     "live": "58",
+     "expected": "b8"
+    },
+    {
+     "rva": "0x603A87",
+     "length": 3,
+     "live": "42d345",
+     "expected": "627233"
+    },
+    {
+     "rva": "0x603A8C",
+     "length": 2,
+     "live": "c5c2",
+     "expected": "a5c3"
+    }
+   ]
+  },
+  {
+   "rva": "0x604000",
+   "section": "packer2",
+   "changed_bytes": 3803,
+   "runs": [
+    {
+     "rva": "0x604010",
+     "length": 1,
+     "live": "0c",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604014",
+     "length": 1,
+     "live": "0d",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604018",
+     "length": 1,
+     "live": "0e",
+     "expected": "00"
+    },
+    {
+     "rva": "0x60401C",
+     "length": 1,
+     "live": "0f",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604020",
+     "length": 1,
+     "live": "04",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604028",
+     "length": 1,
+     "live": "19",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604051",
+     "length": 1,
+     "live": "04",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604058",
+     "length": 66,
+     "live_sha256": "5da565eb32c1546b89e01763a3ae699c905a3b81be966621e6c626628e1c8d7e"
+    },
+    {
+     "rva": "0x6040CA",
+     "length": 2,
+     "live": "803f",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x6040D0",
+     "length": 5,
+     "live": "10faa19002",
+     "expected": "0000000000"
+    },
+    {
+     "rva": "0x6040E0",
+     "length": 5,
+     "live": "8027ae9002",
+     "expected": "0000000000"
+    },
+    {
+     "rva": "0x6040E9",
+     "length": 4,
+     "live": "28ae9002",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x6040F1",
+     "length": 4,
+     "live": "28ae9002",
+     "expected": "00000000"
+    },
+    {
+     "rva": "0x6040F8",
+     "length": 1,
+     "live": "07",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604100",
+     "length": 1,
+     "live": "08",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604148",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604150",
+     "length": 1,
+     "live": "0f",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604158",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604162",
+     "length": 1,
+     "live": "af",
+     "expected": "00"
+    },
+    {
+     "rva": "0x604180",
+     "length": 973,
+     "live_sha256": "6a7a3a39adc0268852fd86b4dab01ea0d62ef1240094b7b08abf835d20532906"
+    },
+    {
+     "rva": "0x60454E",
+     "length": 85,
+     "live_sha256": "11dbf7103b26ccf89ec641aa30c54571b87f50316130ccf519ca806bc328b3b4"
+    },
+    {
+     "rva": "0x6045A4",
+     "length": 99,
+     "live_sha256": "8499d2fa86d54b22b6ddb16479c4c79d3cc4bcc52f78498ee67c52a5ccc87a62"
+    },
+    {
+     "rva": "0x604608",
+     "length": 70,
+     "live_sha256": "4e78765af5f66515b70b7eabc02d98bf71457e3cbdf14bfe1a8a5b7540ac692b"
+    },
+    {
+     "rva": "0x60464F",
+     "length": 65,
+     "live_sha256": "31380a75243375ee58cda929b42e66bebb1d4078c02ab52423dddb5fa777d5c6"
+    },
+    {
+     "rva": "0x604691",
+     "length": 974,
+     "live_sha256": "d4fd9b19eaf4fc676752d584acab15f1d736be9eeb06b6210aafd183ac3e6977"
+    },
+    {
+     "rva": "0x604A60",
+     "length": 170,
+     "live_sha256": "525c105f1970f85a08a3a15238fa2d97e8a3efd499db16d518ecaa38155abbc7"
+    },
+    {
+     "rva": "0x604B0B",
+     "length": 129,
+     "live_sha256": "e48083cd2d0051af291161d3cb2c4e5fa9996fd7f61356e838f0e98cc033616f"
+    },
+    {
+     "rva": "0x604B8D",
+     "length": 1139,
+     "live_sha256": "8b1dbdb0c4c5738096c2446cd324502609a7f5d3a4c2e71b7c448f0444f35380"
+    }
+   ]
+  },
+  {
+   "rva": "0x605000",
+   "section": "packer2",
+   "changed_bytes": 4083,
+   "runs": [
+    {
+     "rva": "0x605000",
+     "length": 654,
+     "live_sha256": "ebb822fb321410fe5387550a76b311094c68e47b72706f0cff7dc31b595d4ccb"
+    },
+    {
+     "rva": "0x60528F",
+     "length": 222,
+     "live_sha256": "47534a0f9fe5ef4e91be8606f84ad5f55295db480a7be97eb8ef20573430ca83"
+    },
+    {
+     "rva": "0x60536E",
+     "length": 438,
+     "live_sha256": "04bd872d2d4e1ede1dd375b37c47b3d3ef3012d10431d54d89c7378c8e40efcc"
+    },
+    {
+     "rva": "0x605525",
+     "length": 195,
+     "live_sha256": "fce980156e8daff82fc01864f74cd67e6ecb076a69dfa808cb54e37a673cd72a"
+    },
+    {
+     "rva": "0x6055E9",
+     "length": 281,
+     "live_sha256": "484dfbd4c692d4fc0e115331e784487d2b67b4de568463d40113a6b2081e2c26"
+    },
+    {
+     "rva": "0x605703",
+     "length": 156,
+     "live_sha256": "8040ba75f2f01c60c49c94782ac9c7a8390faa5fece9199a5d9a20db6407a44f"
+    },
+    {
+     "rva": "0x6057A0",
+     "length": 522,
+     "live_sha256": "8ae16019b3a90590cc8f96b3fffe2d5281a3a33da1854776e97ee19ff6dd2edc"
+    },
+    {
+     "rva": "0x6059AB",
+     "length": 544,
+     "live_sha256": "2a52a4265476fed721d9af63a0a743762afb4339224246e1e176d8806a247077"
+    },
+    {
+     "rva": "0x605BCC",
+     "length": 207,
+     "live_sha256": "4c6f05b67ee16c991b86defd38c67d248083632b418b3ec8dea813c8c3a682ac"
+    },
+    {
+     "rva": "0x605C9C",
+     "length": 94,
+     "live_sha256": "8389750f6fb3ffa3ee96656bf23bd0ea5e68ce9b48a5380146774b4dbcc92f47"
+    },
+    {
+     "rva": "0x605CFB",
+     "length": 238,
+     "live_sha256": "f5e35d251412162154b801a95e4a3619970e25e1931cd402db119210c030f324"
+    },
+    {
+     "rva": "0x605DEA",
+     "length": 217,
+     "live_sha256": "d57bdf2f51d5cbb43a3ddaf76226f8a08a0fa48de83d31f1a6cc391d7e780eab"
+    },
+    {
+     "rva": "0x605EC4",
+     "length": 286,
+     "live_sha256": "ac222e21a3b924fe243075186dba0a24171d0b119205874f0a7efc119388e3bc"
+    },
+    {
+     "rva": "0x605FE3",
+     "length": 29,
+     "live": "ffc4b9bb668aa9cdff92e8569d0e51b38cd38bd941502663ef210f7856",
+     "expected": "0000000000000000000000000000000000000000000000000000000000"
+    }
+   ]
+  },
+  {
+   "rva": "0x606000",
+   "section": "packer2",
+   "changed_bytes": 741,
+   "runs": [
+    {
+     "rva": "0x606000",
+     "length": 141,
+     "live_sha256": "f184211bab908aeb32a320f10eb00e9dc48c13271318c6e16cc14944bc3409bd"
+    },
+    {
+     "rva": "0x60608E",
+     "length": 267,
+     "live_sha256": "4a85b69629931c53a9aa1ed4bf1b5f870635cd3634cb2f1f4fae4b3975be876c"
+    },
+    {
+     "rva": "0x60619A",
+     "length": 210,
+     "live_sha256": "84d9dc5626d1d40b15d86cce21bbf0a1d5eadf0d97f432d5218118ec71b36ef8"
+    },
+    {
+     "rva": "0x60626D",
+     "length": 123,
+     "live_sha256": "355120c8bc9e9dc79351c1d7f2c975a63f88c2004fceb4560ed78c4502e495f5"
+    }
+   ]
+  },
+  {
+   "rva": "0x616000",
+   "section": "packer2",
+   "changed_bytes": 181,
+   "runs": [
+    {
+     "rva": "0x616380",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616450",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6164C8",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6164D8",
+     "length": 2,
+     "live": "d303",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x6164E0",
+     "length": 3,
+     "live": "809216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6164F0",
+     "length": 2,
+     "live": "bb02",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x6164F8",
+     "length": 3,
+     "live": "849216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616500",
+     "length": 1,
+     "live": "03",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616508",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616510",
+     "length": 1,
+     "live": "03",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616518",
+     "length": 3,
+     "live": "8f9216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616520",
+     "length": 1,
+     "live": "06",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616528",
+     "length": 1,
+     "live": "09",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616530",
+     "length": 3,
+     "live": "969216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616540",
+     "length": 1,
+     "live": "90",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616548",
+     "length": 3,
+     "live": "a19216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616558",
+     "length": 1,
+     "live": "90",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616560",
+     "length": 3,
+     "live": "519316",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616568",
+     "length": 1,
+     "live": "06",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616570",
+     "length": 1,
+     "live": "03",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616578",
+     "length": 3,
+     "live": "aa9216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616580",
+     "length": 1,
+     "live": "13",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616588",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616590",
+     "length": 3,
+     "live": "af9216",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616598",
+     "length": 3,
+     "live": "708816",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6165A8",
+     "length": 1,
+     "live": "06",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165B0",
+     "length": 1,
+     "live": "03",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165B8",
+     "length": 3,
+     "live": "5a9316",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6165C0",
+     "length": 1,
+     "live": "13",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165C8",
+     "length": 1,
+     "live": "02",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165D0",
+     "length": 3,
+     "live": "5f9316",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6165D8",
+     "length": 3,
+     "live": "608916",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6165E8",
+     "length": 2,
+     "live": "de07",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x6165EC",
+     "length": 1,
+     "live": "07",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165F0",
+     "length": 1,
+     "live": "17",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165F4",
+     "length": 1,
+     "live": "0a",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165F8",
+     "length": 1,
+     "live": "26",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6165FC",
+     "length": 1,
+     "live": "1d",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616600",
+     "length": 2,
+     "live": "e907",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x616604",
+     "length": 1,
+     "live": "07",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616608",
+     "length": 1,
+     "live": "17",
+     "expected": "00"
+    },
+    {
+     "rva": "0x61660C",
+     "length": 1,
+     "live": "08",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616610",
+     "length": 1,
+     "live": "26",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616614",
+     "length": 1,
+     "live": "1d",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616620",
+     "length": 2,
+     "live": "2601",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x616628",
+     "length": 3,
+     "live": "e19316",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616630",
+     "length": 3,
+     "live": "787547",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616635",
+     "length": 1,
+     "live": "70",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616638",
+     "length": 3,
+     "live": "40f014",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616640",
+     "length": 1,
+     "live": "a3",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616658",
+     "length": 1,
+     "live": "a3",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616670",
+     "length": 1,
+     "live": "a3",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616678",
+     "length": 1,
+     "live": "36",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616680",
+     "length": 3,
+     "live": "099516",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6166A8",
+     "length": 1,
+     "live": "04",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6166B0",
+     "length": 1,
+     "live": "08",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6166B8",
+     "length": 3,
+     "live": "279516",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616748",
+     "length": 2,
+     "live": "0601",
+     "expected": "0000"
+    },
+    {
+     "rva": "0x61674C",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616754",
+     "length": 1,
+     "live": "06",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616780",
+     "length": 1,
+     "live": "03",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616789",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616790",
+     "length": 3,
+     "live": "539516",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616798",
+     "length": 1,
+     "live": "05",
+     "expected": "00"
+    },
+    {
+     "rva": "0x61679C",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6167A8",
+     "length": 3,
+     "live": "a02618",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x6167D0",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6167E1",
+     "length": 1,
+     "live": "04",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6167E8",
+     "length": 42,
+     "live": "7a4b195a5aaef8994752d2ee9aa05e8d8a26cd483a0795ee8910e14302d8cb1b96572e11ce2cbf42bcdf",
+     "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+     "rva": "0x616813",
+     "length": 21,
+     "live": "77ff60ea8cd19dfc30b1cbaba80254730f33b3fdc4",
+     "expected": "000000000000000000000000000000000000000000"
+    },
+    {
+     "rva": "0x616880",
+     "length": 1,
+     "live": "01",
+     "expected": "00"
+    },
+    {
+     "rva": "0x616888",
+     "length": 3,
+     "live": "a013e0",
+     "expected": "000000"
+    },
+    {
+     "rva": "0x616890",
+     "length": 1,
+     "live": "10",
+     "expected": "00"
+    },
+    {
+     "rva": "0x6168B8",
+     "length": 1,
+     "live": "04",
+     "expected": "00"
+    }
+   ]
+  }
+ ]
+}

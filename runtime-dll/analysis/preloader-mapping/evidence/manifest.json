@@ -1,0 +1,127 @@
+{
+  "input": {
+    "path": "/mnt/WORMHOLE/SteamLibrary/steamapps/common/Helldivers 2/bin/preloader.dll",
+    "sha256": "2e416e6516ec1f425e8aeb159e45bb474a32afadebb275c41d8f87a1d76dc257",
+    "timestamp": "0xA0CF546E",
+    "image_base": "0x180000000"
+  },
+  "disassembler": "GNU objdump (GNU Binutils) 2.47",
+  "functions": [
+    {
+      "name": "export1_ud2_stub",
+      "role": "export ordinal 1 as exported: ud2 in section .entry",
+      "rva": "0xB010",
+      "end_rva": "0xB020",
+      "bounded_by_pdata": true,
+      "code_sha256": "44628977baf605e8b646b965c781f9ae7fd17167753472b7a47c7a7484144c5c",
+      "file": "evidence/export1_ud2_stub-b010.asm",
+      "unwind_handler": {
+        "flags": 1,
+        "handler_rva": "0x2040",
+        "handler_data_u32": "0x37E0"
+      }
+    },
+    {
+      "name": "dllmain_ud2_stub",
+      "role": "AddressOfEntryPoint: ud2 in section .entry",
+      "rva": "0xB030",
+      "end_rva": "0xB040",
+      "bounded_by_pdata": true,
+      "code_sha256": "44628977baf605e8b646b965c781f9ae7fd17167753472b7a47c7a7484144c5c",
+      "file": "evidence/dllmain_ud2_stub-b030.asm",
+      "unwind_handler": {
+        "flags": 1,
+        "handler_rva": "0x2040",
+        "handler_data_u32": "0x2000"
+      }
+    },
+    {
+      "name": "unwind_handler_redirect",
+      "role": "language handler named by the .entry stubs' unwind info",
+      "rva": "0x2040",
+      "end_rva": "0x2080",
+      "bounded_by_pdata": false,
+      "code_sha256": "f7c4f2148a0cd84c9104880268d8350f177148ad0ef51581664b6d7c1f91dffe",
+      "file": "evidence/unwind_handler_redirect-2040.asm",
+      "unwind_handler": null
+    },
+    {
+      "name": "dllmain_real",
+      "role": "real DllMain target",
+      "rva": "0x2000",
+      "end_rva": "0x2034",
+      "bounded_by_pdata": true,
+      "code_sha256": "ec766502d82c01f19f123c797ae16c53d4be49835cfb3fffb22198be5864284e",
+      "file": "evidence/dllmain_real-2000.asm",
+      "unwind_handler": null
+    },
+    {
+      "name": "export1_real",
+      "role": "real export ordinal 1 target",
+      "rva": "0x37E0",
+      "end_rva": "0x381A",
+      "bounded_by_pdata": true,
+      "code_sha256": "4d7eb967c3fbd100565f0388766c8e6ea070da84ec88b21fad9c36888af7e90f",
+      "file": "evidence/export1_real-37e0.asm",
+      "unwind_handler": null
+    },
+    {
+      "name": "init_load_runtime",
+      "role": "initialisation: Wine check and runtime.dll mapping",
+      "rva": "0x2390",
+      "end_rva": "0x3494",
+      "bounded_by_pdata": true,
+      "code_sha256": "6e66dbdf70d3baec773471a276f9ab0ffe37886656b7727d96770c08e46857ed",
+      "file": "evidence/init_load_runtime-2390.asm",
+      "unwind_handler": null
+    },
+    {
+      "name": "apply_base_relocations",
+      "role": "base relocation pass used by the Wine path",
+      "rva": "0x2170",
+      "end_rva": "0x238B",
+      "bounded_by_pdata": true,
+      "code_sha256": "f81e8c8731cd55905363d1250cea0b7d3c37e63541b1a07f491a393c08871bb5",
+      "file": "evidence/apply_base_relocations-2170.asm",
+      "unwind_handler": null
+    }
+  ],
+  "strings": [
+    {
+      "text": "wine_get_version",
+      "encoding": "ascii",
+      "file_offset": "0x4340",
+      "rva": "0x5340"
+    },
+    {
+      "text": "NtCreateSection",
+      "encoding": "ascii",
+      "file_offset": "0x6BEA",
+      "rva": "0x7BEA"
+    },
+    {
+      "text": "runtime.dll",
+      "encoding": "utf-16le",
+      "file_offset": "0x5B10",
+      "rva": "0x6B10"
+    },
+    {
+      "text": "Conflicting software detected!",
+      "encoding": "utf-16le",
+      "file_offset": "0x60A0",
+      "rva": "0x70A0"
+    },
+    {
+      "text": "File version mismatch between the preloader and runtime DLLs",
+      "encoding": "utf-16le",
+      "file_offset": "0x54FC",
+      "rva": "0x64FC"
+    },
+    {
+      "text": "PACKER_CRASH_AT",
+      "encoding": "utf-16le",
+      "file_offset": "0x4000",
+      "rva": "0x5000"
+    }
+  ]
+}

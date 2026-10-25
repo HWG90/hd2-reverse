@@ -1,0 +1,202 @@
+{
+ "summary": "runtime.dll is manual-mapped by preloader.dll into private memory at 0x700000000000 (size 0x3D56000); no loader entry, no file mapping; every page committed and readable; no PAGE_NOACCESS pages. Live page dump NOT taken (game quit before batch 946 ran).",
+ "session_1": {
+  "pid": 2241457,
+  "started": "2026-10-24 ~22:41",
+  "ended": "22:49:07 (quit normally)",
+  "lltm_module_answers": {
+   "game.dll": "base 0x6FFFF0870000 size 0x3382000 ts 0x6AD7C05D",
+   "runtime.dll": "not loaded (no loader entry)",
+   "preloader.dll": "base 0x6FFFFC4F0000 size 0xE000 ts 0xA0CF546E",
+   "helldivers2.exe": "base 0x140000000 size 0x29FE000 ts 0x6AD78C0D"
+  },
+  "runtime_base": "0x700000000000",
+  "runtime_size": "0x3D56000",
+  "virtualquery_regions": [
+   {
+    "rva": "0x0",
+    "size": "0x3000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x2",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x3000",
+    "size": "0x2000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x20",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x5000",
+    "size": "0x47F000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x2",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x484000",
+    "size": "0x179000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x20",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x5FD000",
+    "size": "0x6000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x4",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x603000",
+    "size": "0x1000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x2",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x604000",
+    "size": "0x13000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x4",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x617000",
+    "size": "0x508000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x2",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0xB1F000",
+    "size": "0x243000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x20",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0xD62000",
+    "size": "0x87000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x4",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0xDE9000",
+    "size": "0x2F06000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x20",
+    "type": "0x20000"
+   },
+   {
+    "rva": "0x3CEF000",
+    "size": "0x67000",
+    "alloc_base": "0x700000000000",
+    "state": "0x1000",
+    "protect": "0x4",
+    "type": "0x20000"
+   }
+  ],
+  "regions_note": "all MEM_COMMIT, MEM_PRIVATE (0x20000), one allocation base; protections follow section characteristics except RVA 0x603000 (one PAGE_READONLY page inside the read-write packer2 section) and .rwx (RVA 0x4000) which is PAGE_EXECUTE_READ, not RWX",
+  "header_check": "first 256 live bytes == bin/runtime.dll header relocated to 0x700000000000 (only OptionalHeader.ImageBase differs from the file)",
+  "proc_maps_runtime": [
+   "700000000000-700000003000 r--p 00000000 00:00 0 ",
+   "700000003000-700000005000 r-xp 00000000 00:00 0 ",
+   "700000005000-700000484000 r--p 00000000 00:00 0 ",
+   "700000484000-7000005fd000 r-xp 00000000 00:00 0 ",
+   "7000005fd000-700000603000 rw-p 00000000 00:00 0 ",
+   "700000603000-700000604000 r--p 00000000 00:00 0 ",
+   "700000604000-700000617000 rw-p 00000000 00:00 0 ",
+   "700000617000-700000b1f000 r--p 00000000 00:00 0 ",
+   "700000b1f000-700000d62000 r-xp 00000000 00:00 0 ",
+   "700000d62000-700000de9000 rw-p 00000000 00:00 0 ",
+   "700000de9000-700003cef000 r-xp 00000000 00:00 0 ",
+   "700003cef000-700003d56000 rw-p 00000000 00:00 0 ",
+   "70000a790000-70000aa90000 r-xp 00000000 00:00 0 "
+  ],
+  "lltm_results_943": "22:47:46 batch 943: 9 commands\n22:47:46 > module game.dll\n22:47:46 module game.dll: base 0x6FFFF0870000 image size 0x3382000 timestamp 0x6AD7C05D\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > module runtime.dll\n22:47:46 module runtime.dll: not loaded\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > module preloader.dll\n22:47:46 module preloader.dll: base 0x6FFFFC4F0000 image size 0xE000 timestamp 0xA0CF546E\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > module helldivers2.exe\n22:47:46 module helldivers2.exe: base 0x140000000 image size 0x29FE000 timestamp 0x6AD78C0D\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > regions 0x700000000000\n22:47:46 regions 0x700000000000: region 0x700000000000+0x3000 alloc 0x700000000000 type 0x20000 prot 0x2 state 0x1000\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > regions 0x700000001000\n22:47:46 regions 0x700000001000: region 0x700000001000+0x2000 alloc 0x700000000000 type 0x20000 prot 0x2 state 0x1000\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > regions 0x700000484000\n22:47:46 regions 0x700000484000: region 0x700000484000+0x179000 alloc 0x700000000000 type 0x20000 prot 0x20 state 0x1000\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:46 > regions 0x700000de9000\n22:47:46 regions 0x700000DE9000: region 0x700000DE9000+0x2F06000 alloc 0x700000000000 type 0x20000 prot 0x20 state 0x1000\n22:47:46 < 0.00 ms of work over 1 frame\n22:47:47 > read 0x700000000000 256\n22:47:47   0x700000000000: 4d5a7800010000000400000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000078000000\n22:47:47   0x700000000040: 0e1fba0e00b409cd21b8014ccd21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e2400005045000064860c00\n22:47:47   0x700000000080: 35c1e6fd0000000000000000f00022000b020e000000000000e69800000000004000560000000000000000000070000000100000000200000600000000000000\n22:47:47   0x7000000000C0: 06000000000000000060d503000400004b5ed403020060c100001000000000000010000000000000000010000000000000100000000000000000000010000000\n22:47:47 < 0.00 ms of work over 1 frame\n22:47:47 batch 943 done\n",
+  "lltm_results_944": "22:48:26 batch 944: 1 commands\n22:48:26 > eval local a=123145302310912 local e=a+64315392 local t={} while a<e do local r=region(a) if not r then t[#t+1]=fmt('noinfo %X',a) break end t[#t+1]=fmt('R %X %X %X %X %X %X',r.base,r.size,r.alloc,r.state,r.protection,r.type) if r.base+r.size<=a then break end a=r.base+r.size end return table.concat(t,' | ')\n22:48:26 = \"R 700000000000 3000 700000000000 1000 2 20000 | R 700000003000 2000 700000000000 1000 20 20000 | R 700000005000 47F000 700000000000 1000 2 20000 | R 700000484000 179000 700000000000 1000 20 20000 | R 7000005FD000 6000 700000000000 1000 4 20000 | R 700000603000 1000 700000000000 1000 2 20000 | R 700000604000 13000 700000000000 1000 4 20000 | R 700000617000 508000 700000000000 1000 2 20000 | R 700000B1F000 243000 700000000000 1000 20 20000 | R 700000D62000 87000 700000000000 1000 4 20000 | R 700000DE9000 2F06000 700000000000 1000 20 20000 | R 700003CEF000 67000 700000000000 1000 4 20000\"\n22:48:26 < 1.00 ms of work over 1 frame\n22:48:26 batch 944 done\n",
+  "related_observations": [
+   "game.dll live image at 0x6FFFF0870000 is a shared memfd ('/memfd:wine-mapping') section: pages are r-xs (decrypted) or ---s (PROT_NONE = not yet decrypted)",
+   "the Windows-loader mapping of data/game/game.dll is separate, at 0x7FFFFAC70000 (file-backed header and .pdata raw, anonymous .text)",
+   "private RW buffer 0x6FFFFCC70000 size 0x1B7000 = game.dll .pdata size (likely the decrypted exception table; inference)",
+   "anonymous r-x region 0x70000A790000 size 0x300000 near runtime.dll; owner not determined"
+  ]
+ },
+ "session_2": {
+  "pid": 2266165,
+  "started": "22:52:04",
+  "ended": "~22:57",
+  "source": "/proc/pid/maps only (no LLtM batch)",
+  "runtime_base": "0x700000000000",
+  "layout": "identical 12 mappings, including the read-only page at RVA 0x603000",
+  "protected_module_views": [
+   {
+    "module": "helldivers2.exe",
+    "exec_view": "0x140000000",
+    "rw_alias": "0x4F00000",
+    "size": "0x29FE000",
+    "exec_view_pages": {
+     "r--s": 1592,
+     "r-xs": 3388,
+     "---s": 1872,
+     "rw-s": 3898
+    }
+   },
+   {
+    "module": "game.dll",
+    "exec_view": "0x6FFFF0870000",
+    "rw_alias": "0x906F0000",
+    "size": "0x3382000",
+    "exec_view_pages": {
+     "r--s": 1803,
+     "---s": 3449,
+     "r-xs": 4639,
+     "rw-s": 3295
+    }
+   },
+   {
+    "module": "wwise_pluginw64_release.dll",
+    "exec_view": "0x6FFFF3C10000",
+    "rw_alias": "0x8BDF0000",
+    "size": "0x6C5000",
+    "exec_view_pages": {
+     "r--s": 402,
+     "---s": 351,
+     "r-xs": 734,
+     "rw-s": 246
+    }
+   },
+   {
+    "module": "level_generation_pluginw64_release.dll",
+    "exec_view": "0x6FFFF42F0000",
+    "rw_alias": "0x7FBF0000",
+    "size": "0x9A000",
+    "exec_view_pages": {
+     "r--s": 36,
+     "---s": 81,
+     "r-xs": 30,
+     "rw-s": 7
+    }
+   }
+  ],
+  "pdata_size_buffers": {
+   "helldivers2.exe (.pdata 0x112000)": "0x142A00000",
+   "game.dll (.pdata 0x1B7000)": "0x6FFFFCC70000"
+  },
+  "note": "module identified by view size == SizeOfImage; all four import preloader.dll ordinal 1"
+ }
+}
