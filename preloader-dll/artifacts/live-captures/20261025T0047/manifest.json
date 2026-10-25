@@ -1,0 +1,22 @@
+{
+ "capture": "20261025T0047",
+ "pid": 36844,
+ "started": "2026-10-25T00:47:26-0400",
+ "method": "LLtM eval inside helldivers2.exe: ReadProcessMemory on own process, 4 KiB pages, mapped-image layout; unreadable pages zero-filled",
+ "modules": [
+  {
+   "module": "preloader.dll",
+   "base": "0x6FFFFC4E0000",
+   "image_size": "0xE000",
+   "timestamp": "0xA0CF546E",
+   "loader_entry": true,
+   "sha256": "a9dfe2c077c8f65bfa0d651c5a4a3a8295c457c5c7837891f9a07080515d1345",
+   "pages": 14,
+   "unreadable_pages": 0,
+   "storage": {
+    "kind": "full",
+    "file": "preloader-a0cf546e-6ffffc4e0000.bin.gz"
+   }
+  }
+ ]
+}

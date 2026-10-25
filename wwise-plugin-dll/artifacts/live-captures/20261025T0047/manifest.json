@@ -1,0 +1,22 @@
+{
+ "capture": "20261025T0047",
+ "pid": 36844,
+ "started": "2026-10-25T00:47:26-0400",
+ "method": "LLtM eval inside helldivers2.exe: ReadProcessMemory on own process, 4 KiB pages, mapped-image layout; unreadable pages zero-filled",
+ "modules": [
+  {
+   "module": "wwise_pluginw64_release.dll",
+   "base": "0x6FFFF3C20000",
+   "image_size": "0x6C5000",
+   "timestamp": "0x6AD78BEB",
+   "loader_entry": true,
+   "sha256": "69811b2a273612ca00081a787f2bd2d1038d5fbe35614558b30f72b3843af540",
+   "pages": 1733,
+   "unreadable_pages": 356,
+   "storage": {
+    "kind": "full",
+    "file": "wwise_pluginw64_release-6ad78beb-6ffff3c20000.bin.gz"
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "capture": "20261025T0133",
+ "pid": 36844,
+ "started": "2026-10-25T01:33:22-0400",
+ "method": "LLtM eval inside helldivers2.exe: ReadProcessMemory on own process, 4 KiB pages, mapped-image layout; unreadable pages zero-filled",
+ "modules": [
+  {
+   "module": "level_generation_pluginw64_release.dll",
+   "base": "0x6FFFF4300000",
+   "image_size": "0x9A000",
+   "timestamp": "0x6AD78BE8",
+   "loader_entry": true,
+   "sha256": "5c8b52b0a8c4ea0ea47fcca8dc2ae4b265c2778bc9ae5495a488a1620062a8e6",
+   "pages": 154,
+   "unreadable_pages": 81,
+   "storage": {
+    "kind": "page_delta",
+    "base_capture": "20261025T0047",
+    "file": "level_generation_pluginw64_release-6ad78be8-6ffff4300000.delta.bin.gz",
+    "changed_pages": 1,
+    "rvas": [
+     "0x89000"
+    ]
+   }
+  }
+ ]
+}

@@ -5,9 +5,10 @@ Helldivers 2's protection runtime: how it is loaded, a live capture, and how mem
 | Directory | Contents |
 |---|---|
 | [artifacts](artifacts/capture/README.md) | Live runtime.dll capture, page report, region map and provenance |
+| [artifacts/live-captures](artifacts/live-captures/README.md) | Later whole-image captures (2026-10-25) and their page deltas |
 | [triage](triage/) | Capture log, VirtualQuery and /proc maps snapshots, page comparison |
 | [analysis](analysis/) | Focused investigations, evidence and scripts |
-| [tools/capture](tools/capture/) | Original LLtM capture and maps-snapshot source |
+| [tools/capture](tools/capture/) | Original LLtM capture and maps-snapshot source; `pack.py` and `rebuild.py` for live captures |
 | [reports](reports/) | Workflow, hypotheses, toolchain and path-migration receipts |
 
 ## Cases

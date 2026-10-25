@@ -4,7 +4,7 @@ Usage: python3 -I rebuild.py STAMP [--out DIR]   (without --out, only verifies)
 import gzip, hashlib, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ART = os.path.join(os.path.dirname(HERE), "artifacts")
+ART = os.path.join(os.path.dirname(os.path.dirname(HERE)), "artifacts", "live-captures")
 PAGE = 4096
 
 
