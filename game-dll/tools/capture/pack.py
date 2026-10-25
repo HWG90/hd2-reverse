@@ -1,7 +1,7 @@
 """Pack LLtM module captures (GooseGadgets/module-captures/<stamp>/) into each module's folder:
 <module-folder>/artifacts/live-captures/<stamp>/.
 
-Only the game's own modules and the user's mod DLLs are packed; third-party SDK DLLs are left out.
+Only the game's own modules are packed; mod DLLs and third-party SDK DLLs are left out.
 The first capture of a module/base pair is stored whole (gzip -9 -n). A later capture of the same
 pair is `same_as` when byte-identical, otherwise a page delta: the changed 4 KiB pages, gzipped,
 with their RVAs in the manifest. tools/capture/rebuild.py in each folder restores full images.
@@ -17,10 +17,6 @@ FOLDERS = [  # module name pattern -> repository folder
     (r"preloader\.dll", "preloader-dll"),
     (r"wwise_pluginw64_release\.dll", "wwise-plugin-dll"),
     (r"level_generation_pluginw64_release\.dll", "level-generation-plugin-dll"),
-    (r"guarded_reads_\w+\.dll", "guarded-reads-dll"),
-    (r"hd2_luajit_runtime_\w+\.dll", "hd2-luajit-runtime-dll"),
-    (r"hd2_nativeinfo_\w+\.dll", "hd2-nativeinfo-dll"),
-    (r"reward_api_\w+\.dll", "reward-api-dll"),
 ]
 PAGE = 4096
 
