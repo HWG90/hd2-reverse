@@ -12,5 +12,6 @@ Start with [game-dll](game-dll/README.md). The protection runtime and its loader
 | [preloader-dll](preloader-dll/README.md) | preloader.dll |
 | [wwise-plugin-dll](wwise-plugin-dll/README.md) | wwise_pluginw64_release.dll |
 | [level-generation-plugin-dll](level-generation-plugin-dll/README.md) | level_generation_pluginw64_release.dll |
+| [build-updates](build-updates/26251122-to-26568081/README.md) | Address changes between Steam builds: 26251122 → 26568081 (exe and game.dll), with descriptions |
 
 Only the game's own modules are published; mod DLLs and third-party SDK DLLs (DLSS, XeSS, FSR, EOS, Steam API, Bink, DirectStorage, PlayFab, PIX, libcurl) are not.
